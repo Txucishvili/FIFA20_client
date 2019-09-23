@@ -1,0 +1,53 @@
+html {
+  min-height: 100%;
+  height: 100%;
+}
+.theme {
+  &--default {
+    color: #FFF;
+    background-color: #0B1218;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    min-height: inherit;
+
+    @include flex;
+    @include flex-direction(column);
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-image: url('../../img/head-bg.png');
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background-size: contain;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-image: url('../../img/bottom-bg.png');
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 39.6rem;
+      z-index: -2;
+      background-size: cover;
+    }
+  }
+
+  .outer-layer {
+    visibility: hidden;
+  }
+
+  &.modalOpen {
+    .outer-layer {
+      visibility: visible;
+    }
+  }
+}

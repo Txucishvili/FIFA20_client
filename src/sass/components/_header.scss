@@ -1,0 +1,73 @@
+.header {
+  &--position {
+    position: relative;
+    z-index: 1001;
+  }
+
+  &.flex {
+    @include flex;
+  }
+
+  .logo-side {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    a {
+      display: block;
+
+      img {
+        display: block;
+      }
+    }
+  }
+
+  .menu-side {
+    margin-left: auto;
+
+    .nav {
+      display: none;
+
+      @include max-min(min toPx($device-tablet + 1)) {
+        @include flex;
+      }
+
+      a {
+        @include flex;
+        text-decoration: none;
+        color: $oc-white;
+        font-size: 19px;
+        font-family: $D-DIN;
+        line-height: 22px;
+        padding: 28px 0 0 0;
+        transition: all .25s ease;
+        border-top: 2px solid transparent;
+
+        &:hover {
+          color: $color-sky;
+        }
+      }
+
+      li {
+        margin-left: 40px;
+
+        &:first-child {
+          margin-left: 0;
+        }
+
+        &.active {
+          a {
+            color: $color-sky;
+            border-top-color: $color-sky;
+            //box-shadow: inset -2px 4px -2px $color-sky;
+          }
+        }
+      }
+    }
+
+    .button-area {
+      @include flex;
+      @include align-items(center);
+      margin-left: 60px;
+    }
+  }
+}

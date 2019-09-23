@@ -1,0 +1,78 @@
+.outer-layer {
+  &--position {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    @include size(100%);
+    background-color: rgba($color-dark, .5);
+    z-index: 55555;
+    opacity: 0;
+    transition: all .25s ease-in-out;
+    visibility: hidden;
+  }
+
+  &.modalOpen {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .modal-content {
+    @include size(100%);
+  }
+
+  .video-modal {
+    max-width: 780px;
+    @include flex-all;
+    background-color: $color-dark-2;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(.85) translate(-60%, -50%);
+    transition: all .25s ease-in-out;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+
+    &.open {
+      opacity: 1;
+      visibility: visible;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .video-frame {
+      &--position {
+        width: 100%;
+      }
+    }
+
+    .modal-close {
+      padding: 8px;
+      @include size(30px);
+      background-color: $color-pink;
+      color: $color-dark-2;
+      @include flex-all;
+      position: absolute;
+      top: -30px;
+      right: 0;
+      z-index: 5;
+      cursor: pointer;
+      transition: all .25s ease-in-out;
+      svg {
+        path {
+          transition: all .115s ease-in-out;
+          fill: $oc-black;
+        }
+      }
+
+      &:hover {
+        svg {
+          path {
+            fill: $oc-white;
+          }
+        }
+        background-color: darken($color-pink, 11%);
+      }
+    }
+  }
+}

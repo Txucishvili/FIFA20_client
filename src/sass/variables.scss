@@ -1,0 +1,31 @@
+// import sassync
+
+//fonts
+$D-DIN: 'D-DIN';
+$D-DIN: 'D-DIN';
+$D-DIN-Bold: 'D-DIN-Bold';
+$D-DIN-Italic: 'D-DIN-Italic';
+$D-DINCondensed: 'D-DINCondensed';
+$D-DINCondensed-Bold: 'D-DINCondensed-Bold';
+$D-DINExp: 'D-DINExp';
+$D-DINExp-Bold: 'D-DINExp-Bold';
+$D-DINExp-Italic: 'D-DINExp-Italic';
+$DINPro-Black: 'DINPro-Black';
+
+//colors
+$color-dark: #0B1218;
+$color-dark-2: #121215;
+$color-sky: #55FFFA;
+$color-yellow: #FAFA20;
+$color-light-1: #F3F3F3;
+$color-pink: #FF2153;
+
+// device sizes
+$device-tablet: 768;
+$device-small-laptop: 1024;
+$device-medium-laptop: 1280;
+$device-big-laptop: 1440;
+
+@function toPx($value) {
+  @return $value + px;
+}

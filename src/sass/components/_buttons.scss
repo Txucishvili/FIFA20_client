@@ -1,0 +1,46 @@
+.btn {
+  &--simple {
+    outline: none;
+    border: none;
+    @include flex-all;
+    font-size: 16px;
+    font-family: $D-DIN;
+    padding: 16px 45px;
+    color: $color-dark;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .25s ease-in-out;
+  }
+
+  @include max-min(max toPx($device-tablet)) {
+    padding: 12px 25px;
+  }
+
+  &--yellow {
+    background-color: $color-yellow;
+
+    &:hover {
+      background-color: darken($color-yellow, 11%);
+    }
+  }
+
+  &--outline {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px $oc-white;
+    color: $oc-white;
+
+    &:hover {
+      color: $color-dark-2;
+      background-color: $oc-white;
+    }
+  }
+
+  @include max-min(max toPx($device-tablet)) {
+    &--device {
+      &--full {
+        padding: 16px 45px;
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+// import sassync
+@import "~sassync/sass/_default/import";
+@import "~bootstrap/scss/bootstrap-grid";
+
+@import "~sassync/sass/_default/_theme/reset";
+@import "libs/slick";
+
+
+// partials
+@import "variables";
+@import "./theme/fonts";
+
+@import "theme/theme";
+@import "theme/bootstrap_changes";
+@import "theme/default_classes";
+@import "theme/wrapper";
+
+
+@import "components/header";
+@import "components/footer";
+@import "components/outer-layer_modals";
+@import "components/info_container";
+
+@import "components/buttons";
+@import "components/content";
+@import "components/inputs";
+@import "components/slider";

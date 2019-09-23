@@ -1,0 +1,133 @@
+.info-container-wrap {
+  margin-top: 220px;
+  @include max-min(max toPx($device-tablet)) {
+    margin-top: 120px;
+  }
+
+  .logo-area {
+    @include max-min(max toPx($device-tablet)) {
+      display: none;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .text-area {
+    font-size: 24px;
+    line-height: 28px;
+    font-family: $D-DINCondensed;
+    margin-top: 23px;
+    margin-bottom: 43px;
+  }
+
+  .btn-area {
+
+  }
+
+  .player-area {
+    width: 100%;
+    box-shadow: 0 0 0 0 transparent;
+    transition: all .122s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: 0 0 0 9px rgba($color-pink, .55);
+    }
+
+
+    &:focus-within {
+      box-shadow: 0 0 0 9px rgba($color-pink, .55);
+    }
+
+    .image-area {
+      position: relative;
+
+      .splash-bg {
+        position: absolute;
+        top: -50%;
+        right: -50%;
+        z-index: -1;
+        @include select(none);
+
+        transform: translate(10%, -35%);
+        @include max-min(max toPx($device-tablet)) {
+          transform: translate(20%, -45%);
+        }
+      }
+
+      .play-icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .info-sider {
+    @include max-min(max toPx($device-tablet)) {
+      @include flex;
+      @include flex-direction(column);
+
+      .side-a {
+        order: 2;
+      }
+
+      .side-b {
+        order: 1;
+      }
+    }
+  }
+}
+
+.slider-container-wrap {
+  margin-top: 192px;
+  @include max-min(max toPx($device-tablet)) {
+    margin-top: 40px;
+  }
+}
+
+.container-title {
+  font-size: 27px;
+  font-family: $D-DINCondensed;
+  line-height: 29px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.gallery-slider {
+  width: 100%;
+  .row {
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+
+  .col-md-2 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .gallery-image {
+    &--position {
+      @include flex-all;
+      outline: none;
+      padding: 5px;
+    }
+    &--image {
+      @include size(232px);
+      @include flex-all;
+
+      img {
+        display: block;
+        height: 100%;
+      }
+    }
+  }
+}
