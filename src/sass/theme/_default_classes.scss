@@ -23,3 +23,61 @@
     }
   }
 }
+
+.divider {
+  &--b10 {
+    margin-bottom: 10px;
+  }
+  &--b40 {
+    margin-bottom: 40px;
+  }
+  &--b30 {
+    margin-bottom: 30px;
+  }
+
+  &--b50 {
+    margin-bottom: 50px;
+  }
+
+
+  &--b70 {
+    margin-bottom: 70px;
+  }
+
+  &--t10 {
+    margin-top: 10px;
+  }
+
+  &--t30 {
+    margin-top: 30px;
+  }
+
+  &--t90 {
+    margin-top: 90px;
+  }
+}
+
+.divide-line {
+  height: 1px;
+  width: 100%;
+  display: block;
+  background-color: $color-dark-2;
+}
+
+.list-options {
+  .list-item {
+    font-family: $D-DINCondensed;
+    line-height: 26px;
+    font-size: 19px;
+
+    b {
+      font-family: $D-DINCondensed-Bold;
+    }
+  }
+}
+
+.colored {
+  &--redrose {
+    color: $color-pink;
+  }
+}

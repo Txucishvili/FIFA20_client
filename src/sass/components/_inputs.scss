@@ -1,0 +1,60 @@
+.form-label {
+  .input-area {
+    width: 100%;
+    @include flex-all;
+
+    input, select {
+      padding: 20px;
+      @include flex-all;
+      background-color: $color-dark-2;
+      font-family: $D-DINCondensed;
+      font-size: 19px;
+      outline: none;
+      color: $oc-white;
+      width: 100%;
+      border: none;
+      height: 60px;
+      border-radius: 0;
+      letter-spacing: 1.25px;
+
+      &:focus-within {
+      }
+
+      &::placeholder {
+        color: rgba(#F3F3F3, .20);
+      }
+    }
+  }
+
+  &--onError {
+    input, select {
+      box-shadow: 0 0 0 2px $color-pink;
+    }
+  }
+
+  .label-name {
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-family: $D-DINCondensed;
+    color: $color-light-1;
+    letter-spacing: 1.12px;
+  }
+
+  &--limit {
+    max-width: 400px;
+    width: 400px;
+
+    @include max-min(max toPx($device-tablet)) {
+      max-width: initial;
+    }
+
+    @include max-min(max toPx(1000)) {
+      width: auto;
+    }
+
+  }
+}
+
+.label-row {
+  width: 100%;
+}

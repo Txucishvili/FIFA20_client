@@ -1,0 +1,258 @@
+.inside-container {
+  &--position {
+
+  }
+
+  .contaner-area {
+    padding: 22px 40px;
+
+    @include max-min(max toPx($device-tablet)) {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .text-area {
+
+    }
+  }
+
+  .text-areal {
+    margin-bottom: 32px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+    .text-title {
+      margin-bottom: 13px;
+      font-size: 19px;
+      font-family: $D-DINCondensed-Bold;
+      letter-spacing: 1.10px;
+    }
+    .text {
+      font-size: 16px;
+      line-height: 26px;
+      font-family: $D-DINCondensed;
+      letter-spacing: 1.10px;
+    }
+  }
+
+  &--full {
+    flex: 1;
+  }
+}
+
+.simple-content {
+  &--position {
+    width: 100%;
+    background-color: $color-gray;
+    padding: 32px 40px;
+
+
+    @include max-min(max toPx($device-tablet)) {
+      padding: 32px 25px;
+    }
+  }
+
+  &--nopadd {
+    padding: 0;
+  }
+
+  &--insidepadder {
+    padding: 40px;
+    @include max-min(max toPx($device-tablet)) {
+      padding: 20px;
+    }
+  }
+
+  &--divider {
+    margin-bottom: 40px;
+  }
+
+  .head-title {
+    &--position {
+      width: 100%;
+      vertical-align: baseline;
+    }
+
+    .title-area {
+      @include flex;
+      @include align-items(center);
+    }
+
+    .icon-wrap {
+      @include flex-all;
+      padding: 10px 15px;
+      display: inline-flex;
+      background-color: $color-yellow;
+      margin-right: 15px;
+    }
+
+    .titles {
+      display: inline-flex;
+      font-size: 19px;
+      font-family: $D-DINCondensed;
+      line-height: 24px;
+    }
+
+  }
+
+  .title-line {
+    font-size: 22px;
+    font-family: $D-DINCondensed;
+    line-height: 24px;
+
+    &--device {
+      @include max-min(max toPx($device-tablet)) {
+        padding: 0 32px;
+      }
+    }
+  }
+
+  &--inside {
+  }
+
+}
+
+.platform-box {
+  &--content {
+    padding: 32px 40px;
+
+    @include max-min(max toPx($device-tablet)) {
+      padding: 32px 0;
+    }
+  }
+
+  &--container {
+    flex-wrap: wrap;
+
+    &.margin-t {
+      margin-top: 60px;
+    }
+
+    &.margin-b {
+      margin-bottom: 20px;
+      @include max-min(max toPx($device-tablet)) {
+        margin-bottom: 0;
+      }
+    }
+
+    &.divider {
+      > * {
+        margin-left: 12px;
+
+        &:first-child {
+          margin-left: 0;
+        }
+
+        @include max-min(max toPx($device-tablet)) {
+          margin-top: 12px;
+          margin-left: 0;
+
+          &:first-child {
+            margin-top: 0;
+          }
+        }
+      }
+
+
+    }
+
+    .platform-item {
+      flex: 1;
+      padding: 60px;
+      transition: all .125s ease-in-out;
+
+      @include max-min(max toPx($device-tablet)) {
+        padding: 30px;
+      }
+
+      .image-area {
+        max-height: 40px;
+        @include flex-all;
+
+        img {
+          height: 100%;
+          display: block;
+        }
+      }
+
+      .btn-area {
+        margin-top: 60px;
+        @include flex-all;
+      }
+
+      &:hover {
+        background-color: $color-dark-2;
+      }
+
+      &--withImage {
+        @include flex;
+        @include flex-direction(column);
+        position: relative;
+        min-height: 230px;
+        transition: all .125s ease-in-out;
+
+        .title-area {
+          font-size: 29px;
+          font-family: $D-DINCondensed;
+        }
+
+        .movalble-area {
+          @include flex;
+          @include flex-direction(column);
+          @include align-items(flex-start);
+          @include justify-content(center);
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          transition: all .125s ease-in-out;
+        }
+
+        .btn-area {
+          margin-top: 32px;
+
+        }
+
+        .slide-image {
+          position: absolute;
+          visibility: hidden;
+          opacity: 0;
+          //transform: translateX(25px);
+          transition: all .225s ease-in-out;
+          @include select(none);
+
+          img {
+            display: block;
+          }
+
+          &--a {
+            top: -15px;
+            right: -15px;
+          }
+
+          &--b {
+            bottom: 0;
+            right: 0;
+          }
+        }
+
+        &:hover {
+          background-color: $oc-black;
+
+          .slide-image {
+            visibility: visible;
+            opacity: 1;
+            transform: translateX(0);
+          }
+
+          .movalble-area {
+            left: 15%;
+            transform: translateX(-15%);
+          }
+          .btn-area {
+          }
+        }
+      }
+    }
+  }
+}

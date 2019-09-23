@@ -1,0 +1,41 @@
+.alert-area {
+  &--simple {
+
+  }
+
+  &--divider {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .simple-alert {
+    padding: 4px;
+    @include flex;
+    @include align-items(center);
+
+    border: 1px solid $color-pink;
+
+    .icon-area {
+      @include size(27px);
+      @include flex-all;
+      background-color: $color-pink;
+      margin-right: 15px;
+      padding: 6px;
+
+      svg {
+        height: 100%;
+        fill: #fff;
+      }
+
+      img {
+        height: 100%;
+        display: block;
+      }
+    }
+
+    font-family: $D-DIN;
+    font-size: 16;
+
+  }
+
+}

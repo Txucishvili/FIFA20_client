@@ -24,6 +24,7 @@
     }
   }
 
+
   &--outline {
     background-color: transparent;
     box-shadow: inset 0 0 0 2px $oc-white;
@@ -33,7 +34,16 @@
       color: $color-dark-2;
       background-color: $oc-white;
     }
+
+    &--yh {
+      &:hover {
+        box-shadow: inset 0 0 0 0 transparent;
+        background-color: darken($color-yellow, 11%);
+      }
+    }
   }
+
+
 
   @include max-min(max toPx($device-tablet)) {
     &--device {

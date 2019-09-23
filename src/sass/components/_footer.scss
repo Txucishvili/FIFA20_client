@@ -4,6 +4,18 @@
     margin-top: auto;
   }
 
+  &--onDevice {
+    display: none;
+
+    @include max-min(min toPx($device-tablet)) {
+      display: block;
+    }
+  }
+
+  &--platforms {
+    @include justify-content(flex-start);
+  }
+
   .footer-nav {
     @include flex;
     @include align-items(center);
