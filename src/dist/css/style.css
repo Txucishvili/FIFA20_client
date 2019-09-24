@@ -4373,6 +4373,17 @@ html {
   letter-spacing: 1.12px;
 }
 
+@media only screen and (max-width: 768px) {
+  .positionDeviceClear {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+
 .main-container--wrap {
   max-width: 1920px;
 }
@@ -4494,14 +4505,24 @@ html {
 
 @media only screen and (min-width: 768px) {
   .footer-container-wrap--onDevice {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
 .footer-container-wrap--platforms {
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-container-wrap--platforms {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
 }
 
 .footer-container-wrap .footer-nav {

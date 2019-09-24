@@ -94,3 +94,10 @@
   line-height: 24px;
   letter-spacing: 1.12px;
 }
+
+.positionDeviceClear {
+  @include max-min(max toPx($device-tablet)) {
+    @include align-items(flex-start);
+    @include justify-content(flex-start);
+  }
+}

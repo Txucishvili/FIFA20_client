@@ -8,12 +8,15 @@
     display: none;
 
     @include max-min(min toPx($device-tablet)) {
-      display: block;
+      display: flex;
     }
   }
 
   &--platforms {
-    @include justify-content(flex-start);
+    @include justify-content(center);
+    @include max-min(max toPx($device-tablet)) {
+      @include justify-content(flex-start);
+    }
   }
 
   .footer-nav {
