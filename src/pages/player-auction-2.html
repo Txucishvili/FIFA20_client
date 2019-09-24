@@ -6,126 +6,219 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link rel="stylesheet" href="./dist/css/style.css">
+  <link rel="stylesheet" href="../dist/css/style.css">
 </head>
 <body class="theme theme--default">
 <div class="theme-wrap theme-wrap--position">
+  <!--  HEADER-->
   <div class="container main-container main-container--wrap">
     <div class="header header--position flex">
       <div class="logo-side">
         <a href="/" class="logo">
-          <img src="./img/ngmgames-logo.svg" alt="NGMGAMES">
+          <img src="../img/ngmgames-logo.svg" alt="NGMGAMES">
         </a>
       </div>
       <div class="menu-side flex">
         <ul class="nav big-nav">
-          <li class="active"><a href="/"><b>Home</b></a></li>
-          <li><a href="pages/buy.html"><b>Buy Coins</b></a></li>
-          <li><a href="pages/sell.html"><b>Sell Coins</b></a></li>
-          <li><a href="pages/faq.html"><b>F.A.Q</b></a></li>
-          <li><a href="pages/contact.html"><b>Contact</b></a></li>
+          <li><a href="./index.html"><b>Home</b></a></li>
+          <li class="active"><a href="./buy.html"><b>Buy Coins</b></a></li>
+          <li><a href="./sell.html"><b>Sell Coins</b></a></li>
+          <li><a href="./faq.html"><b>F.A.Q</b></a></li>
+          <li><a href="./contact.html"><b>Contact</b></a></li>
         </ul>
         <div class="button-area margin-divide">
-          <a href="pages/sign-in.html" class="btn btn--simple btn--yellow"><b>Sign in</b></a>
+          <a href="./sign-in.html" class="btn btn--simple btn--yellow"><b>Sign in</b></a>
         </div>
       </div>
     </div>
   </div>
-  <div class="container main-container main-container--wrap">
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="slider-container slider-container--wrap">
-          <div class="slider-bg"></div>
-          <div class="slider-content">
-            <div class="image-side">
-              <div class="slider-image-bg"></div>
-              <div class="image-area">
-                <img src="./img/slider_players.png" alt="">
-              </div>
-            </div>
-            <div class="slider-text">
-              <div class="content">
-                <h1 class="title">BUY OR SELL <b>FUT COINS</b></h1>
-                <div class="text">
-                  Cheapest Coins, Instant Delivery <br/>
-                  in a fast and safe way.
+  <!--  HEADER-->
+  <!--  CONTENT-->
+  <div class="inside-container inside-container--position inside-container--full flex flex--center divider divider--t90">
+    <div class="container main-container main-container--wrap--extra-small">
+      <div class="simple-content simple-content--position simple-content--nopadd divider divider--b10">
+        <div class="head-title head-title--position head-title--padder">
+          <div class="title-area">
+            <div class="titles">Search Plater</div>
+          </div>
+        </div>
+        <div class="search-area search-area--padder search-area--position">
+          <div class="search-form">
+            <form action="">
+              <div class="search-label form-label">
+                <div class="input-area">
+                  <input type="text" placeholder="Type a player name">
                 </div>
-                <div class="btn-area flex">
-                  <a href="#/" class="btn btn--simple btn--yellow btn--device--full"><b>BUY NOW</b></a>
-                  <a href="#/" class="btn btn--simple btn--outline btn--device--full"><b>SELL</b></a>
+                <div class="button-area">
+                  <button class="btn btn--simple btn--red"><b>SEARCH</b></button>
                 </div>
               </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="simple-content simple-content--position simple-content--nopadd">
+        <!--        <div class="table-component table-component&#45;&#45;position">-->
+        <!--          <div class="table-row">-->
+        <!--            <div class="side-a">-->
+        <!--              <div class="sider sider&#45;&#45;big">Name</div>-->
+        <!--              <div class="sider">Name 2</div>-->
+        <!--              <div class="sider">Name 3</div>-->
+        <!--            </div>-->
+        <!--            <div class="side-b">-->
+
+        <!--            </div>-->
+        <!--          </div>-->
+        <!--        </div>-->
+        <div class="table-component table-component--position">
+          <div class="table-component table-component--head table-component--row">
+            <div class="t-line">
+              <div class="t-item t-item--outside"><div class="t-head">Player name</div></div>
+              <div class="t-item t-item--group">
+                <div class="t-item t-item--1"><div class="t-head t-child">Club</div></div>
+                <div class="t-item t-item--1"><div class="t-head t-child">Nation</div></div>
+                <div class="t-item t-item--1"><div class="t-head t-child">League</div></div>
+                <div class="t-item t-item--1"><div class="t-head t-child">Rating</div></div>
+                <div class="t-item t-item--1"><div class="t-head t-child">Min price</div></div>
+                <div class="t-item t-item--1"><div class="t-head t-child">Max price</div></div>
+              </div>
+              <div class="t-item t-item--button"><div class="t-head"></div></div>
+            </div>
+          </div>
+          <div class="table-component table-component--row">
+            <div class="t-line t-line--child">
+              <div class="t-item t-item--outside">
+                <div class="player-card player-card--position">
+                  <div class="player-card player-card--image player-card--image--divide">
+                    <img src="../img/player.png" alt="">
+                  </div>
+                  <div class="player-card player-card--name">Vedran Corluka</div>
+                </div>
+              </div>
+              <div class="t-item t-item--group">
+                <div class="t-item t-item--1"><div class="t-child">
+                  <div class="device-label">Club</div>
+                  <p>Desportivo Aves</p>
+                </div></div>
+                <div class="t-item t-item--1"><div class="t-child">
+                  <div class="device-label">Nation:</div>
+                  <p>Croatia</p>
+                </div></div>
+                <div class="t-item t-item--1"><div class="t-child">
+                  <div class="device-label">League:</div>
+                  <p>League of Russia</p>
+                </div></div>
+                <div class="t-item t-item--1"><div class="t-child">
+                  <div class="device-label">Rating:</div>
+                  <div class="player-card player-card--rating">
+                    <b>73</b>
+                  </div>
+                </div></div>
+                <div class="t-item t-item--1"><div class="t-child">
+                  <div class="device-label">Min price:</div>
+                  <p>800</p>
+                </div></div>
+                <div class="t-item t-item--1"><div class="t-child">
+                  <div class="device-label">Max price:</div>
+                  <p>1000</p>
+                </div></div>
+              </div>
+              <div class="t-item t-item--button">
+                <a href="./player-auction-3.html" class="btn btn--simple btn--outline btn--outline--yh"><b>SELECT</b></a>
+              </div>
+            </div>
+          </div>
+          <div class="table-component table-component--row">
+            <div class="t-line t-line--child">
+              <div class="t-item t-item--outside">
+                <div class="player-card player-card--position">
+                  <div class="player-card player-card--image player-card--image--divide">
+                    <img src="../img/player.png" alt="">
+                  </div>
+                  <div class="player-card player-card--name">Vedran Corluka</div>
+                </div>
+              </div>
+              <div class="t-item t-item--group">
+                <div class="t-item t-item--1"><div class="t-child">
+                  <div class="device-label">Club</div>
+                  <p>Desportivo Aves</p>
+                </div></div>
+                <div class="t-item t-item--1"><div class="t-child">
+                  <div class="device-label">Nation:</div>
+                  <p>Croatia</p>
+                </div></div>
+                <div class="t-item t-item--1"><div class="t-child">
+                  <div class="device-label">League:</div>
+                  <p>League of Russia</p>
+                </div></div>
+                <div class="t-item t-item--1"><div class="t-child">
+                  <div class="device-label">Rating:</div>
+                  <div class="player-card player-card--rating">
+                    <b>73</b>
+                  </div>
+                </div></div>
+                <div class="t-item t-item--1"><div class="t-child">
+                  <div class="device-label">Min price:</div>
+                  <p>800</p>
+                </div></div>
+                <div class="t-item t-item--1"><div class="t-child">
+                  <div class="device-label">Max price:</div>
+                  <p>1000</p>
+                </div></div>
+              </div>
+              <div class="t-item t-item--button">
+                <a href="./player-auction-2.html" class="btn btn--simple btn--outline btn--outline--yh"><b>SELECT</b></a>
+              </div>
+            </div>
+          </div>
+          <div class="table-component table-component--row">
+            <div class="t-line t-line--child">
+              <div class="t-item t-item--outside">
+                <div class="player-card player-card--position">
+                  <div class="player-card player-card--image player-card--image--divide">
+                    <img src="../img/player.png" alt="">
+                  </div>
+                  <div class="player-card player-card--name">Vedran Corluka</div>
+                </div>
+              </div>
+              <div class="t-item t-item--group">
+                <div class="t-item t-item--1"><div class="t-child">
+                  <div class="device-label">Club</div>
+                  <p>Desportivo Aves</p>
+                </div></div>
+                <div class="t-item t-item--1"><div class="t-child">
+                  <div class="device-label">Nation:</div>
+                  <p>Croatia</p>
+                </div></div>
+                <div class="t-item t-item--1"><div class="t-child">
+                  <div class="device-label">League:</div>
+                  <p>League of Russia</p>
+                </div></div>
+                <div class="t-item t-item--1"><div class="t-child">
+                  <div class="device-label">Rating:</div>
+                  <div class="player-card player-card--rating">
+                    <b>73</b>
+                  </div>
+                </div></div>
+                <div class="t-item t-item--1"><div class="t-child">
+                  <div class="device-label">Min price:</div>
+                  <p>800</p>
+                </div></div>
+                <div class="t-item t-item--1"><div class="t-child">
+                  <div class="device-label">Max price:</div>
+                  <p>1000</p>
+                </div></div>
+              </div>
+              <div class="t-item t-item--button">
+                <a href="./player-auction-2.html" class="btn btn--simple btn--outline btn--outline--yh"><b>SELECT</b></a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="info-container-wrap">
-    <div class="container main-container main-container--wrap--small">
-      <div class="row info-sider">
-        <div class="col-md-6 side-a">
-          <div class="logo-area">
-            <img src="./img/fifa-20-logo.png" alt="">
-          </div>
-          <div class="text-area">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
-          </div>
-          <div class="btn-area flex">
-            <a href="#/" class="btn btn--simple btn--red btn--device--full _modalOpen"  data-modal="#mainVideo"><b>Subscribe</b></a>
-          </div>
-        </div>
-        <div class="col-md-6 side-b">
-          <div class="player-area">
-            <div class="image-area _modalOpen" data-modal="#mainVideo2">
-              <div class="splash-bg"><img src="./img/player-splash.png" alt=""></div>
-              <img src="./img/player-image.png" alt="">
-              <div class="play-icon"><img src="./img/play-icon.svg" alt=""></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="slider-container-wrap">
-    <div class="container main-container main-container--gallery main-container--wrap--small">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="container-title">
-            <h1>Gallery</h1>
-          </div>
-        </div>
-      </div>
-      <div class="gallery-slider">
-        <div class="row slick_gallery">
-          <div class="col-md-2 gallery-image gallery-image--position">
-            <div class="gallery-image gallery-image--image"><img
-                    src="./img/gallery/Sancho_Gameplay_Hero_Hires_WM_1x1.jpg" alt=""></div>
-          </div>
-          <div class="col-md-2 gallery-image gallery-image--position">
-            <div class="gallery-image gallery-image--image"><img src="img/gallery/Volta_Amsterdam_1x1_2.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-md-2 gallery-image gallery-image--position">
-            <div class="gallery-image gallery-image--image"><img src="./img/gallery/Volta_Gameplay_Amsterdam_1x1.jpg"
-                                                                 alt=""></div>
-          </div>
-          <div class="col-md-2 gallery-image gallery-image--position">
-            <div class="gallery-image gallery-image--image"><img src="./img/gallery/Volta_Gameplay_Tokyo_1x1.jpg"
-                                                                 alt=""></div>
-          </div>
-          <div class="col-md-2 gallery-image gallery-image--position">
-            <div class="gallery-image gallery-image--image"><img src="./img/gallery/Volta_London_1x1_2.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-md-2 gallery-image gallery-image--position">
-            <div class="gallery-image gallery-image--image"><img src="./img/gallery/Volta_Tokyo_1x1_2.jpg" alt=""></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <!--  CONTENT-->
   <!--//footer-->
   <div class="footer-container-wrap footer-container-wrap--position">
     <div class="container main-container main-container--wrap--small">
@@ -234,7 +327,9 @@
       <div class="modal-close">
         <svg xmlns="http://www.w3.org/2000/svg" width="13.999" height="14" viewBox="0 0 13.999 14">
           <g transform="translate(-0.003 0)">
-            <path data-name="Path 67" d="M6.333,7l-6.2,6.24a.446.446,0,0,0,0,.628.438.438,0,0,0,.623,0L7,7.582l6.243,6.287a.438.438,0,0,0,.623,0,.446.446,0,0,0,0-.628L7.672,7l6.2-6.245a.446.446,0,0,0,0-.628.439.439,0,0,0-.623,0L7,6.421.755.13a.439.439,0,0,0-.623,0,.446.446,0,0,0,0,.628Z" transform="translate(0 0)"/>
+            <path data-name="Path 67"
+                  d="M6.333,7l-6.2,6.24a.446.446,0,0,0,0,.628.438.438,0,0,0,.623,0L7,7.582l6.243,6.287a.438.438,0,0,0,.623,0,.446.446,0,0,0,0-.628L7.672,7l6.2-6.245a.446.446,0,0,0,0-.628.439.439,0,0,0-.623,0L7,6.421.755.13a.439.439,0,0,0-.623,0,.446.446,0,0,0,0,.628Z"
+                  transform="translate(0 0)"/>
           </g>
         </svg>
       </div>
@@ -249,7 +344,9 @@
       <div class="modal-close">
         <svg xmlns="http://www.w3.org/2000/svg" width="13.999" height="14" viewBox="0 0 13.999 14">
           <g transform="translate(-0.003 0)">
-            <path data-name="Path 67" d="M6.333,7l-6.2,6.24a.446.446,0,0,0,0,.628.438.438,0,0,0,.623,0L7,7.582l6.243,6.287a.438.438,0,0,0,.623,0,.446.446,0,0,0,0-.628L7.672,7l6.2-6.245a.446.446,0,0,0,0-.628.439.439,0,0,0-.623,0L7,6.421.755.13a.439.439,0,0,0-.623,0,.446.446,0,0,0,0,.628Z" transform="translate(0 0)"/>
+            <path data-name="Path 67"
+                  d="M6.333,7l-6.2,6.24a.446.446,0,0,0,0,.628.438.438,0,0,0,.623,0L7,7.582l6.243,6.287a.438.438,0,0,0,.623,0,.446.446,0,0,0,0-.628L7.672,7l6.2-6.245a.446.446,0,0,0,0-.628.439.439,0,0,0-.623,0L7,6.421.755.13a.439.439,0,0,0-.623,0,.446.446,0,0,0,0,.628Z"
+                  transform="translate(0 0)"/>
           </g>
         </svg>
       </div>
@@ -263,7 +360,7 @@
   </div>
 </div>
 <!--//scripts-->
-<script src="./dist/js/app.bundle.js"></script>
+<script src="../dist/js/app.bundle.js"></script>
 <!--&#45;&#45;&#45;&#45;-->
 </body>
 </html>

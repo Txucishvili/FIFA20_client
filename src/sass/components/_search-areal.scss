@@ -1,0 +1,34 @@
+.search-area {
+  &--position {
+
+  }
+
+  &--padder {
+    padding: 10px 30px;
+    padding-bottom: 30px;
+  }
+}
+
+.search-form {
+  .search-label {
+    position: relative;
+  }
+
+  .input-area {
+    position: relative;
+    width: 100%;
+  }
+
+  .button-area {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+
+    @include max-min(max toPx($device-tablet)) {
+      right: 10px;
+    }
+
+  }
+
+}

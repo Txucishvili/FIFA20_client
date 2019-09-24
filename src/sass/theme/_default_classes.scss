@@ -12,6 +12,13 @@
   &--right {
     margin-left: auto;
   }
+
+  &--column {
+    @include flex-direction(column);
+  }
+  &--fill {
+    flex: 1;
+  }
 }
 
 .margin-divide {
@@ -50,12 +57,23 @@
     margin-top: 10px;
   }
 
+  &--t20 {
+    margin-top: 20px;
+  }
   &--t30 {
     margin-top: 30px;
   }
 
+
+  &--t40 {
+    margin-top: 40px;
+  }
+
   &--t90 {
     margin-top: 90px;
+  }
+  &--r15 {
+    margin-right: 15px;
   }
 }
 
@@ -82,6 +100,9 @@
   &--redrose {
     color: $color-pink;
   }
+  &--yellow {
+    color: $color-yellow;
+  }
 }
 
 .title-area {
@@ -105,4 +126,34 @@
     @include align-items(flex-start);
     @include justify-content(flex-start);
   }
+}
+
+.padder {
+  &--content {
+    padding: 30px;
+  }
+}
+
+.price-tag {
+  font-family: $D-DIN;
+  font-size: 18px;
+
+}
+
+.tutorial-btn {
+  .btn {
+    &--simple {
+      padding: 12px 20px;
+      height: 40px;
+      color: $oc-black;
+    }
+  }
+}
+
+a {
+  font-size: 17px;
+  font-family: $D-DINCondensed;
+  text-decoration: none;
+  display: block;
+  color: #F3F3F3;
 }

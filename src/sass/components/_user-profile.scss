@@ -1,0 +1,144 @@
+.user-profile {
+  &--card {
+    padding: 40px;
+    background-color: $color-gray;
+    width: 380px;
+    margin-right: 20px;
+    position: relative;
+
+    @include max-min(max toPx($device-tablet)) {
+      max-width: 100%;
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+
+  .user-aside {
+    @include flex;
+
+    .image-area {
+      margin-right: 20px;
+      max-width: 120px;
+
+      img {
+        width: 100%;
+        display: block;
+      }
+    }
+
+    .text-side {
+
+    }
+
+    .user-name {
+      font-size: 30px;
+      font-family: $D-DINCondensed;
+      margin-bottom: 15px;
+      word-break: break-word;
+      max-width: 150px;
+      line-height: 34px;
+    }
+
+    .user-balance {
+      @include flex;
+      @include flex-direction(column);
+
+      .balance-label {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-family: $D-DIN;
+      }
+
+      .numb {
+        font-family: $D-DINCondensed;
+        font-size: 30px;
+        color: $color-yellow;
+        display: block;
+        line-height: 35px;
+      }
+
+    }
+
+  }
+  .settings-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    @include flex-all;
+    a {
+      @include size(40px);
+      @include flex-all;
+      background-color: $oc-black;
+      &:hover {
+        background-color: $color-pink;
+      }
+    }
+  }
+}
+
+.user-table-card {
+  background-color: $color-gray;
+
+  .table-component {
+    width: 100%;
+  }
+}
+
+.user-profile-area {
+  @include flex;
+  flex-wrap: wrap;
+  @include align-items(flex-start);
+
+  @include max-min(max toPx($device-tablet)) {
+    margin-right: 0;
+  }
+}
+
+.user-settings {
+  max-width: 1000px;
+  padding: 40px;
+  background-color: $color-gray;
+
+  .side-control {
+    @include flex;
+    flex-wrap: wrap;
+  }
+
+  .side-a {
+    max-width: 250px;
+    width: 250px;
+
+    .avatar-side {
+      @include flex;
+      @include justify-content(center);
+
+      .image {
+        width: 104px;
+        img {
+          display: block;
+          width: 100%;
+        }
+      }
+      margin-bottom: 40px;
+    }
+    .form-control {
+      margin-top: 40px;
+    }
+  }
+
+  .changepass {
+    &.active {
+      color: $color-yellow;
+    }
+  }
+
+  .side-b {
+    margin-left: auto;
+    width: 580px;
+  }
+
+  .change-password-areal {
+    display: none;
+  }
+
+}

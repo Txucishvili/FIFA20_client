@@ -12,7 +12,8 @@
     padding: 4px;
     @include flex;
     @include align-items(center);
-
+    font-family: $D-DIN;
+    font-size: 16px;
     border: 1px solid $color-pink;
 
     .icon-area {
@@ -33,8 +34,11 @@
       }
     }
 
-    font-family: $D-DIN;
-    font-size: 16px;
+    margin-bottom: 12px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
 
   }
 

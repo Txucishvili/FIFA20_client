@@ -12,6 +12,10 @@
     transition: all .25s ease-in-out;
   }
 
+  .icon-area {
+    margin-right: 10px;
+  }
+
   @include max-min(max toPx($device-tablet)) {
     padding: 12px 25px;
   }
@@ -21,6 +25,14 @@
 
     &:hover {
       background-color: darken($color-yellow, 11%);
+    }
+  }
+
+  &--red {
+    background-color: $color-pink;
+    color: $color-light-1;
+    &:hover {
+      background-color: darken($color-pink, 11%);
     }
   }
 

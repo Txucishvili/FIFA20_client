@@ -3,20 +3,172 @@
 
   }
 
-  .table-row {
-    @include flex;
-    padding: 20px 40px;
+  &--head {
+    padding: 10px 0;
 
-    .side-a {
+    @include max-min(max toPx($device-tablet)) {
+      display: none !important;
+    }
+  }
+
+  &--row {
+    @include flex;
+
+    .t-line {
+      width: 100%;
+      padding: 10px 30px;
+      @include max-min(max toPx($device-tablet)) {
+        padding: 20px;
+      }
       @include flex;
 
+      .t-item {
+
+        &--1 {
+          flex: 1;
+        }
+
+        &--2 {
+          flex: 2;
+        }
+
+        &--child {
+          @include flex-all;
+        }
+
+        @include max-min(max toPx($device-tablet)) {
+          width: 100%;
+        }
+
+        &--outside {
+          flex-basis: 20%;
+          @include flex;
+          @include align-items(center);
+        }
+
+        &--group {
+          @include flex;
+          @include align-items(center);
+          flex: 1;
+
+          @include max-min(max toPx($device-tablet)) {
+            @include flex-direction(row);
+            flex-wrap: wrap;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            @include align-items(flex-start);
+            .t-item {
+              flex: 50%;
+            }
+          }
+
+          .t-child {
+            &--nocenter {
+              @include flex;
+              @include align-items(flex-start);
+              @include justify-content(flex-start);
+            }
+            @include max-min(max toPx($device-tablet)) {
+              padding: 12px 0;
+              @include align-items(flex-start);
+              @include justify-content(flex-start);
+              @include flex-direction(column);
+            }
+
+          }
+        }
+        &--button {
+          width: 110px;
+          @include max-min(max toPx($device-tablet)) {
+            width: 100%;
+          }
+        }
+      }
+
+      @include max-min(max toPx($device-tablet)) {
+        @include flex-direction(column);
+      }
+
+      &--child {
+        @include align-items(center);
+        border-top: 1px solid $color-dark-2;
+        border-bottom: 1px solid $color-dark-2;
+        margin-bottom: -1px;
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+
     }
 
-    .sider {
-      flex: 1;
+    .t-head {
+      font-family: $D-DIN;
+      color: $color-light-1;
+      font-size: 19px;
     }
 
+  }
 
+  .player-card {
+    &--position {
+      @include flex;
+      @include align-items(center);
+    }
+
+    &--name {
+      font-size: 16px;
+      font-family: $D-DIN;
+    }
+
+    &--image {
+      @include size(39px);
+
+      &--divide {
+        margin-right: 15px;
+      }
+
+      img {
+        height: 100%;
+      }
+    }
+
+    &--rating {
+      @include size(42px);
+      @include flex-all;
+      font-size: 16px;
+      font-family: $D-DIN;
+      background-color: $oc-black;
+      color: $color-light-1;
+      transition: all .125s ease;
+
+      &:hover {
+        background-color: $color-pink;
+      }
+    }
+  }
+
+  .t-child {
+    @include flex-all;
+  }
+
+  .btn {
+    &--simple {
+      padding: 14px 23px;
+    }
+  }
+
+
+  .device-label {
+    font-size: 18px;
+    font-family: $D-DINCondensed-Bold;
+    text-transform: uppercase;
+    letter-spacing: 1.12px;
+    margin-bottom: 8px;
+    color: #636365;
+
+    @include max-min(min toPx($device-tablet)) {
+      display: none;
+    }
   }
 
 }
@@ -82,6 +234,7 @@
 
   &--d {
     font-size: 22px;
+
     .table-row--insider {
       @include max-min(max toPx(1000)) {
         width: 100%;

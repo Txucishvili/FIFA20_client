@@ -74,6 +74,10 @@
       vertical-align: baseline;
     }
 
+    &--padder {
+      padding: 20px 30px;
+    }
+
     .title-area {
       @include flex;
       @include align-items(center);

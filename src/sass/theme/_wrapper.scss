@@ -10,6 +10,16 @@
       max-width: 1000px;
     }
   }
+  &--gallery {
+    @include max-min(max toPx($device-tablet)) {
+      padding-left: 0;
+      padding-right: 0;
+
+      .container-title {
+        padding:  0 15px;
+      }
+    }
+  }
 }
 
 .theme-wrap {

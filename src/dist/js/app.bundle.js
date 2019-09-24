@@ -10774,6 +10774,17 @@ var doResetOnModal = function doResetOnModal(parent) {
   }
 });
 
+var ChangePassDroper = (0, _jquery2.default)('.changepass');
+var changePassContent = (0, _jquery2.default)('.change-password-areal');
+
+(0, _jquery2.default)(ChangePassDroper).click(function (e) {
+  console.log('hit');
+  (0, _jquery2.default)(ChangePassDroper).toggleClass('active');
+  (0, _jquery2.default)(changePassContent).stop().slideToggle("slow", function () {
+    // Animation complete.
+  });
+});
+
 /***/ }),
 /* 3 */
 /***/ (function(module, exports, __webpack_require__) {

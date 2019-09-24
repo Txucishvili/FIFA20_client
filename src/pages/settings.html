@@ -6,126 +6,161 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link rel="stylesheet" href="./dist/css/style.css">
+  <link rel="stylesheet" href="../dist/css/style.css">
 </head>
 <body class="theme theme--default">
 <div class="theme-wrap theme-wrap--position">
+  <!--  HEADER-->
   <div class="container main-container main-container--wrap">
     <div class="header header--position flex">
       <div class="logo-side">
         <a href="/" class="logo">
-          <img src="./img/ngmgames-logo.svg" alt="NGMGAMES">
+          <img src="../img/ngmgames-logo.svg" alt="NGMGAMES">
         </a>
       </div>
       <div class="menu-side flex">
         <ul class="nav big-nav">
-          <li class="active"><a href="/"><b>Home</b></a></li>
-          <li><a href="pages/buy.html"><b>Buy Coins</b></a></li>
-          <li><a href="pages/sell.html"><b>Sell Coins</b></a></li>
-          <li><a href="pages/faq.html"><b>F.A.Q</b></a></li>
-          <li><a href="pages/contact.html"><b>Contact</b></a></li>
+          <li><a href="./index.html"><b>Home</b></a></li>
+          <li class="active"><a href="./buy.html"><b>Buy Coins</b></a></li>
+          <li><a href="./sell.html"><b>Sell Coins</b></a></li>
+          <li><a href="./faq.html"><b>F.A.Q</b></a></li>
+          <li><a href="./contact.html"><b>Contact</b></a></li>
         </ul>
         <div class="button-area margin-divide">
-          <a href="pages/sign-in.html" class="btn btn--simple btn--yellow"><b>Sign in</b></a>
+          <a href="./sign-in.html" class="btn btn--simple btn--yellow"><b>Sign in</b></a>
         </div>
       </div>
     </div>
   </div>
-  <div class="container main-container main-container--wrap">
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="slider-container slider-container--wrap">
-          <div class="slider-bg"></div>
-          <div class="slider-content">
-            <div class="image-side">
-              <div class="slider-image-bg"></div>
-              <div class="image-area">
-                <img src="./img/slider_players.png" alt="">
+  <!--  HEADER-->
+  <!--  CONTENT-->
+  <div class="inside-container inside-container--position inside-container--full divider divider--t90">
+    <div class="container main-container main-container--wrap--small flex flex--center">
+      <div class="user-settings user-settings--position">
+        <form action="">
+          <div class="side-control">
+            <div class="side-a">
+              <div class="avatar-side">
+                <div class="image"><img src="../img/avatar.png" alt=""></div>
+              </div>
+              <div class="form-control--side">
+                <div class="form-label  platform-logo divider divider--b30">
+                  <div class="label-name">Choose Avatar:</div>
+                  <div class="input-area">
+                    <select name="">
+                      <option value="">a</option>
+                      <option value="">b</option>
+                      <option value="">c</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-label  platform-logo divider divider--b30">
+                  <div class="label-name">Choose profile Background:</div>
+                  <div class="input-area">
+                    <select name="">
+                      <option value="">a</option>
+                      <option value="">b</option>
+                      <option value="">c</option>
+                    </select>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="slider-text">
-              <div class="content">
-                <h1 class="title">BUY OR SELL <b>FUT COINS</b></h1>
-                <div class="text">
-                  Cheapest Coins, Instant Delivery <br/>
-                  in a fast and safe way.
+            <div class="side-b">
+              <div class="form-control--side">
+                <div class="form-label  platform-logo divider divider--b30">
+                  <div class="label-name">Email:</div>
+                  <div class="input-area">
+                    <input type="text" placeholder="Email address">
+                  </div>
                 </div>
-                <div class="btn-area flex">
-                  <a href="#/" class="btn btn--simple btn--yellow btn--device--full"><b>BUY NOW</b></a>
-                  <a href="#/" class="btn btn--simple btn--outline btn--device--full"><b>SELL</b></a>
+                <div class="form-label  platform-logo divider divider--b30">
+                  <div class="label-name">Email:</div>
+                  <div class="input-area">
+                    <input type="text" placeholder="Email address">
+                  </div>
+                </div>
+                <div class="form-label  platform-logo divider divider--b30">
+                  <div class="label-name">Email:</div>
+                  <div class="input-area">
+                    <input type="text" placeholder="Email address">
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            <div class="btn-area flex flex--center-y flex-fill">
+              <div class="change">
+                <a href="#" class="changepass">Change password</a>
+              </div>
+              <div class="flex--right">
+                <button class="btn btn--simple btn--yellow"><b>Save</b></button>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="change-password-areal divider divider--t40">
+          <div class="alert-area alert-area--simple alert-area--divider">
+            <div class="simple-alert">
+              <div class="icon-area">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 489.418 489.418" style="enable-background:new 0 0 489.418 489.418;" xml:space="preserve">
+                  <g>
+                    <path d="M244.709,389.496c18.736,0,34.332-14.355,35.91-33.026l24.359-290.927c1.418-16.873-4.303-33.553-15.756-46.011
+                      C277.783,7.09,261.629,0,244.709,0s-33.074,7.09-44.514,19.532C188.74,31.99,183.022,48.67,184.44,65.543l24.359,290.927
+                      C210.377,375.141,225.973,389.496,244.709,389.496z"></path>
+                    <path d="M244.709,410.908c-21.684,0-39.256,17.571-39.256,39.256c0,21.683,17.572,39.254,39.256,39.254
+                      s39.256-17.571,39.256-39.254C283.965,428.479,266.393,410.908,244.709,410.908z"></path>
+                  </g>
+                </svg>
+              </div>
+              <div class="text">
+                Web app transfer market has to be unlocked
+              </div>
+            </div>
+            <div class="simple-alert">
+              <div class="icon-area">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 489.418 489.418" style="enable-background:new 0 0 489.418 489.418;" xml:space="preserve">
+                  <g>
+                    <path d="M244.709,389.496c18.736,0,34.332-14.355,35.91-33.026l24.359-290.927c1.418-16.873-4.303-33.553-15.756-46.011
+                      C277.783,7.09,261.629,0,244.709,0s-33.074,7.09-44.514,19.532C188.74,31.99,183.022,48.67,184.44,65.543l24.359,290.927
+                      C210.377,375.141,225.973,389.496,244.709,389.496z"></path>
+                    <path d="M244.709,410.908c-21.684,0-39.256,17.571-39.256,39.256c0,21.683,17.572,39.254,39.256,39.254
+                      s39.256-17.571,39.256-39.254C283.965,428.479,266.393,410.908,244.709,410.908z"></path>
+                  </g>
+                </svg>
+              </div>
+              <div class="text">
+                Web app transfer market has to be unlocked
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-fill">
+            <div class="form-control--side flex flex--center-y flex-fill">
+              <div class="form-label  platform-logo flex-fill divider divider--r15">
+                <div class="label-name">New password:</div>
+                <div class="input-area">
+                  <input type="password" placeholder="new password">
+                </div>
+              </div>
+              <div class="form-label  platform-logo flex-fill">
+                <div class="label-name">Confirm password:</div>
+                <div class="input-area">
+                  <input type="password" placeholder="password">
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="info-container-wrap">
-    <div class="container main-container main-container--wrap--small">
-      <div class="row info-sider">
-        <div class="col-md-6 side-a">
-          <div class="logo-area">
-            <img src="./img/fifa-20-logo.png" alt="">
-          </div>
-          <div class="text-area">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
-          </div>
-          <div class="btn-area flex">
-            <a href="#/" class="btn btn--simple btn--red btn--device--full _modalOpen"  data-modal="#mainVideo"><b>Subscribe</b></a>
-          </div>
-        </div>
-        <div class="col-md-6 side-b">
-          <div class="player-area">
-            <div class="image-area _modalOpen" data-modal="#mainVideo2">
-              <div class="splash-bg"><img src="./img/player-splash.png" alt=""></div>
-              <img src="./img/player-image.png" alt="">
-              <div class="play-icon"><img src="./img/play-icon.svg" alt=""></div>
+          <div class="btn-area flex flex--center-y flex-fill divider divider--t40">
+            <div class="flex--right">
+              <button class="btn btn--simple btn--yellow"><b>Save</b></button>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="slider-container-wrap">
-    <div class="container main-container main-container--gallery main-container--wrap--small">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="container-title">
-            <h1>Gallery</h1>
-          </div>
-        </div>
-      </div>
-      <div class="gallery-slider">
-        <div class="row slick_gallery">
-          <div class="col-md-2 gallery-image gallery-image--position">
-            <div class="gallery-image gallery-image--image"><img
-                    src="./img/gallery/Sancho_Gameplay_Hero_Hires_WM_1x1.jpg" alt=""></div>
-          </div>
-          <div class="col-md-2 gallery-image gallery-image--position">
-            <div class="gallery-image gallery-image--image"><img src="img/gallery/Volta_Amsterdam_1x1_2.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-md-2 gallery-image gallery-image--position">
-            <div class="gallery-image gallery-image--image"><img src="./img/gallery/Volta_Gameplay_Amsterdam_1x1.jpg"
-                                                                 alt=""></div>
-          </div>
-          <div class="col-md-2 gallery-image gallery-image--position">
-            <div class="gallery-image gallery-image--image"><img src="./img/gallery/Volta_Gameplay_Tokyo_1x1.jpg"
-                                                                 alt=""></div>
-          </div>
-          <div class="col-md-2 gallery-image gallery-image--position">
-            <div class="gallery-image gallery-image--image"><img src="./img/gallery/Volta_London_1x1_2.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-md-2 gallery-image gallery-image--position">
-            <div class="gallery-image gallery-image--image"><img src="./img/gallery/Volta_Tokyo_1x1_2.jpg" alt=""></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <!--  CONTENT-->
   <!--//footer-->
   <div class="footer-container-wrap footer-container-wrap--position">
     <div class="container main-container main-container--wrap--small">
@@ -234,7 +269,9 @@
       <div class="modal-close">
         <svg xmlns="http://www.w3.org/2000/svg" width="13.999" height="14" viewBox="0 0 13.999 14">
           <g transform="translate(-0.003 0)">
-            <path data-name="Path 67" d="M6.333,7l-6.2,6.24a.446.446,0,0,0,0,.628.438.438,0,0,0,.623,0L7,7.582l6.243,6.287a.438.438,0,0,0,.623,0,.446.446,0,0,0,0-.628L7.672,7l6.2-6.245a.446.446,0,0,0,0-.628.439.439,0,0,0-.623,0L7,6.421.755.13a.439.439,0,0,0-.623,0,.446.446,0,0,0,0,.628Z" transform="translate(0 0)"/>
+            <path data-name="Path 67"
+                  d="M6.333,7l-6.2,6.24a.446.446,0,0,0,0,.628.438.438,0,0,0,.623,0L7,7.582l6.243,6.287a.438.438,0,0,0,.623,0,.446.446,0,0,0,0-.628L7.672,7l6.2-6.245a.446.446,0,0,0,0-.628.439.439,0,0,0-.623,0L7,6.421.755.13a.439.439,0,0,0-.623,0,.446.446,0,0,0,0,.628Z"
+                  transform="translate(0 0)"/>
           </g>
         </svg>
       </div>
@@ -249,7 +286,9 @@
       <div class="modal-close">
         <svg xmlns="http://www.w3.org/2000/svg" width="13.999" height="14" viewBox="0 0 13.999 14">
           <g transform="translate(-0.003 0)">
-            <path data-name="Path 67" d="M6.333,7l-6.2,6.24a.446.446,0,0,0,0,.628.438.438,0,0,0,.623,0L7,7.582l6.243,6.287a.438.438,0,0,0,.623,0,.446.446,0,0,0,0-.628L7.672,7l6.2-6.245a.446.446,0,0,0,0-.628.439.439,0,0,0-.623,0L7,6.421.755.13a.439.439,0,0,0-.623,0,.446.446,0,0,0,0,.628Z" transform="translate(0 0)"/>
+            <path data-name="Path 67"
+                  d="M6.333,7l-6.2,6.24a.446.446,0,0,0,0,.628.438.438,0,0,0,.623,0L7,7.582l6.243,6.287a.438.438,0,0,0,.623,0,.446.446,0,0,0,0-.628L7.672,7l6.2-6.245a.446.446,0,0,0,0-.628.439.439,0,0,0-.623,0L7,6.421.755.13a.439.439,0,0,0-.623,0,.446.446,0,0,0,0,.628Z"
+                  transform="translate(0 0)"/>
           </g>
         </svg>
       </div>
@@ -263,7 +302,7 @@
   </div>
 </div>
 <!--//scripts-->
-<script src="./dist/js/app.bundle.js"></script>
+<script src="../dist/js/app.bundle.js"></script>
 <!--&#45;&#45;&#45;&#45;-->
 </body>
 </html>

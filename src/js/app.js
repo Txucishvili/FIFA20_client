@@ -91,3 +91,14 @@ $(modalCloseBTN).on('click', (e) => {
   }
 
 });
+
+const ChangePassDroper = $('.changepass');
+const changePassContent = $('.change-password-areal');
+
+$(ChangePassDroper).click((e) => {
+  console.log('hit');
+  $(ChangePassDroper).toggleClass('active');
+  $(changePassContent).stop().slideToggle( "slow", function() {
+    // Animation complete.
+  });
+});

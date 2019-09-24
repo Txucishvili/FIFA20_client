@@ -122,6 +122,12 @@
     }
     &--image {
       @include size(232px);
+      @include max-min(max toPx($device-tablet)) {
+        @include size(340px);
+      }
+      @include max-min(max toPx(340)) {
+        @include size(320px);
+      }
       @include flex-all;
 
       img {
