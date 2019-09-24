@@ -28,9 +28,11 @@
   &--b10 {
     margin-bottom: 10px;
   }
+
   &--b40 {
     margin-bottom: 40px;
   }
+
   &--b30 {
     margin-bottom: 30px;
   }
@@ -96,6 +98,9 @@
 }
 
 .positionDeviceClear {
+  @include align-items(flex-start);
+  @include justify-content(flex-start);
+
   @include max-min(max toPx($device-tablet)) {
     @include align-items(flex-start);
     @include justify-content(flex-start);
