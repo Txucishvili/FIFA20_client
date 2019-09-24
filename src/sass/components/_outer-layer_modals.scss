@@ -33,6 +33,16 @@
     top: 60%;
     left: 50%;
 
+    @include max-min(max toPx(780)) {
+      height: 100%;
+      width: 100%;
+      max-width: 100%;
+
+      iframe {
+        width: 100%;
+      }
+    }
+
     &.open {
       opacity: 1;
       visibility: visible;
@@ -58,6 +68,7 @@
       z-index: 5;
       cursor: pointer;
       transition: all .25s ease-in-out;
+
       svg {
         path {
           transition: all .115s ease-in-out;
@@ -71,7 +82,13 @@
             fill: $oc-white;
           }
         }
+
         background-color: darken($color-pink, 11%);
+      }
+
+      @include max-min(max toPx(780)) {
+        top: 0;
+        @include size(45px);
       }
     }
   }

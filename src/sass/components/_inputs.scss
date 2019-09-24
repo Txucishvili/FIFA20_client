@@ -58,3 +58,17 @@
 .label-row {
   width: 100%;
 }
+
+.form-control {
+  a {
+    font-size: 17px;
+    font-family: $D-DINCondensed;
+    text-decoration: none;
+    display: block;
+    color: $color-light-1;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

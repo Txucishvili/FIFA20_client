@@ -4231,6 +4231,9 @@ html {
   overflow-x: hidden;
   position: relative;
   min-height: inherit;
+  font-size: 16px;
+  font-family: "D-DINCondensed";
+  line-height: 18px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4361,6 +4364,13 @@ html {
 
 .colored--redrose {
   color: #FF2153;
+}
+
+.text-area {
+  font-size: 18px;
+  font-family: "D-DINCondensed";
+  line-height: 24px;
+  letter-spacing: 1.12px;
 }
 
 .main-container--wrap {
@@ -4603,6 +4613,17 @@ html {
   left: 50%;
 }
 
+@media only screen and (max-width: 780px) {
+  .outer-layer .video-modal {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+  }
+  .outer-layer .video-modal iframe {
+    width: 100%;
+  }
+}
+
 .outer-layer .video-modal.open {
   opacity: 1;
   visibility: visible;
@@ -4651,6 +4672,14 @@ html {
 
 .outer-layer .video-modal .modal-close:hover svg path {
   fill: #ffffff;
+}
+
+@media only screen and (max-width: 780px) {
+  .outer-layer .video-modal .modal-close {
+    top: 0;
+    width: 45px;
+    height: 45px;
+  }
 }
 
 .info-container-wrap {
@@ -4836,7 +4865,7 @@ html {
           align-items: center;
   border: 1px solid #FF2153;
   font-family: "D-DIN";
-  font-size: 16;
+  font-size: 16px;
 }
 
 .alert-area .simple-alert .icon-area {
@@ -4996,6 +5025,73 @@ html {
   .table-row .hidden-lable {
     display: none;
   }
+}
+
+.sign-box--position {
+  width: 590px;
+  background-color: #212529;
+}
+
+.sign-box--switcher {
+  padding: 0 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .sign-box--switcher {
+    padding: 0 20px;
+  }
+}
+
+.sign-box--switcher .item {
+  text-decoration: none;
+  color: #FEFEFE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 22px;
+  font-family: "D-DINCondensed";
+  padding: 20px 0;
+  margin-right: 27px;
+  border-top: 3px solid transparent;
+}
+
+.sign-box--switcher .item.active {
+  border-top: 3px solid #55FFFA;
+}
+
+.sign-box--switcher .item:last-child {
+  margin-right: 0;
+}
+
+.sign-box--content {
+  padding: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .sign-box--content {
+    padding: 20px;
+  }
+}
+
+.sign-box--padder {
+  padding: 40px 40px 10px 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .sign-box--padder {
+    padding: 20px 20px;
+  }
+}
+
+.sign-box .title-area .title {
+  font-size: 22px;
+  font-family: "D-DINCondensed";
 }
 
 .btn--simple {
@@ -5327,8 +5423,8 @@ html {
   position: absolute;
   visibility: hidden;
   opacity: 0;
-  -webkit-transition: all .225s ease-in-out;
-  transition: all .225s ease-in-out;
+  -webkit-transition: all .125s ease-in-out;
+  transition: all .125s ease-in-out;
   -webkit-user-select: none;
 }
 
@@ -5447,6 +5543,18 @@ html {
 
 .label-row {
   width: 100%;
+}
+
+.form-control a {
+  font-size: 17px;
+  font-family: "D-DINCondensed";
+  text-decoration: none;
+  display: block;
+  color: #F3F3F3;
+}
+
+.form-control a:hover {
+  text-decoration: underline;
 }
 
 .slider-container--wrap {

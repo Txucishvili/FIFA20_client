@@ -218,7 +218,7 @@
           visibility: hidden;
           opacity: 0;
           //transform: translateX(25px);
-          transition: all .225s ease-in-out;
+          transition: all .125s ease-in-out;
           @include select(none);
 
           img {

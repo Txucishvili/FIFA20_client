@@ -10,6 +10,9 @@ html {
     overflow-x: hidden;
     position: relative;
     min-height: inherit;
+    font-size: 16px;
+    font-family: $D-DINCondensed;
+    line-height: 18px;
 
     @include flex;
     @include flex-direction(column);

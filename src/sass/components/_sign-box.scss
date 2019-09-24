@@ -1,0 +1,61 @@
+.sign-box {
+  &--position {
+    width: 590px;
+    background-color: $color-gray;
+  }
+
+  &--switcher {
+    padding: 0 40px;
+    @include flex;
+    @include align-items(center);
+
+    @include max-min(max toPx($device-tablet)) {
+      padding: 0 20px;
+    }
+
+    .item {
+      text-decoration: none;
+      color: $color-light-2;
+      @include flex;
+      font-size: 22px;
+      font-family: $D-DINCondensed;
+      padding: 20px 0;
+      margin-right: 27px;
+      border-top: 3px solid transparent;
+
+      &.active {
+        border-top: 3px solid $color-sky;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+  }
+
+  &--content {
+    padding: 40px;
+
+    @include max-min(max toPx($device-tablet)) {
+      padding: 20px;
+    }
+
+  }
+
+  &--padder {
+    padding: 40px 40px 10px 40px;
+    @include max-min(max toPx($device-tablet)) {
+      padding: 20px 20px;
+    }
+  }
+
+  .title-area {
+
+    .title {
+      font-size: 22px;
+      font-family: $D-DINCondensed;
+    }
+  }
+
+}
