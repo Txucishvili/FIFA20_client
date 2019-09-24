@@ -98,16 +98,29 @@
   max-width: 1000px;
   padding: 40px;
   background-color: $color-gray;
+  width: 100%;
 
+  @include max-min(max toPx(1000)) {
+    padding: 20px;
+  }
   .side-control {
     @include flex;
     flex-wrap: wrap;
+
+    @include max-min(max toPx(1000)) {
+      @include flex-direction(column);
+    }
+
   }
 
   .side-a {
     max-width: 250px;
     width: 250px;
 
+    @include max-min(max toPx(1000)) {
+      max-width: 100%;
+      width: 100%;
+    }
     .avatar-side {
       @include flex;
       @include justify-content(center);
@@ -135,6 +148,11 @@
   .side-b {
     margin-left: auto;
     width: 580px;
+
+    @include max-min(max toPx(1000)) {
+      max-width: 100%;
+      width: 100%;
+    }
   }
 
   .change-password-areal {

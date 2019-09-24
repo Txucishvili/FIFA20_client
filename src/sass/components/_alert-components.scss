@@ -40,6 +40,11 @@
       margin-bottom: 0;
     }
 
+
+    @include max-min(max toPx($device-tablet)) {
+      @include align-items(flex-start);
+    }
+
   }
 
 }
