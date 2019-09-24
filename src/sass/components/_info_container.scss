@@ -1,7 +1,7 @@
 .info-container-wrap {
   margin-top: 220px;
   @include max-min(max toPx($device-tablet)) {
-    margin-top: 120px;
+    margin-top: 40px;
   }
 
   .logo-area {
