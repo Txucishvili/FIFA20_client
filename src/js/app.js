@@ -98,7 +98,24 @@ const changePassContent = $('.change-password-areal');
 $(ChangePassDroper).click((e) => {
   console.log('hit');
   $(ChangePassDroper).toggleClass('active');
-  $(changePassContent).stop().slideToggle( "slow", function() {
+  $(changePassContent).stop().slideToggle("slow", function () {
     // Animation complete.
   });
+});
+
+const slidertoggleBTN = $('._sliderToggler');
+
+$(slidertoggleBTN).click((e) => {
+  const body = $(e.target).parents('.faq-item').children('.faq-body');
+  const target = $(e.target).parents('.faq-item');
+
+
+  if (body.length) {
+    $(target).toggleClass('active');
+    $(body).stop().slideToggle("slow", function () {
+      // Animation complete.
+    });
+  }
+
+  console.log('body target', body);
 });

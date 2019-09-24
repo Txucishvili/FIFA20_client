@@ -10785,6 +10785,22 @@ var changePassContent = (0, _jquery2.default)('.change-password-areal');
   });
 });
 
+var slidertoggleBTN = (0, _jquery2.default)('._sliderToggler');
+
+(0, _jquery2.default)(slidertoggleBTN).click(function (e) {
+  var body = (0, _jquery2.default)(e.target).parents('.faq-item').children('.faq-body');
+  var target = (0, _jquery2.default)(e.target).parents('.faq-item');
+
+  if (body.length) {
+    (0, _jquery2.default)(target).toggleClass('active');
+    (0, _jquery2.default)(body).stop().slideToggle("slow", function () {
+      // Animation complete.
+    });
+  }
+
+  console.log('body target', body);
+});
+
 /***/ }),
 /* 3 */
 /***/ (function(module, exports, __webpack_require__) {
