@@ -54,6 +54,32 @@
 
 }
 
+.device-menu-layout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: $color-dark-2;
+  overflow: hidden;
+  visibility: hidden;
+  top: -100%;
+  transition: all .225s ease-in-out;
+  opacity: .5;
+  display: block;
+
+  &.isShow {
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  @include max-min(min toPx($device-tablet)) {
+    visibility: hidden;
+    display: none;
+    z-index: -1;
+  }
+}
+
 .device-menu-layer {
   position: fixed;
   left: 0;
@@ -120,7 +146,7 @@
     }
 
     .foot-area {
-      //margin-top: auto;
+      margin-top: auto;
     }
 
     .btn-area {

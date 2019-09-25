@@ -10823,9 +10823,11 @@ var infoContentToggleTarget = (0, _jquery2.default)('.info-content-area .head-ti
 
 var mainNavButton = (0, _jquery2.default)('._openMainNav');
 var mainNavTarget = (0, _jquery2.default)('.device-menu-layer');
+var mainNavTargetLayout = (0, _jquery2.default)('.device-menu-layout');
 
 (0, _jquery2.default)(mainNavButton).click(function (e) {
   (0, _jquery2.default)(mainNavTarget).toggleClass('isShow');
+  (0, _jquery2.default)(mainNavTargetLayout).toggleClass('isShow');
   (0, _jquery2.default)(mainNavButton).parents('.device-menu-button').toggleClass('isOpen');
   console.log('hit', (0, _jquery2.default)(mainNavButton).parents('.device-menu-button'));
 });

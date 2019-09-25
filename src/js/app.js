@@ -147,9 +147,11 @@ $(infoContentToggleTarget).click((e) => {
 
 const mainNavButton = $('._openMainNav');
 const mainNavTarget = $('.device-menu-layer');
+const mainNavTargetLayout = $('.device-menu-layout');
 
 $(mainNavButton).click((e) => {
   $(mainNavTarget).toggleClass('isShow');
+  $(mainNavTargetLayout).toggleClass('isShow');
   $(mainNavButton).parents('.device-menu-button').toggleClass('isOpen');
   console.log('hit', $(mainNavButton).parents('.device-menu-button'));
 });

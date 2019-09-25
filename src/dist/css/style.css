@@ -6082,6 +6082,35 @@ a {
   outline: none;
 }
 
+.device-menu-layout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: #121215;
+  overflow: hidden;
+  visibility: hidden;
+  top: -100%;
+  -webkit-transition: all .225s ease-in-out;
+  transition: all .225s ease-in-out;
+  opacity: .5;
+  display: block;
+}
+
+.device-menu-layout.isShow {
+  top: 0;
+  visibility: visible;
+  opacity: 1;
+}
+
+@media only screen and (min-width: 768px) {
+  .device-menu-layout {
+    visibility: hidden;
+    display: none;
+    z-index: -1;
+  }
+}
+
 .device-menu-layer {
   position: fixed;
   left: 0;
@@ -6163,6 +6192,10 @@ a {
 .device-menu-layer .dev-menu-layout .user-profile-side .user-image-side img {
   height: 100%;
   display: block;
+}
+
+.device-menu-layer .dev-menu-layout .foot-area {
+  margin-top: auto;
 }
 
 .device-menu-layer .dev-menu-layout .btn-area {
