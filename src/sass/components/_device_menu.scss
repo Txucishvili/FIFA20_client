@@ -42,6 +42,16 @@
     }
   }
 
+  .head-dev-menu {
+    background-color: transparent;
+    border: none;
+    @include flex-all;
+    @include size(100%);
+    outline: none;
+
+
+  }
+
 }
 
 .device-menu-layer {
@@ -110,7 +120,7 @@
     }
 
     .foot-area {
-      margin-top: auto;
+      //margin-top: auto;
     }
 
     .btn-area {
