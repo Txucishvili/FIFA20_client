@@ -9,6 +9,10 @@
     @include align-items(center);
   }
 
+  &--center-x {
+    @include justify-content(center);
+  }
+
   &--right {
     margin-left: auto;
   }

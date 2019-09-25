@@ -10,7 +10,7 @@
 </head>
 <body class="theme theme--default">
 <div class="theme-wrap theme-wrap--position">
-  <div class="container main-container main-container--wrap">
+  <div class="container main-container main-container--header main-container--wrap">
     <div class="header header--position flex">
       <div class="logo-side">
         <a href="/" class="logo">
@@ -26,6 +26,36 @@
           <li><a href="pages/contact.html"><b>Contact</b></a></li>
         </ul>
         <div class="button-area margin-divide">
+          <div class="device-menu-button">
+            <button class="head-dev-menu _openMainNav">
+              <span class="icon-show icon-show--position icon-show--burger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="11" viewBox="0 0 15 11">
+                  <g id="Group_105" data-name="Group 105" transform="translate(0 4.859)">
+                    <g id="Group_104" data-name="Group 104" transform="translate(0 0)">
+                      <path id="Path_72" data-name="Path 72" d="M14.394,235.318H.606a.642.642,0,0,0,0,1.281H14.394a.642.642,0,0,0,0-1.281Z" transform="translate(0 -235.318)" fill="#f3f3f3"/>
+                    </g>
+                  </g>
+                  <g id="Group_107" data-name="Group 107">
+                    <g id="Group_106" data-name="Group 106" transform="translate(0 0)">
+                      <path id="Path_73" data-name="Path 73" d="M14.394,78.439H.606a.642.642,0,0,0,0,1.281H14.394a.642.642,0,0,0,0-1.281Z" transform="translate(0 -78.439)" fill="#f3f3f3"/>
+                    </g>
+                  </g>
+                  <g id="Group_109" data-name="Group 109" transform="translate(0 9.719)">
+                    <g id="Group_108" data-name="Group 108">
+                      <path id="Path_74" data-name="Path 74" d="M14.394,392.2H.606a.642.642,0,0,0,0,1.281H14.394a.642.642,0,0,0,0-1.281Z" transform="translate(0 -392.197)" fill="#f3f3f3"/>
+                    </g>
+                  </g>
+                </svg>
+              </span>
+              <span class="icon-show icon-show--position icon-show--close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11">
+                <g id="close" transform="translate(0 -0.001)">
+                  <path id="Path_69" data-name="Path 69" d="M6.473,5.5,10.8,1.175A.688.688,0,0,0,9.826.2L5.5,4.528,1.174.2A.688.688,0,0,0,.2,1.175L4.528,5.5.2,9.827a.688.688,0,1,0,.973.973L5.5,6.474,9.826,10.8a.688.688,0,0,0,.973-.973Z" transform="translate(0 0)" fill="#fff"/>
+                </g>
+              </svg>
+              </span>
+            </button>
+          </div>
           <a href="pages/sign-in.html" class="btn btn--simple btn--yellow"><b>Sign in</b></a>
         </div>
       </div>
@@ -73,7 +103,7 @@
             industry.
           </div>
           <div class="btn-area flex">
-            <a href="#/" class="btn btn--simple btn--red btn--device--full _modalOpen"  data-modal="#mainVideo"><b>Subscribe</b></a>
+            <a href="#/" class="btn btn--simple btn--red btn--device--full _modalOpen" data-modal="#mainVideo"><b>Subscribe</b></a>
           </div>
         </div>
         <div class="col-md-6 side-b">
@@ -228,13 +258,55 @@
   </div>
   <!--//footer-->
 </div>
+<div class="device-menu-layer device-menu-layer--position">
+  <div class="dev-menu-layout">
+    <div class="menu-area">
+      <div class="dev-nav">
+        <ul class="nav">
+          <li class="active"><a href="#"><b>Home</b></a></li>
+          <li class="disabled"><a href="./pages/buy.html"><b>Buy coins</b>
+            <span class="coming flex--right">Coming soon...</span>
+          </a></li>
+          <li class="disabled"><a href="./pages/buy.html">
+            <b>Sell coins</b>
+            <span class="coming flex--right">Coming soon...</span>
+          </a></li>
+          <li><a href="#"><b>Contact</b></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-area">
+      <!--     NOT SIGN IN-->
+      <div class="btn-area">
+        <a href="pages/sign-in.html" class="btn btn--simple btn--yellow"><b>Sign in</b></a>
+      </div>
+      <!--     NOT SIGN IN-->
+      <!--     IS SIGN IN-->
+      <div class="user-profile-side flex">
+        <div class="info-side">
+          <div class="user-name">VANO TVAURI</div>
+          <div class="user-balance">Ballance: <span class="colored colored--yellow">54.32$</span></div>
+        </div>
+        <div class="user-image-side flex--right">
+          <div class="image"><img src="./img/avatar.png" alt=""></div>
+        </div>
+      </div>
+      <div class="btn-area">
+        <a href="pages/sign-in.html" class="btn btn--simple btn--red"><b>Log Out</b></a>
+      </div>
+      <!--     IS SIGN IN-->
+    </div>
+  </div>
+</div>
 <div class="outer-layer outer-layer--position">
   <div class="modal-content flex flex--center">
     <div class="modal-wrap video-modal video-modal--position" id="mainVideo">
       <div class="modal-close">
         <svg xmlns="http://www.w3.org/2000/svg" width="13.999" height="14" viewBox="0 0 13.999 14">
           <g transform="translate(-0.003 0)">
-            <path data-name="Path 67" d="M6.333,7l-6.2,6.24a.446.446,0,0,0,0,.628.438.438,0,0,0,.623,0L7,7.582l6.243,6.287a.438.438,0,0,0,.623,0,.446.446,0,0,0,0-.628L7.672,7l6.2-6.245a.446.446,0,0,0,0-.628.439.439,0,0,0-.623,0L7,6.421.755.13a.439.439,0,0,0-.623,0,.446.446,0,0,0,0,.628Z" transform="translate(0 0)"/>
+            <path data-name="Path 67"
+                  d="M6.333,7l-6.2,6.24a.446.446,0,0,0,0,.628.438.438,0,0,0,.623,0L7,7.582l6.243,6.287a.438.438,0,0,0,.623,0,.446.446,0,0,0,0-.628L7.672,7l6.2-6.245a.446.446,0,0,0,0-.628.439.439,0,0,0-.623,0L7,6.421.755.13a.439.439,0,0,0-.623,0,.446.446,0,0,0,0,.628Z"
+                  transform="translate(0 0)"/>
           </g>
         </svg>
       </div>
@@ -249,7 +321,9 @@
       <div class="modal-close">
         <svg xmlns="http://www.w3.org/2000/svg" width="13.999" height="14" viewBox="0 0 13.999 14">
           <g transform="translate(-0.003 0)">
-            <path data-name="Path 67" d="M6.333,7l-6.2,6.24a.446.446,0,0,0,0,.628.438.438,0,0,0,.623,0L7,7.582l6.243,6.287a.438.438,0,0,0,.623,0,.446.446,0,0,0,0-.628L7.672,7l6.2-6.245a.446.446,0,0,0,0-.628.439.439,0,0,0-.623,0L7,6.421.755.13a.439.439,0,0,0-.623,0,.446.446,0,0,0,0,.628Z" transform="translate(0 0)"/>
+            <path data-name="Path 67"
+                  d="M6.333,7l-6.2,6.24a.446.446,0,0,0,0,.628.438.438,0,0,0,.623,0L7,7.582l6.243,6.287a.438.438,0,0,0,.623,0,.446.446,0,0,0,0-.628L7.672,7l6.2-6.245a.446.446,0,0,0,0-.628.439.439,0,0,0-.623,0L7,6.421.755.13a.439.439,0,0,0-.623,0,.446.446,0,0,0,0,.628Z"
+                  transform="translate(0 0)"/>
           </g>
         </svg>
       </div>

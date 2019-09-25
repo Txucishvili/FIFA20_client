@@ -69,6 +69,12 @@
       line-height: 40px;
       padding: 45px;
       @include flex-all;
+      margin-top: 120px;
+
+      @include max-min(max toPx($device-tablet)) {
+        margin-top: 80px;
+      }
+
     }
   }
 
@@ -94,6 +100,11 @@
       padding: 12px 25px;
       background-color: #121215;
       display: none;
+
+      @include max-min(max toPx($device-tablet)) {
+        padding: 12px;
+      }
+
     }
 
     .icon-side {
@@ -101,16 +112,27 @@
       position: relative;
 
       .icon-view {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        transition: all .125s ease-in-out;
+        //position: absolute;
+        //top: 50%;
+        //left: 50%;
+        //transform: translate(-50%, -50%);
+        //transition: all .125s ease-in-out;
+
+        svg {
+          width: 17px;
+          height: 17px;
+          display: block;
+        }
 
         &.icon-view-close {
           opacity: 0;
         }
       }
+    }
+
+    @include max-min(max toPx($device-tablet)) {
+      padding: 0;
+      background-color: transparent;
     }
 
   }
@@ -124,10 +146,24 @@
 
     &.active {
       .icon-view-close {
-        opacity: 1 !important;
+        //opacity: 1 !important;
       }
+
       .icon-view-arrow {
-        opacity: 0;
+        //opacity: 0;
+        transform: rotate(180deg);
+      }
+    }
+
+    @include max-min(max toPx($device-tablet)) {
+      margin-bottom: 0;
+    }
+
+      &:first-child {
+      @include max-min(max toPx($device-tablet)) {
+        .faq-body {
+          display: block;
+        }
       }
     }
   }

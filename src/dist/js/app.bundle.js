@@ -10789,17 +10789,60 @@ var slidertoggleBTN = (0, _jquery2.default)('._sliderToggler');
 
 (0, _jquery2.default)(slidertoggleBTN).click(function (e) {
   var body = (0, _jquery2.default)(e.target).parents('.faq-item').children('.faq-body');
+  var isOpen = (0, _jquery2.default)(e.target).parents('.faq-list').children('.faq-item.active');
   var target = (0, _jquery2.default)(e.target).parents('.faq-item');
 
   if (body.length) {
-    (0, _jquery2.default)(target).toggleClass('active');
-    (0, _jquery2.default)(body).stop().slideToggle("slow", function () {
-      // Animation complete.
-    });
+    if (isOpen.length) {
+      (0, _jquery2.default)(isOpen).removeClass('active');
+      (0, _jquery2.default)(isOpen).children('.faq-body').stop().slideToggle("slow", function () {});
+    }
+
+    (0, _jquery2.default)(target).addClass('active');
+    (0, _jquery2.default)(body).stop().slideToggle("slow", function () {});
   }
 
   console.log('body target', body);
 });
+
+var infoContentToggleTarget = (0, _jquery2.default)('.info-content-area .head-title');
+
+(0, _jquery2.default)(infoContentToggleTarget).click(function (e) {
+  console.log('hit');
+  var target = (0, _jquery2.default)(e.target).parents('.head-title') || (0, _jquery2.default)(e).prevObject[0];
+
+  if (!target.length) {
+    target = target.prevObject;
+  }
+
+  var body = (0, _jquery2.default)(target).parents('.info-content-area').children('.contaner-area');
+
+  (0, _jquery2.default)(target).toggleClass('active');
+  (0, _jquery2.default)(body).stop().slideToggle("slow", function () {});
+});
+
+var mainNavButton = (0, _jquery2.default)('._openMainNav');
+var mainNavTarget = (0, _jquery2.default)('.device-menu-layer');
+
+(0, _jquery2.default)(mainNavButton).click(function (e) {
+  (0, _jquery2.default)(mainNavTarget).toggleClass('isShow');
+  (0, _jquery2.default)(mainNavButton).parents('.device-menu-button').toggleClass('isOpen');
+  console.log('hit', (0, _jquery2.default)(mainNavButton).parents('.device-menu-button'));
+});
+
+if (body.length) {
+  (0, _jquery2.default)(window).scroll(function () {
+    var aTop = 80;
+    var headerTarget = (0, _jquery2.default)('.header.header--position');
+
+    if ((0, _jquery2.default)(this).scrollTop() >= aTop) {
+      console.log('header just passed.');
+      (0, _jquery2.default)(headerTarget).addClass('scrolled');
+    } else {
+      (0, _jquery2.default)(headerTarget).removeClass('scrolled');
+    }
+  });
+}
 
 /***/ }),
 /* 3 */

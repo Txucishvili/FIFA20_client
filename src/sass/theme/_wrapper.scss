@@ -10,6 +10,14 @@
       max-width: 1000px;
     }
   }
+
+  &--header {
+    height: 80px;
+
+    @include max-min(min toPx($device-tablet)) {
+      height: initial;
+    }
+  }
   &--gallery {
     @include max-min(max toPx($device-tablet)) {
       padding-left: 0;

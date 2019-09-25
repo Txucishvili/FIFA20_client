@@ -5,7 +5,7 @@
     top: 0;
     left: 0;
     @include size(100%);
-    background-color: rgba($color-dark, .5);
+    background-color: rgba($color-dark, .75);
     z-index: 55555;
     opacity: 0;
     transition: all .25s ease-in-out;

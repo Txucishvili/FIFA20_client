@@ -203,4 +203,15 @@
       }
     }
   }
+
+  .btn-area {
+    @include max-min(min toPx($device-tablet)) {
+      .btn {
+        &--simple {
+          width: 200px;
+        }
+      }
+    }
+  }
+
 }

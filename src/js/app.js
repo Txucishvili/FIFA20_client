@@ -107,15 +107,66 @@ const slidertoggleBTN = $('._sliderToggler');
 
 $(slidertoggleBTN).click((e) => {
   const body = $(e.target).parents('.faq-item').children('.faq-body');
+  const isOpen = $(e.target).parents('.faq-list').children('.faq-item.active');
   const target = $(e.target).parents('.faq-item');
 
 
   if (body.length) {
-    $(target).toggleClass('active');
-    $(body).stop().slideToggle("slow", function () {
-      // Animation complete.
+    if (isOpen.length) {
+      $(isOpen).removeClass('active');
+      $(isOpen).children('.faq-body').stop().slideToggle("slow", () => {
+      });
+    }
+
+    $(target).addClass('active');
+    $(body).stop().slideToggle("slow", () => {
     });
+
+
   }
 
   console.log('body target', body);
 });
+
+const infoContentToggleTarget = $('.info-content-area .head-title');
+
+$(infoContentToggleTarget).click((e) => {
+  console.log('hit');
+  let target = $(e.target).parents('.head-title') || $(e).prevObject[0];
+
+  if (!target.length) {
+    target = target.prevObject;
+  }
+
+  const body = $(target).parents('.info-content-area').children('.contaner-area');
+
+  $(target).toggleClass('active');
+  $(body).stop().slideToggle("slow", () => {
+  });
+});
+
+const mainNavButton = $('._openMainNav');
+const mainNavTarget = $('.device-menu-layer');
+
+$(mainNavButton).click((e) => {
+  $(mainNavTarget).toggleClass('isShow');
+  $(mainNavButton).parents('.device-menu-button').toggleClass('isOpen');
+  console.log('hit', $(mainNavButton).parents('.device-menu-button'));
+});
+
+
+if (body.length) {
+  $(window).scroll(function () {
+    const aTop = 80;
+    const headerTarget = $('.header.header--position');
+
+    if ($(this).scrollTop() >= aTop) {
+      console.log('header just passed.');
+      $(headerTarget).addClass('scrolled');
+    } else {
+      $(headerTarget).removeClass('scrolled');
+    }
+  });
+
+}
+

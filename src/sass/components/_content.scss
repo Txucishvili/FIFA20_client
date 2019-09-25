@@ -1,6 +1,10 @@
 .inside-container {
   &--position {
 
+    @include max-min(max toPx($device-tablet)) {
+      margin-top: 20px;
+    }
+
   }
 
   .contaner-area {
@@ -107,7 +111,7 @@
 
     &--device {
       @include max-min(max toPx($device-tablet)) {
-        padding: 0 32px;
+        padding: 30px 32px 10px 32px;
       }
     }
   }
@@ -122,12 +126,16 @@
     padding: 32px 40px;
 
     @include max-min(max toPx($device-tablet)) {
-      padding: 32px 0;
+      padding: 0 0;
     }
   }
 
   &--container {
     flex-wrap: wrap;
+
+    @include max-min(max toPx($device-tablet)) {
+      @include flex-direction(column);
+    }
 
     &.margin-t {
       margin-top: 60px;
@@ -204,13 +212,20 @@
         .movalble-area {
           @include flex;
           @include flex-direction(column);
-          @include align-items(flex-start);
+          @include align-items(center);
           @include justify-content(center);
           position: absolute;
           left: 50%;
           transform: translateX(-50%);
           transition: all .125s ease-in-out;
+
+          @include max-min(max toPx($device-tablet)) {
+            transform: translateX(-50%) translateY(-50%);
+            top: 50%;
+          }
         }
+
+
 
         .btn-area {
           margin-top: 32px;
@@ -252,11 +267,35 @@
           .movalble-area {
             left: 15%;
             transform: translateX(-15%);
+            @include max-min(max toPx($device-tablet)) {
+              transform: translateX(-15%) translateY(-50%);
+              top: 50%;
+            }
           }
           .btn-area {
           }
         }
       }
+
+      &--h {
+        &:hover {
+
+          .btn {
+            transform: scale(1.07);
+          }
+        }
+      }
+    }
+  }
+
+}
+
+.info-content-area {
+  .info-contents {
+    display: none;
+
+    @include max-min(min toPx($device-tablet)) {
+      display: block;
     }
   }
 }

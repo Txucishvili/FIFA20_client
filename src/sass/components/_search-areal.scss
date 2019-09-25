@@ -6,6 +6,12 @@
   &--padder {
     padding: 10px 30px;
     padding-bottom: 30px;
+
+    @include max-min(max toPx($device-tablet)) {
+      padding: 0px 10px;
+      padding-bottom: 20px;
+    }
+
   }
 }
 
@@ -27,6 +33,31 @@
 
     @include max-min(max toPx($device-tablet)) {
       right: 10px;
+    }
+
+
+    .noDevice {
+      display: none;
+
+      @include max-min(min toPx($device-tablet)) {
+        display: block;
+      }
+    }
+
+    .icon-show-onDevice {
+      @include flex-all;
+      width: 15px;
+      height: 15px;
+
+      img {
+        height: 100%;
+        display: block;
+      }
+
+
+      @include max-min(min toPx($device-tablet)) {
+        display: none;
+      }
     }
 
   }
