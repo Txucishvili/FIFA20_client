@@ -6333,6 +6333,7 @@ a {
   text-decoration: none;
   -webkit-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
+  position: relative;
 }
 
 .btn .icon-area {
@@ -6346,6 +6347,23 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.btn .coming-soon {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: #FAFA20;
+  color: #121215;
+  padding: 4px 5px;
+  font-size: 14px;
+  font-family: "D-DIN-Italic";
+}
+
+.btn--disabled {
+  pointer-events: none;
 }
 
 @media only screen and (max-width: 768px) {

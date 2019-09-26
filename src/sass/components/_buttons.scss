@@ -10,11 +10,28 @@
     cursor: pointer;
     text-decoration: none;
     transition: all .25s ease-in-out;
+    position: relative;
   }
 
   .icon-area {
     margin-right: 10px;
     @include flex-all;
+  }
+
+  .coming-soon {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    transform: translateY(-50%);
+    background-color: $color-yellow;
+    color: $color-dark-2;
+    padding: 4px 5px;
+    font-size: 14px;
+    font-family: $D-DIN-Italic;
+  }
+
+  &--disabled {
+    pointer-events: none;
   }
 
   @include max-min(max toPx($device-tablet)) {
