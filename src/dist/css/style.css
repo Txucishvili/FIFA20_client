@@ -4529,6 +4529,7 @@ a {
 .header .logo-side {
   padding-top: 20px;
   padding-bottom: 20px;
+  height: 80px;
 }
 
 .header .logo-side a {
@@ -4704,7 +4705,6 @@ a {
       -ms-flex-align: center;
           align-items: center;
   padding: 10px 20px;
-  background-color: rgba(33, 33, 33, 0.48);
 }
 
 .outer-layer--position {
