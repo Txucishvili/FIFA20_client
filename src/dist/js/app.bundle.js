@@ -10785,7 +10785,7 @@ var changePassContent = (0, _jquery2.default)('.change-password-areal');
   });
 });
 
-var slidertoggleBTN = (0, _jquery2.default)('._sliderToggler');
+var slidertoggleBTN = (0, _jquery2.default)('.faq-title');
 
 (0, _jquery2.default)(slidertoggleBTN).click(function (e) {
   var body = (0, _jquery2.default)(e.target).parents('.faq-item').children('.faq-body');

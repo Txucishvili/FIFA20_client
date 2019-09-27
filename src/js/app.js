@@ -103,7 +103,7 @@ $(ChangePassDroper).click((e) => {
   });
 });
 
-const slidertoggleBTN = $('._sliderToggler');
+const slidertoggleBTN = $('.faq-title');
 
 $(slidertoggleBTN).click((e) => {
   const body = $(e.target).parents('.faq-item').children('.faq-body');

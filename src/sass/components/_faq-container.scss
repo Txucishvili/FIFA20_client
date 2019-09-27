@@ -160,6 +160,9 @@
     }
 
       &:first-child {
+        .faq-body {
+          display: block;
+        }
       @include max-min(max toPx($device-tablet)) {
         .faq-body {
           display: block;

@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="75f2dfac-e707-4ffb-8d69-96df04fdbb7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/js/app.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/js/app.bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dist/js/app.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/js/app.bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/slider_players.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider_players.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/components/_faq-container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_faq-container.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -109,11 +107,11 @@
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="false">
+              <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/pages/faq.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="6570">
-                      <caret line="408" column="18" selection-start-line="408" selection-start-column="18" selection-end-line="408" selection-end-column="18" />
+                    <state relative-caret-position="137">
+                      <caret line="87" column="43" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="43" />
                       <folding>
                         <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                         <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
@@ -164,7 +162,7 @@
               <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/pages/buy.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="262">
+                    <state relative-caret-position="3906">
                       <caret line="316" column="41" selection-start-line="316" selection-start-column="41" selection-end-line="316" selection-end-column="41" />
                       <folding>
                         <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -176,11 +174,11 @@
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="true">
+              <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/index.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="234">
-                      <caret line="86" column="44" selection-start-line="86" selection-start-column="44" selection-end-line="86" selection-end-column="44" />
+                    <state relative-caret-position="348">
+                      <caret line="95" column="8" selection-start-line="63" selection-start-column="2" selection-end-line="95" selection-end-column="8" />
                       <folding>
                         <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
                         <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -229,17 +227,17 @@
               <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/pages/sign-up.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="60">
+                    <state relative-caret-position="774">
                       <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="true">
+              <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/sass/components/_buttons.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="293">
-                      <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+                    <state relative-caret-position="275">
+                      <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
                     </state>
                   </provider>
                 </entry>
@@ -247,10 +245,25 @@
               <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/js/app.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="2700">
-                      <caret line="152" column="41" selection-start-line="152" selection-start-column="41" selection-end-line="152" selection-end-column="41" />
+                    <state relative-caret-position="266">
+                      <caret line="117" column="9" selection-start-line="117" selection-start-column="9" selection-end-line="117" selection-end-column="9" />
                       <folding>
                         <element signature="e#0#33#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/src/sass/components/_faq-container.scss">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="312">
+                      <caret line="163" column="20" selection-start-line="163" selection-start-column="20" selection-end-line="163" selection-end-column="20" />
+                      <folding>
+                        <element signature="e#1797#2030#0" />
+                        <element signature="e#2046#2217#0" />
+                        <element signature="e#2234#2641#0" />
+                        <element signature="e#2690#2752#0" />
                       </folding>
                     </state>
                   </provider>
@@ -277,8 +290,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>simple-content</find>
-      <find>search</find>
       <find>$device-tablet</find>
       <find>rating-device</find>
       <find>table-</find>
@@ -307,6 +318,8 @@
       <find>body</find>
       <find>head-dev-menu</find>
       <find>sell</find>
+      <find>_sliderToggler</find>
+      <find>faq-title</find>
     </findStrings>
     <replaceStrings>
       <replace>table-row--insider</replace>
@@ -338,12 +351,10 @@
         <option value="$PROJECT_DIR$/src/sass/components/_info_container.scss" />
         <option value="$PROJECT_DIR$/src/sass/components/_search-areal.scss" />
         <option value="$PROJECT_DIR$/src/sass/components/_table-component.scss" />
-        <option value="$PROJECT_DIR$/src/sass/components/_faq-container.scss" />
         <option value="$PROJECT_DIR$/src/sass/theme/_default_classes.scss" />
         <option value="$PROJECT_DIR$/src/sass/components/_content.scss" />
         <option value="$PROJECT_DIR$/src/sass/style.scss" />
         <option value="$PROJECT_DIR$/src/sass/theme/_wrapper.scss" />
-        <option value="$PROJECT_DIR$/src/js/app.js" />
         <option value="$PROJECT_DIR$/src/sass/components/_device_menu.scss" />
         <option value="$PROJECT_DIR$/src/sass/components/_header.scss" />
         <option value="$PROJECT_DIR$/src/sass/components/_footer.scss" />
@@ -362,6 +373,8 @@
         <option value="$PROJECT_DIR$/src/pages/buy.html" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/sass/components/_buttons.scss" />
+        <option value="$PROJECT_DIR$/src/js/app.js" />
+        <option value="$PROJECT_DIR$/src/sass/components/_faq-container.scss" />
       </list>
     </option>
   </component>
@@ -486,6 +499,13 @@
               <item name="Fifa20" type="b2602c69:ProjectViewProjectNode" />
               <item name="Fifa20" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="cards" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fifa20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fifa20" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -531,14 +551,14 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/sass/theme" />
-      <recent name="$PROJECT_DIR$/src/sass" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/img" />
       <recent name="$PROJECT_DIR$/src/sass/components" />
       <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/src/img/gallery" />
+      <recent name="$PROJECT_DIR$/src/sass/theme" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/sass/theme" />
       <recent name="$PROJECT_DIR$/src/sass" />
     </key>
@@ -590,7 +610,8 @@
       <workItem from="1569363211844" duration="3555000" />
       <workItem from="1569426840212" duration="10561000" />
       <workItem from="1569493198325" duration="1356000" />
-      <workItem from="1569527461785" duration="257000" />
+      <workItem from="1569527461785" duration="653000" />
+      <workItem from="1569542331435" duration="163000" />
     </task>
     <task id="LOCAL-00001" summary="- add: comfort, auction, buy">
       <created>1569279902563</created>
@@ -704,30 +725,37 @@
       <option name="project" value="LOCAL" />
       <updated>1569498821766</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="- add: .btn coming soon label&#10;- add: cart items&#10;- fix: bg control remove">
+      <created>1569527828395</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1569527828395</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67955000" />
+    <option name="totallyTimeSpent" value="68514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="989" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48885587" visible="true" weight="0.13954712" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48736998" visible="true" weight="0.13954712" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" sideWeight="0.5111441" side_tool="true" visible="true" weight="0.13954712" />
+      <window_info id="npm" order="2" sideWeight="0.51263" side_tool="true" visible="true" weight="0.13954712" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24888393" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49921012" visible="true" weight="0.24888393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007899" side_tool="true" visible="true" weight="0.24888393" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.23814774" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -770,7 +798,8 @@
     <MESSAGE value="- fix" />
     <MESSAGE value="- fix: menu bg on device scroll" />
     <MESSAGE value="- tidy" />
-    <option name="LAST_COMMIT_MESSAGE" value="- tidy" />
+    <MESSAGE value="- add: .btn coming soon label&#10;- add: cart items&#10;- fix: bg control remove" />
+    <option name="LAST_COMMIT_MESSAGE" value="- add: .btn coming soon label&#10;- add: cart items&#10;- fix: bg control remove" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/webpack.mix.js">
@@ -893,16 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="214" column="23" selection-start-line="214" selection-start-column="23" selection-end-line="214" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/components/_faq-container.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="113" column="18" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
-          <folding>
-            <element signature="e#1685#1918#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1063,17 +1082,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/faq.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6570">
-          <caret line="408" column="18" selection-start-line="408" selection-start-column="18" selection-end-line="408" selection-end-column="18" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/comfort-trade.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5184">
@@ -1109,6 +1117,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/buy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3906">
+          <caret line="316" column="41" selection-start-line="316" selection-start-column="41" selection-end-line="316" selection-end-column="41" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#span#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="95" column="8" selection-start-line="63" selection-start-column="2" selection-end-line="95" selection-end-column="8" />
+          <folding>
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/components/_device_menu.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2574">
@@ -1130,13 +1168,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/app.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/sign-up.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2700">
-          <caret line="152" column="41" selection-start-line="152" selection-start-column="41" selection-end-line="152" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="774">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/components/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1147,47 +1189,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/buy.html">
+    <entry file="file://$PROJECT_DIR$/src/pages/faq.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="316" column="41" selection-start-line="316" selection-start-column="41" selection-end-line="316" selection-end-column="41" />
+        <state relative-caret-position="137">
+          <caret line="87" column="43" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="43" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#svg#0;n#span#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/sign-up.html">
+    <entry file="file://$PROJECT_DIR$/src/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="86" column="44" selection-start-line="86" selection-start-column="44" selection-end-line="86" selection-end-column="44" />
+        <state relative-caret-position="266">
+          <caret line="117" column="9" selection-start-line="117" selection-start-column="9" selection-end-line="117" selection-end-column="9" />
           <folding>
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/components/_buttons.scss">
+    <entry file="file://$PROJECT_DIR$/src/sass/components/_faq-container.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        <state relative-caret-position="312">
+          <caret line="163" column="20" selection-start-line="163" selection-start-column="20" selection-end-line="163" selection-end-column="20" />
+          <folding>
+            <element signature="e#1797#2030#0" />
+            <element signature="e#2046#2217#0" />
+            <element signature="e#2234#2641#0" />
+            <element signature="e#2690#2752#0" />
+          </folding>
         </state>
       </provider>
     </entry>
