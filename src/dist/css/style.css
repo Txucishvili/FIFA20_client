@@ -7522,7 +7522,6 @@ a {
 
 .slider-container .slider-content .image-side .slider-image-bg:before {
   content: '';
-  height: 100%;
   background-color: #f82754;
   width: 50px;
   display: block;
@@ -7694,6 +7693,7 @@ a {
 }
 
 .slider-container .insider {
+  margin-left: 125px;
   position: relative;
 }
 

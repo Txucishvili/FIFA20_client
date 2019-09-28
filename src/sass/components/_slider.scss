@@ -101,7 +101,6 @@
 
         &:before {
           content: '';
-          height: 100%;
           background-color: #f82754;
           width: 50px;
           display: block;
@@ -239,6 +238,7 @@
   }
 
   .insider {
+    margin-left: 125px;
     position: relative;
 
   }

@@ -10838,7 +10838,7 @@ var mainNavTargetLayout = (0, _jquery2.default)('.device-menu-layout');
 
 if (body.length) {
   (0, _jquery2.default)(window).scroll(function () {
-    var aTop = 80;
+    var aTop = 30;
     var headerTarget = (0, _jquery2.default)('.header.header--position');
 
     if ((0, _jquery2.default)(this).scrollTop() >= aTop) {

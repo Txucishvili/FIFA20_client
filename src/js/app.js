@@ -160,7 +160,7 @@ $(mainNavButton).click((e) => {
 
 if (body.length) {
   $(window).scroll(function () {
-    const aTop = 80;
+    const aTop = 30;
     const headerTarget = $('.header.header--position');
 
     if ($(this).scrollTop() >= aTop) {
