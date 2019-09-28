@@ -7693,8 +7693,13 @@ a {
 }
 
 .slider-container .insider {
-  margin-left: 125px;
   position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+  .slider-container .insider {
+    margin-left: 125px;
+  }
 }
 
 .slider-container .fifa-logo {

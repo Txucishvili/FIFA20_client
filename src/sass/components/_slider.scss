@@ -238,8 +238,11 @@
   }
 
   .insider {
-    margin-left: 125px;
     position: relative;
+    @include max-min(min toPx($device-tablet)) {
+      margin-left: 125px;
+
+    }
 
   }
 

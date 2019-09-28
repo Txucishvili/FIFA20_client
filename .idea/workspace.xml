@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75f2dfac-e707-4ffb-8d69-96df04fdbb7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/libs/magnific.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/libs/_magnific-popup.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dist/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/js/app.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/js/app.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/js/app.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/js/app.bundle.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/settings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/_alert-components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_alert-components.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/_faq-container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_faq-container.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/_info_container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_info_container.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/components/_slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/_table-component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_table-component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,8 +52,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/index.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="178">
-                      <caret line="205" column="21" selection-start-line="205" selection-start-column="21" selection-end-line="205" selection-end-column="21" />
+                    <state relative-caret-position="237">
+                      <caret line="241" column="12" lean-forward="true" selection-start-line="241" selection-start-column="12" selection-end-line="241" selection-end-column="12" />
                       <folding>
                         <element signature="n#svg#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                         <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -107,20 +91,20 @@
           </split-first>
           <split-second>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file pinned="false" current-in-tab="false">
+              <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/sass/components/_slider.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="3240">
-                      <caret line="180" column="27" selection-start-line="180" selection-start-column="27" selection-end-line="180" selection-end-column="27" />
+                    <state relative-caret-position="199">
+                      <caret line="241" column="24" selection-start-line="241" selection-start-column="21" selection-end-line="241" selection-end-column="24" />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file pinned="false" current-in-tab="true">
+              <file pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/js/app.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="280">
-                      <caret line="175" column="33" selection-start-line="175" selection-start-column="33" selection-end-line="175" selection-end-column="33" />
+                    <state relative-caret-position="110">
+                      <caret line="162" column="19" selection-start-line="162" selection-start-column="17" selection-end-line="162" selection-end-column="19" />
                       <folding>
                         <element signature="e#0#33#0" expanded="true" />
                       </folding>
@@ -235,7 +219,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>platfor</find>
       <find>platform-box</find>
       <find>platform-item</find>
       <find>content</find>
@@ -265,6 +248,7 @@
       <find>alert</find>
       <find>sim</find>
       <find>gallery</find>
+      <find>insider</find>
     </findStrings>
     <replaceStrings>
       <replace>table-row--insider</replace>
@@ -307,7 +291,6 @@
         <option value="$PROJECT_DIR$/src/pages/buy-2.html" />
         <option value="$PROJECT_DIR$/src/pages/buy.html" />
         <option value="$PROJECT_DIR$/src/sass/components/_buttons.scss" />
-        <option value="$PROJECT_DIR$/src/sass/components/_slider.scss" />
         <option value="$PROJECT_DIR$/src/sass/components/_header.scss" />
         <option value="$PROJECT_DIR$/src/sass/components/_footer.scss" />
         <option value="$PROJECT_DIR$/src/pages/profile.html" />
@@ -319,13 +302,14 @@
         <option value="$PROJECT_DIR$/src/js/libs/magnific.js" />
         <option value="$PROJECT_DIR$/src/sass/libs/_magnific-popup.scss" />
         <option value="$PROJECT_DIR$/src/sass/style.scss" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/sass/components/_info_container.scss" />
         <option value="$PROJECT_DIR$/src/js/app.js" />
+        <option value="$PROJECT_DIR$/src/sass/components/_slider.scss" />
+        <option value="$PROJECT_DIR$/src/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="970" />
@@ -574,7 +558,7 @@
       <workItem from="1569527461785" duration="653000" />
       <workItem from="1569542331435" duration="409000" />
       <workItem from="1569676904921" duration="5442000" />
-      <workItem from="1569706639385" duration="232000" />
+      <workItem from="1569706639385" duration="2051000" />
     </task>
     <task id="LOCAL-00001" summary="- add: comfort, auction, buy">
       <created>1569279902563</created>
@@ -702,14 +686,28 @@
       <option name="project" value="LOCAL" />
       <updated>1569542676329</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="- add: photo popup&#10;- add: new alerts (warning, danger)&#10;- sm changes">
+      <created>1569707755390</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1569707755390</updated>
+    </task>
+    <task id="LOCAL-00020" summary="- sm changes">
+      <created>1569709331663</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1569709331663</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74434000" />
+    <option name="totallyTimeSpent" value="76253000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="970" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="970" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48396948" visible="true" weight="0.15973479" />
@@ -770,7 +768,9 @@
     <MESSAGE value="- tidy" />
     <MESSAGE value="- add: .btn coming soon label&#10;- add: cart items&#10;- fix: bg control remove" />
     <MESSAGE value="- fix: f.a.q slide" />
-    <option name="LAST_COMMIT_MESSAGE" value="- fix: f.a.q slide" />
+    <MESSAGE value="- add: photo popup&#10;- add: new alerts (warning, danger)&#10;- sm changes" />
+    <MESSAGE value="- sm changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="- sm changes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/webpack.mix.js">
@@ -1102,27 +1102,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="205" column="21" selection-start-line="205" selection-start-column="21" selection-end-line="205" selection-end-column="21" />
-          <folding>
-            <element signature="n#svg#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/components/_slider.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3240">
-          <caret line="180" column="27" selection-start-line="180" selection-start-column="27" selection-end-line="180" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/libs/_magnific-popup.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6912">
@@ -1202,10 +1181,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="175" column="33" selection-start-line="175" selection-start-column="33" selection-end-line="175" selection-end-column="33" />
+        <state relative-caret-position="110">
+          <caret line="162" column="19" selection-start-line="162" selection-start-column="17" selection-end-line="162" selection-end-column="19" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/components/_slider.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="241" column="24" selection-start-line="241" selection-start-column="21" selection-end-line="241" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="241" column="12" lean-forward="true" selection-start-line="241" selection-start-column="12" selection-end-line="241" selection-end-column="12" />
+          <folding>
+            <element signature="n#svg#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
