@@ -105,6 +105,11 @@
     z-index: -1;
   }
 
+  .menu-device-profile {
+    padding-top: 30px;
+    background-color: $oc-black;
+  }
+
   .dev-menu-layout {
     @include flex;
     @include flex-direction(column);
