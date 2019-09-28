@@ -13,9 +13,28 @@
     position: relative;
   }
 
+
   .icon-area {
     margin-right: 10px;
     @include flex-all;
+    height: 100%;
+    img {
+      height: 100%;
+    }
+  }
+
+  &--icon {
+    padding: 12px;
+    @include size(50px);
+    .icon-area {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  &--sm {
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
   .coming-soon {

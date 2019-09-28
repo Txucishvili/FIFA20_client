@@ -1,6 +1,7 @@
 import slick from './libs/slick';
 import jquery from 'jquery';
 import $ from 'jquery';
+import magnificPopup from './libs/magnific';
 
 $('.slick_gallery').slick({
   dots: false,
@@ -163,7 +164,6 @@ if (body.length) {
     const headerTarget = $('.header.header--position');
 
     if ($(this).scrollTop() >= aTop) {
-      console.log('header just passed.');
       $(headerTarget).addClass('scrolled');
     } else {
       $(headerTarget).removeClass('scrolled');
@@ -171,4 +171,14 @@ if (body.length) {
   });
 
 }
+
+$(document).ready(function() {
+  if ($('.gallery-slider').length) {
+    $('.gallery-slider').magnificPopup({
+      delegate: 'a',
+      type: 'image'
+    });
+  }
+});
+
 

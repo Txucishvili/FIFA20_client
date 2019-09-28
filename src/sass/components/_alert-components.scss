@@ -45,6 +45,32 @@
       @include align-items(flex-start);
     }
 
+    &--danger {
+      border-color: $color-yellow;
+
+      .icon-area {
+        background-color: $color-yellow;
+        svg {
+          path {
+            fill: $color-dark-2;
+          }
+        }
+      }
+    }
+
+
+    &--complete {
+      border-color: $oc-green-3;
+
+      .icon-area {
+        background-color: $oc-green-3;
+        svg {
+          path {
+            fill: $color-dark-2;
+          }
+        }
+      }
+    }
   }
 
 }

@@ -19,6 +19,14 @@
     }
   }
 
+  .row {
+    @include max-min(max toPx($device-tablet)) {
+      .col-lg-4 {
+        flex: 1;
+      }
+    }
+  }
+
   .footer-nav {
     @include flex;
     @include align-items(center);

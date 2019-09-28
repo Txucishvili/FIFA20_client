@@ -120,6 +120,10 @@
       @include flex-all;
       outline: none;
       padding: 5px;
+      outline: none;
+    }
+    a {
+      outline: none;
     }
     &--image {
       @include size(232px);

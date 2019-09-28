@@ -51,7 +51,7 @@
         text-decoration: none;
         color: $oc-white;
         font-size: 19px;
-        font-family: $D-DIN;
+        font-family: $D-DINCondensed;
         line-height: 22px;
         padding: 28px 0 0 0;
         transition: all .25s ease;
@@ -74,6 +74,14 @@
             color: $color-sky;
             border-top-color: $color-sky;
             //box-shadow: inset -2px 4px -2px $color-sky;
+          }
+        }
+
+        &.disabled {
+          a {
+            color: #636363;
+            //box-shadow: inset -2px 4px -2px $color-sky;
+            pointer-events: none;
           }
         }
       }

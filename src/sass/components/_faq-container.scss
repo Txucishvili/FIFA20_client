@@ -70,6 +70,7 @@
       padding: 45px;
       @include flex-all;
       margin-top: 120px;
+      color: $color-dark-2;
 
       @include max-min(max toPx($device-tablet)) {
         margin-top: 80px;
@@ -100,11 +101,31 @@
       padding: 12px 25px;
       background-color: #121215;
       display: none;
+      font-size: 17px;
 
       @include max-min(max toPx($device-tablet)) {
         padding: 12px;
       }
 
+      a {
+        color: $color-yellow;
+        text-decoration: none;
+        display: inline-block;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .faq-container-wrap {
+      max-width: 100%;
+      margin: 7px 0;
+
+      img, frame, video {
+        width: 100%;
+        display: block;
+      }
     }
 
     .icon-side {
