@@ -172,7 +172,7 @@ if (body.length) {
 }
 
 
-$(document).ready(function() {
+$(document).ready(function () {
   if ($('.slick_gallery').length) {
     $('.slick_gallery').magnificPopup({
       delegate: 'a',
@@ -181,4 +181,48 @@ $(document).ready(function() {
   }
 });
 
+
+const initTawk = async () => {
+  let TawkAPI;
+
+  const importScript = async () => {
+    return new Promise(resolve => {
+      let s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/5bb724a9b033e9743d026b20/default';
+      s1.charset = 'UTF-8';
+      s1.setAttribute('crossorigin', '*');
+      s0.parentNode.insertBefore(s1, s0);
+
+      s1.onload = function (e) {
+        console.log('Script loaded');
+        window.Tawk_API = Tawk_API;
+
+        resolve(window.Tawk_API);
+      };
+    })
+  };
+
+  TawkAPI = await importScript();
+
+  console.log('TawkAPI', TawkAPI);
+
+  window.Tawk_API.maximize();
+  TawkAPI.maximize();
+
+  window.Tawk_API.onLoad = function () {
+    TawkAPI.setAttributes({
+      'name': 'visitor',
+      'email': 'visitor@email.com',
+      'hash': 'hash-value'
+    }, function (error) {
+      console.log('e', error);
+    });
+
+  }
+
+
+};
+
+// initTawk();
 

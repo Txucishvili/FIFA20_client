@@ -44,10 +44,10 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1;
     @include size(100%);
     //padding-top: 2rem;
     display: none;
+    z-index: 0;
 
     @include max-min(min toPx($device-tablet + 1)) {
       display: block;
@@ -78,7 +78,7 @@
       flex: 1;
       //width: 52vh;
       margin-top: -2rem;
-      z-index: 5;
+      z-index: 0;
 
       @include max-min(min toPx($device-tablet + 1)) {
         background: transparent;
