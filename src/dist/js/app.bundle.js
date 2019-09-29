@@ -10864,74 +10864,58 @@ if (body.length) {
   }
 });
 
+var importScript = function () {
+  var _ref = _asyncToGenerator( /*#__PURE__*/_regenerator2.default.mark(function _callee() {
+    return _regenerator2.default.wrap(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            return _context.abrupt('return', new Promise(function (resolve) {
+              var s1 = document.createElement("script"),
+                  s0 = document.getElementsByTagName("script")[0];
+              s1.async = true;
+              s1.src = 'https://embed.tawk.to/5bb724a9b033e9743d026b20/default';
+              s1.charset = 'UTF-8';
+              s1.setAttribute('crossorigin', '*');
+              s0.parentNode.insertBefore(s1, s0);
+
+              s1.onload = function (e) {
+                console.log('Script loaded');
+                resolve(window.Tawk_API);
+              };
+            }));
+
+          case 1:
+          case 'end':
+            return _context.stop();
+        }
+      }
+    }, _callee, undefined);
+  }));
+
+  return function importScript() {
+    return _ref.apply(this, arguments);
+  };
+}();
+
 var initTawk = function () {
-  var _ref = _asyncToGenerator( /*#__PURE__*/_regenerator2.default.mark(function _callee2() {
-    var TawkAPI, importScript;
+  var _ref2 = _asyncToGenerator( /*#__PURE__*/_regenerator2.default.mark(function _callee2() {
+    var TawkAPI;
     return _regenerator2.default.wrap(function _callee2$(_context2) {
       while (1) {
         switch (_context2.prev = _context2.next) {
           case 0:
             TawkAPI = void 0;
-
-            importScript = function () {
-              var _ref2 = _asyncToGenerator( /*#__PURE__*/_regenerator2.default.mark(function _callee() {
-                return _regenerator2.default.wrap(function _callee$(_context) {
-                  while (1) {
-                    switch (_context.prev = _context.next) {
-                      case 0:
-                        return _context.abrupt('return', new Promise(function (resolve) {
-                          var s1 = document.createElement("script"),
-                              s0 = document.getElementsByTagName("script")[0];
-                          s1.async = true;
-                          s1.src = 'https://embed.tawk.to/5bb724a9b033e9743d026b20/default';
-                          s1.charset = 'UTF-8';
-                          s1.setAttribute('crossorigin', '*');
-                          s0.parentNode.insertBefore(s1, s0);
-
-                          s1.onload = function (e) {
-                            console.log('Script loaded');
-                            window.Tawk_API = Tawk_API;
-
-                            resolve(window.Tawk_API);
-                          };
-                        }));
-
-                      case 1:
-                      case 'end':
-                        return _context.stop();
-                    }
-                  }
-                }, _callee, undefined);
-              }));
-
-              return function importScript() {
-                return _ref2.apply(this, arguments);
-              };
-            }();
-
-            _context2.next = 4;
+            _context2.next = 3;
             return importScript();
 
-          case 4:
+          case 3:
             TawkAPI = _context2.sent;
+            return _context2.abrupt('return', new Promise(function (resolve) {
+              resolve(window.Tawk_API);
+            }));
 
-
-            console.log('TawkAPI', TawkAPI);
-
-            window.Tawk_API.maximize();
-            TawkAPI.maximize();
-
-            window.Tawk_API.onLoad = function () {
-              TawkAPI.setAttributes({
-                'name': 'visitor',
-                'email': 'visitor@email.com',
-                'hash': 'hash-value'
-              }, function (error) {
-                console.log('e', error);
-              });
-            };
-
-          case 9:
+          case 5:
           case 'end':
             return _context2.stop();
         }
@@ -10940,11 +10924,48 @@ var initTawk = function () {
   }));
 
   return function initTawk() {
-    return _ref.apply(this, arguments);
+    return _ref2.apply(this, arguments);
   };
 }();
 
-// initTawk();
+(0, _jquery2.default)(document).ready(_asyncToGenerator( /*#__PURE__*/_regenerator2.default.mark(function _callee3() {
+  return _regenerator2.default.wrap(function _callee3$(_context3) {
+    while (1) {
+      switch (_context3.prev = _context3.next) {
+        case 0:
+        case 'end':
+          return _context3.stop();
+      }
+    }
+  }, _callee3, undefined);
+}))
+// if (Tawk_API) {
+//   Tawk_API.onLoad = function() {
+//     Tawk_API.hideWidget();
+//   };
+// }
+);
+
+var modalChecboxSelector = (0, _jquery2.default)('.modal-gallery--item');
+
+(0, _jquery2.default)(modalChecboxSelector).click(function (e) {
+  var target = (0, _jquery2.default)(e.target).parents('.modal-gallery--item');
+  var inputTarget = (0, _jquery2.default)('#' + (0, _jquery2.default)(target).attr('data-target-input'));
+  var valueData = (0, _jquery2.default)(target).attr('data-name');
+
+  if ((0, _jquery2.default)(target).hasClass('active')) {
+    (0, _jquery2.default)(target).removeClass('active');
+    (0, _jquery2.default)(inputTarget).val('null');
+  } else {
+
+    if ((0, _jquery2.default)('.modal-gallery--item.active').length) {
+      (0, _jquery2.default)('.modal-gallery--item.active').removeClass('active');
+    }
+
+    (0, _jquery2.default)(target).addClass('active');
+    (0, _jquery2.default)(inputTarget).val(valueData);
+  }
+});
 
 /***/ }),
 /* 3 */

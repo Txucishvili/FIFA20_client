@@ -182,47 +182,62 @@ $(document).ready(function () {
 });
 
 
+const importScript = async () => {
+  return new Promise(resolve => {
+    let s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+    s1.async = true;
+    s1.src = 'https://embed.tawk.to/5bb724a9b033e9743d026b20/default';
+    s1.charset = 'UTF-8';
+    s1.setAttribute('crossorigin', '*');
+    s0.parentNode.insertBefore(s1, s0);
+
+    s1.onload = (e) => {
+      console.log('Script loaded');
+      resolve(window.Tawk_API);
+    };
+  })
+};
+
 const initTawk = async () => {
   let TawkAPI;
 
-  const importScript = async () => {
-    return new Promise(resolve => {
-      let s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-      s1.async = true;
-      s1.src = 'https://embed.tawk.to/5bb724a9b033e9743d026b20/default';
-      s1.charset = 'UTF-8';
-      s1.setAttribute('crossorigin', '*');
-      s0.parentNode.insertBefore(s1, s0);
-
-      s1.onload = function (e) {
-        console.log('Script loaded');
-        window.Tawk_API = Tawk_API;
-
-        resolve(window.Tawk_API);
-      };
-    })
-  };
-
   TawkAPI = await importScript();
 
-  console.log('TawkAPI', TawkAPI);
+  return new Promise(resolve => {
+    resolve(window.Tawk_API);
+  })
+};
 
-  window.Tawk_API.maximize();
-  TawkAPI.maximize();
 
-  window.Tawk_API.onLoad = function () {
-    TawkAPI.setAttributes({
-      'name': 'visitor',
-      'email': 'visitor@email.com',
-      'hash': 'hash-value'
-    }, function (error) {
-      console.log('e', error);
-    });
+$(document).ready(async () => {
+  // if (Tawk_API) {
+  //   Tawk_API.onLoad = function() {
+  //     Tawk_API.hideWidget();
+  //   };
+  // }
+});
 
+
+const modalChecboxSelector = $('.modal-gallery--item');
+
+$(modalChecboxSelector).click((e) => {
+  const target = $(e.target).parents('.modal-gallery--item');
+  const inputTarget = $('#' + $(target).attr('data-target-input'));
+  const valueData = $(target).attr('data-name');
+
+  if ($(target).hasClass('active')) {
+    $(target).removeClass('active');
+    $(inputTarget).val('null');
+
+  } else {
+
+    if ($('.modal-gallery--item.active').length) {
+      $('.modal-gallery--item.active').removeClass('active');
+    }
+
+    $(target).addClass('active');
+    $(inputTarget).val(valueData);
   }
 
 
-};
-
-// initTawk();
-
+});

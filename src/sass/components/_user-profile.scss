@@ -160,3 +160,140 @@
   }
 
 }
+
+.modal-gallery {
+  &--main {
+    @include flex;
+    @include flex-direction(column);
+    padding: 20px 20px;
+    max-width: 780px;
+    width: 780px;
+    background-color: $color-dark-2;
+    max-height: 440px;
+    overflow-y: auto;
+
+    .image-area {
+      height: 100%;
+      width: 100%;
+    }
+
+    .image-area img {
+      height: 100%;
+      display: block;
+    }
+
+    @include max-min(max toPx($device-tablet)) {
+      height: 100%;
+      max-height: 100%;
+      padding-bottom: 100px;
+    }
+
+    .hidden-form {
+      @include size(0px);
+      visibility: hidden;
+      opacity: 0;
+    }
+
+  }
+
+
+
+  .btn-area {
+    @include max-min(max toPx($device-tablet)) {
+      padding: 30px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+
+      .flex--right {
+        margin-left: initial;
+        flex: 1;
+      }
+
+      .btn {
+        &--simple {
+          width: 100%;
+        }
+      }
+
+    }
+  }
+
+  &--item {
+    @include flex-all;
+
+    .insides {
+      background-color: $color-dark-2;
+      box-shadow: 0 0 0 3px $color-gray;
+      width: 100%;
+      height: 165px;
+      @include flex-all;
+      margin-top: 30px;
+      transition: all .125s ease-in-out;
+      cursor: pointer;
+
+      &.padder {
+        padding: 7px;
+      }
+
+
+      .image-area {
+        @include flex-all;
+        img {
+          height: 100%;
+          display: block;
+        }
+      }
+
+      &:hover {
+        box-shadow: 0 0 0 3px lighten($color-gray, 9%);
+      }
+    }
+
+    @include max-min(max toPx($device-tablet - 1)) {
+
+      &:nth-child(-n+2) {
+
+        .insides {
+          margin-top: 0;
+        }
+
+      }
+    }
+
+    @include max-min(max toPx(575)) {
+
+      &:nth-child(-n+1) {
+
+        .insides {
+          margin-top: 0;
+        }
+
+      }
+      &:nth-child(-n+2) {
+
+        .insides {
+          margin-top: 30px;
+        }
+
+      }
+    }
+
+    @include max-min(min toPx(1000)) {
+      &:nth-child(-n+4) {
+        .insides {
+          margin-top: 0;
+        }
+      }
+    }
+
+    &.active {
+      .insides {
+        box-shadow: 0 0 0 3px $color-pink;
+      }
+    }
+
+  }
+
+}
