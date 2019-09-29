@@ -6532,7 +6532,7 @@ a {
 
 @media only screen and (max-width: 768px) {
   .modal-gallery .btn-area {
-    padding: 30px;
+    padding: 30px 20px;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -6563,8 +6563,8 @@ a {
 
 .modal-gallery--item .insides {
   background-color: #121215;
-  -webkit-box-shadow: 0 0 0 3px #212529;
-          box-shadow: 0 0 0 3px #212529;
+  -webkit-box-shadow: inset 0 0 0 3px #212529;
+          box-shadow: inset 0 0 0 3px #212529;
   width: 100%;
   height: 165px;
   display: -webkit-box;
@@ -6604,8 +6604,8 @@ a {
 }
 
 .modal-gallery--item .insides:hover {
-  -webkit-box-shadow: 0 0 0 3px #353c42;
-          box-shadow: 0 0 0 3px #353c42;
+  -webkit-box-shadow: inset 0 0 0 3px #353c42;
+          box-shadow: inset 0 0 0 3px #353c42;
 }
 
 @media only screen and (max-width: 767px) {
@@ -6630,8 +6630,13 @@ a {
 }
 
 .modal-gallery--item.active .insides {
-  -webkit-box-shadow: 0 0 0 3px #FF2153;
-          box-shadow: 0 0 0 3px #FF2153;
+  -webkit-box-shadow: inset 0 0 0 3px #FF2153;
+          box-shadow: inset 0 0 0 3px #FF2153;
+}
+
+.modal-gallery--badge .modal-gallery--item {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
 }
 
 .faq-container--slide {
