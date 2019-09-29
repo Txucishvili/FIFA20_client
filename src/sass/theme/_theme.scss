@@ -6,7 +6,6 @@ html {
   &--default {
     color: #FFF;
     background-color: #0B1218;
-    overflow-y: auto;
     overflow-x: hidden;
     position: relative;
     min-height: inherit;
@@ -23,7 +22,7 @@ html {
       position: absolute;
       top: 0;
       left: 0;
-      background-image: url('../../img/head-bg.png');
+      //background-image: url('../../img/head-bg.png');
       background-repeat: no-repeat;
       width: 100%;
       height: 100%;
@@ -36,7 +35,7 @@ html {
       position: absolute;
       bottom: 0;
       left: 0;
-      background-image: url('../../img/bottom-bg.png');
+      //background-image: url('../../img/bottom-bg.png');
       background-repeat: no-repeat;
       width: 100%;
       height: 39.6rem;
@@ -54,4 +53,82 @@ html {
       visibility: visible;
     }
   }
+}
+.theme-bg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #0B1218;
+  z-index: 0;
+  overflow: hidden;
+  @include select(none);
+
+  &:before {
+    //content: '';
+    //top: -330px;
+    //left: -300px;
+    background-image: url(../../img/main-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: contain;
+    background-position: -350px -550px;
+  }
+
+  .main-bg {
+    position: absolute;
+    left: 0;
+    top: -480px;
+    height: 1280px;
+
+    img {
+      min-width: 100%;
+      height: 100%;
+    }
+  }
+  .main-bg-bottom {
+    position: absolute;
+    bottom: -640px;
+    height: 1280px;
+    left: -500px;
+
+    @include max-min(min toPx($device-tablet)) {
+      left: 600px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+
+  .splash {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 270px;
+
+    @include max-min(min toPx($device-tablet)) {
+      width: 600px;
+    }
+
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .splash-bottom {
+    position: absolute;
+    bottom: -120px;
+    right: -70px;
+    height: 400px;
+    img {
+      height: 100%;
+    }
+  }
+
+
 }

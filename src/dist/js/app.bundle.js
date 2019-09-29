@@ -10850,8 +10850,8 @@ if (body.length) {
 }
 
 (0, _jquery2.default)(document).ready(function () {
-  if ((0, _jquery2.default)('.gallery-slider').length) {
-    (0, _jquery2.default)('.gallery-slider').magnificPopup({
+  if ((0, _jquery2.default)('.slick_gallery').length) {
+    (0, _jquery2.default)('.slick_gallery').magnificPopup({
       delegate: 'a',
       type: 'image'
     });

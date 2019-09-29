@@ -169,12 +169,12 @@ if (body.length) {
       $(headerTarget).removeClass('scrolled');
     }
   });
-
 }
 
+
 $(document).ready(function() {
-  if ($('.gallery-slider').length) {
-    $('.gallery-slider').magnificPopup({
+  if ($('.slick_gallery').length) {
+    $('.slick_gallery').magnificPopup({
       delegate: 'a',
       type: 'image'
     });

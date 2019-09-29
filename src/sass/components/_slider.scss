@@ -18,7 +18,7 @@
     //@include sliderBg-Gradinets;
 
     @include max-min(max toPx($device-small-laptop)) {
-      height: 250px;
+      height: 510px;
     }
 
     @include max-min(max toPx($device-tablet)) {
@@ -268,7 +268,8 @@
     padding: 30px 0 30px 0;
     display: none;
 
-    @include max-min(min toPx($device-tablet)) {
+
+    @include max-min(min toPx($device-tablet + 1)) {
       @include flex;
       @include flex-direction(column);
       @include align-items(flex-start);
@@ -303,7 +304,7 @@
   }
 
   .btn-area {
-    @include max-min(min toPx($device-tablet)) {
+    @include max-min(min toPx($device-tablet + 1)) {
       .btn {
         &--simple {
           width: 200px;

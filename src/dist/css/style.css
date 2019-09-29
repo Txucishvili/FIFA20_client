@@ -4672,7 +4672,6 @@ html {
 .theme--default {
   color: #FFF;
   background-color: #0B1218;
-  overflow-y: auto;
   overflow-x: hidden;
   position: relative;
   min-height: inherit;
@@ -4694,7 +4693,6 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("../../img/head-bg.png");
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
@@ -4707,7 +4705,6 @@ html {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-image: url("../../img/bottom-bg.png");
   background-repeat: no-repeat;
   width: 100%;
   height: 39.6rem;
@@ -4721,6 +4718,86 @@ html {
 
 .theme.modalOpen .outer-layer {
   visibility: visible;
+}
+
+.theme-bg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #0B1218;
+  z-index: 0;
+  overflow: hidden;
+  -webkit-user-select: none;
+}
+
+.theme-bg:before {
+  background-image: url(../../img/main-bg.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-size: contain;
+  background-position: -350px -550px;
+}
+
+.theme-bg .main-bg {
+  position: absolute;
+  left: 0;
+  top: -480px;
+  height: 1280px;
+}
+
+.theme-bg .main-bg img {
+  min-width: 100%;
+  height: 100%;
+}
+
+.theme-bg .main-bg-bottom {
+  position: absolute;
+  bottom: -640px;
+  height: 1280px;
+  left: -500px;
+}
+
+@media only screen and (min-width: 768px) {
+  .theme-bg .main-bg-bottom {
+    left: 600px;
+  }
+}
+
+.theme-bg .main-bg-bottom img {
+  width: 100%;
+}
+
+.theme-bg .splash {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 270px;
+}
+
+@media only screen and (min-width: 768px) {
+  .theme-bg .splash {
+    width: 600px;
+  }
+}
+
+.theme-bg .splash img {
+  width: 100%;
+  height: 100%;
+}
+
+.theme-bg .splash-bottom {
+  position: absolute;
+  bottom: -120px;
+  right: -70px;
+  height: 400px;
+}
+
+.theme-bg .splash-bottom img {
+  height: 100%;
 }
 
 .flex {
@@ -4895,6 +4972,11 @@ a {
   text-decoration: none;
   display: block;
   color: #F3F3F3;
+}
+
+.main-container {
+  position: relative;
+  z-index: 4;
 }
 
 .main-container--wrap {
@@ -5097,14 +5179,6 @@ a {
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .footer-container-wrap .row .col-lg-4 {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-  }
-}
-
 .footer-container-wrap .footer-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5148,6 +5222,12 @@ a {
   display: block;
 }
 
+.footer-container-wrap .footer-nav--social {
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
+}
+
 .footer-container-wrap .footer-nav--social li {
   margin-left: 30px;
 }
@@ -5163,6 +5243,39 @@ a {
       -ms-flex-align: center;
           align-items: center;
   padding: 10px 20px;
+}
+
+.footer-container-wrap .divider-hr {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.15);
+  margin-top: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-container-wrap .divider-hr {
+    display: none;
+  }
+}
+
+.footer-container-wrap .f-title {
+  margin-top: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-container-wrap .f-title {
+    display: none;
+  }
+}
+
+.footer-container-wrap .social-area .flex--right {
+  margin-left: initial;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-container-wrap .social-area .flex--right ul {
+    padding-left: 0;
+  }
 }
 
 .outer-layer--position {
@@ -7419,7 +7532,7 @@ a {
 
 @media only screen and (max-width: 1024px) {
   .slider-container--wrap {
-    height: 250px;
+    height: 510px;
   }
 }
 
@@ -7731,7 +7844,7 @@ a {
   display: none;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   .slider-container .available-content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -7789,7 +7902,7 @@ a {
   display: block;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   .slider-container .btn-area .btn--simple {
     width: 200px;
   }
