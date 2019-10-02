@@ -52,6 +52,7 @@ $('.slick_gallery').slick({
   ]
 });
 
+
 const modalOpenBTN = $('._modalOpen');
 const modalCloseBTN = $('.modal-close');
 const body = $('body');
@@ -179,6 +180,53 @@ $(document).ready(function () {
       type: 'image'
     });
   }
+
+
+  if ($('.slick-fifa-gallery').length) {
+    $('.slick-fifa-gallery').slick({
+      dots: false,
+      infinite: false,
+      arrows: true,
+      slidesToShow: 6,
+      prevArrow:"<div class='customCardArrow customCardArrow--main customCardArrow--prev'></div>",
+      nextArrow:"<div class='customCardArrow  customCardArrow--main customCardArrow--next'></div>",
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1441,
+          settings: {
+            slidesToShow: 5,
+            slidesToScroll: 2,
+          }
+        },
+
+        {
+          breakpoint: 1025,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 2,
+          }
+        },
+        {
+          breakpoint: 760,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+
+  }
+
+
 });
 
 

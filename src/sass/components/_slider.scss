@@ -36,6 +36,7 @@
 
     @include max-min(min toPx($device-medium-laptop), max toPx(1920)) {
       height: initial;
+      min-height: 517px;
     }
 
   }

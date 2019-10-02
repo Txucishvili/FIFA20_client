@@ -6,6 +6,7 @@
     left: 0;
     padding: 0 15px;
     width: 100%;
+    min-height: 80px;
 
     @include max-min(min toPx($device-tablet)) {
       position: relative;

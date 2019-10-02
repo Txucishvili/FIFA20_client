@@ -28,17 +28,18 @@
 
   .player-area {
     width: 100%;
-    box-shadow: 0 0 0 0 transparent;
-    transition: all .122s ease-in-out;
-    cursor: pointer;
 
-    &:hover {
-      box-shadow: 0 0 0 9px rgba($color-pink, .55);
-    }
+    .play-side {
+      cursor: pointer;
+      box-shadow: 0 0 0 0 transparent;
+      transition: all .122s ease-in-out;
 
-
-    &:focus-within {
-      box-shadow: 0 0 0 9px rgba($color-pink, .55);
+      &:hover {
+        box-shadow: 0 0 0 9px rgba($color-pink, .55);
+      }
+      &:focus-within {
+        box-shadow: 0 0 0 9px rgba($color-pink, .55);
+      }
     }
 
     .image-area {
