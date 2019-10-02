@@ -4667,6 +4667,8 @@ img.mfp-img {
 html {
   min-height: 100%;
   height: 100%;
+  margin: 0 !important;
+  overflow: initial !important;
 }
 
 .theme--default {
@@ -4806,6 +4808,20 @@ html {
   display: flex;
 }
 
+.flex--wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 768px) {
+  .flex--md--col {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .flex--center {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4832,6 +4848,12 @@ html {
 
 .flex--right {
   margin-left: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .flex--right--md {
+    margin-left: initial;
+  }
 }
 
 .flex--column {
@@ -7143,6 +7165,109 @@ a {
   left: 8px;
 }
 
+.contact-area .contact-title {
+  font-family: "D-DINCondensed";
+}
+
+.contact-area .contact-title .title {
+  font-size: 62px;
+  line-height: 66px;
+}
+
+.contact-area .contact-title .title-sm {
+  font-size: 28px;
+  line-height: 33px;
+}
+
+.contact-area .simple-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-area .simple-nav li {
+  margin-left: 38px;
+}
+
+.contact-area .simple-nav li:first-child {
+  margin-left: 0;
+}
+
+.contact-area .simple-nav li a {
+  font-size: 19px;
+  font-family: "D-DINCondensed";
+  line-height: 22px;
+  display: block;
+  color: #F3F3F3;
+  text-decoration: none;
+}
+
+.contact-area .simple-nav li a .icon-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-area .simple-nav li a .icon-area svg, .contact-area .simple-nav li a .icon-area img {
+  height: 20px;
+  display: block;
+}
+
+.contact-area .simple-nav--social {
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
+}
+
+.contact-area .simple-nav--social li {
+  margin-left: 30px;
+}
+
+.contact-area .simple-nav--social--bg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-area .btn-area .btn--simple {
+    width: 100%;
+  }
+  .contact-area .btn-area .inside-btn {
+    width: 100%;
+  }
+  .contact-area .social-area {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-top: 20px;
+  }
+  .contact-area .contact-title {
+    margin-bottom: 30px;
+  }
+  .contact-area .contact-title .title {
+    font-size: 36px;
+  }
+  .contact-area .contact-title .title-sm {
+    font-size: 24px;
+  }
+}
+
 .btn--simple {
   outline: none;
   border: none;
@@ -7632,7 +7757,7 @@ a {
           align-items: center;
 }
 
-.form-label .input-area input, .form-label .input-area select {
+.form-label .input-area input, .form-label .input-area select, .form-label .input-area textarea {
   padding: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7655,20 +7780,26 @@ a {
   letter-spacing: 1.25px;
 }
 
-.form-label .input-area input::-webkit-input-placeholder, .form-label .input-area select::-webkit-input-placeholder {
+.form-label .input-area input::-webkit-input-placeholder, .form-label .input-area select::-webkit-input-placeholder, .form-label .input-area textarea::-webkit-input-placeholder {
   color: rgba(243, 243, 243, 0.2);
 }
 
-.form-label .input-area input::-moz-placeholder, .form-label .input-area select::-moz-placeholder {
+.form-label .input-area input::-moz-placeholder, .form-label .input-area select::-moz-placeholder, .form-label .input-area textarea::-moz-placeholder {
   color: rgba(243, 243, 243, 0.2);
 }
 
-.form-label .input-area input::-ms-input-placeholder, .form-label .input-area select::-ms-input-placeholder {
+.form-label .input-area input::-ms-input-placeholder, .form-label .input-area select::-ms-input-placeholder, .form-label .input-area textarea::-ms-input-placeholder {
   color: rgba(243, 243, 243, 0.2);
 }
 
-.form-label .input-area input::placeholder, .form-label .input-area select::placeholder {
+.form-label .input-area input::placeholder, .form-label .input-area select::placeholder, .form-label .input-area textarea::placeholder {
   color: rgba(243, 243, 243, 0.2);
+}
+
+.form-label .input-area textarea {
+  height: initial;
+  max-width: 100%;
+  min-width: 100%;
 }
 
 .form-label--onError input, .form-label--onError select {

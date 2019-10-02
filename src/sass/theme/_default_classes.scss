@@ -1,6 +1,16 @@
 .flex {
   @include flex;
 
+  &--wrap {
+    flex-wrap: wrap;
+  }
+
+  &--md--col {
+    @include max-min(max toPx($device-tablet)) {
+      @include flex-direction(column);
+    }
+  }
+
   &--center {
     @include flex-all;
   }
@@ -15,6 +25,13 @@
 
   &--right {
     margin-left: auto;
+  }
+
+
+  &--right--md {
+    @include max-min(max toPx($device-tablet)) {
+      margin-left: initial;
+    }
   }
 
   &--column {

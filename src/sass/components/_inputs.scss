@@ -3,7 +3,7 @@
     width: 100%;
     @include flex-all;
 
-    input, select {
+    input, select, textarea {
       padding: 20px;
       @include flex-all;
       background-color: $color-dark-2;
@@ -23,6 +23,12 @@
       &::placeholder {
         color: rgba(#F3F3F3, .20);
       }
+    }
+
+    textarea {
+      height: initial;
+      max-width: 100%;
+      min-width: 100%;
     }
   }
 
