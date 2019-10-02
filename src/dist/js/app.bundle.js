@@ -10885,9 +10885,9 @@ if (body.length) {
           slidesToScroll: 2
         }
       }, {
-        breakpoint: 760,
+        breakpoint: 769,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 3,
           slidesToScroll: 1
         }
       }, {

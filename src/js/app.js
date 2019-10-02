@@ -208,9 +208,9 @@ $(document).ready(function () {
           }
         },
         {
-          breakpoint: 760,
+          breakpoint: 769,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 3,
             slidesToScroll: 1
           }
         },
