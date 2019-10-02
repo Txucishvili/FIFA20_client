@@ -243,16 +243,18 @@
         position: absolute;
         top: 50%;
         left: 0;
-        transform: translateY(-50%);
+        transform: translateY(-50%)  scale(1);
         z-index: 2;
         cursor: pointer;
         background-color: $color-pink;
         @include size(35px);
         @include flex-all;
-        transition: all .125s ease-in-out;
+        transition: transform .225s cubic-bezier(0.85,-0.19, 0, 1.29), border-radius .250s cubic-bezier(0.85,-0.19, 0, 1.29);
+        box-shadow: 0 1px 9px 0 $color-dark-2;
+        border-radius: 0;
 
         &:hover {
-          background-color: darken($color-pink, 9%);
+          background-color: darken($color-pink, 6%);
         }
         &:before {
           content: '';
@@ -272,6 +274,14 @@
       &--next {
         left: initial;
         right: 0;
+      }
+
+      &.slick-disabled {
+        background-color: $color-gray;
+        filter: grayscale(1);
+        cursor: auto;
+        transform: translateY(-50%) scale(0);
+        border-radius: 100px;
       }
     }
 

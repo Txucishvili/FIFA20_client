@@ -7520,8 +7520,8 @@ a {
   position: absolute;
   top: 50%;
   left: 0;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -webkit-transform: translateY(-50%) scale(1);
+          transform: translateY(-50%) scale(1);
   z-index: 2;
   cursor: pointer;
   background-color: #FF2153;
@@ -7536,12 +7536,17 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-transition: all .125s ease-in-out;
-  transition: all .125s ease-in-out;
+  -webkit-transition: border-radius 0.25s cubic-bezier(0.85, -0.19, 0, 1.29), -webkit-transform 0.225s cubic-bezier(0.85, -0.19, 0, 1.29);
+  transition: border-radius 0.25s cubic-bezier(0.85, -0.19, 0, 1.29), -webkit-transform 0.225s cubic-bezier(0.85, -0.19, 0, 1.29);
+  transition: transform 0.225s cubic-bezier(0.85, -0.19, 0, 1.29), border-radius 0.25s cubic-bezier(0.85, -0.19, 0, 1.29);
+  transition: transform 0.225s cubic-bezier(0.85, -0.19, 0, 1.29), border-radius 0.25s cubic-bezier(0.85, -0.19, 0, 1.29), -webkit-transform 0.225s cubic-bezier(0.85, -0.19, 0, 1.29);
+  -webkit-box-shadow: 0 1px 9px 0 #121215;
+          box-shadow: 0 1px 9px 0 #121215;
+  border-radius: 0;
 }
 
 .fifa-card-container .slick-fifa-gallery .customCardArrow--main:hover {
-  background-color: #f20037;
+  background-color: #ff023b;
 }
 
 .fifa-card-container .slick-fifa-gallery .customCardArrow--main:before {
@@ -7569,6 +7574,16 @@ a {
 .fifa-card-container .slick-fifa-gallery .customCardArrow--next {
   left: initial;
   right: 0;
+}
+
+.fifa-card-container .slick-fifa-gallery .customCardArrow.slick-disabled {
+  background-color: #212529;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  cursor: auto;
+  -webkit-transform: translateY(-50%) scale(0);
+          transform: translateY(-50%) scale(0);
+  border-radius: 100px;
 }
 
 .fifa-card-container .fifa-card-gallery-item {
