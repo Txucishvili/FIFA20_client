@@ -2,10 +2,14 @@
   &--main {
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-top: 80px;
+    margin-top: 117px;
     overflow: hidden;
     position: relative;
     z-index: 5;
+
+    @include max-min(max toPx($device-tablet)) {
+      margin-top: 40px;
+    }
   }
 
   .fifa-card {
