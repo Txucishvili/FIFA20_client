@@ -7363,6 +7363,12 @@ a {
           transform: translateX(-50%);
 }
 
+@media only screen and (max-width: 768px) {
+  .fifa-card-container .fifa-card--image {
+    top: 50px;
+  }
+}
+
 .fifa-card-container .fifa-card--image--title {
   font-size: 15px;
   font-family: "D-DINCondensed";
@@ -7454,6 +7460,13 @@ a {
           transform: translateX(-20px) scale(1);
 }
 
+@media only screen and (max-width: 768px) {
+  .fifa-card-container .fifa-card--image .image--main {
+    -webkit-transform: translateX(-20px) scale(1.2);
+            transform: translateX(-20px) scale(1.2);
+  }
+}
+
 .fifa-card-container .fifa-card--image .image--bg {
   position: absolute;
   top: 0;
@@ -7511,7 +7524,6 @@ a {
 }
 
 .fifa-card-container .fifa-card--main {
-  max-width: 232px;
   width: 100%;
   height: 405px;
   overflow: hidden;
@@ -7526,6 +7538,12 @@ a {
           flex-direction: column;
   cursor: pointer;
   outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .fifa-card-container .fifa-card--main {
+    height: 455px;
+  }
 }
 
 .fifa-card-container .fifa-card--main:hover .fifa-card--bg .splash-yellow {
@@ -7546,6 +7564,13 @@ a {
 .fifa-card-container .fifa-card--main:hover .fifa-card--image .image--main {
   -webkit-transform: translateX(-20px) scale(1.03);
           transform: translateX(-20px) scale(1.03);
+}
+
+@media only screen and (max-width: 768px) {
+  .fifa-card-container .fifa-card--main:hover .fifa-card--image .image--main {
+    -webkit-transform: translateX(-20px) scale(1.22);
+            transform: translateX(-20px) scale(1.22);
+  }
 }
 
 .fifa-card-container .fifa-card--main:hover .fifa-card--image .image--bg {
