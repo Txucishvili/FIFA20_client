@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="75f2dfac-e707-4ffb-8d69-96df04fdbb7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dist/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dist/js/app.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/js/app.bundle.js" afterDir="false" />
@@ -12,7 +10,6 @@
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/components/_fifa_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_fifa_card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/_info_container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_info_container.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,14 +36,27 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="185">
-                  <caret line="239" column="41" selection-start-line="239" selection-start-column="41" selection-end-line="239" selection-end-column="41" />
+                <state relative-caret-position="436">
+                  <caret line="647" column="10" selection-start-line="647" selection-start-column="10" selection-end-line="647" selection-end-column="10" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#a#0;n#div#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#3;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#4;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#5;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#6;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#7;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#8;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#9;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#10;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#11;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#a#0;n#div#11;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#2;n#a#0;n#div#11;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#3;n#a#0;n#div#11;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -54,7 +64,7 @@
                     <element signature="n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-                    <marker date="1570128822094" expanded="true" signature="53567:53990" ph="..." />
+                    <marker date="1570129229903" expanded="true" signature="53663:54086" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -103,8 +113,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/sass/components/_fifa_card.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="349">
-                  <caret line="367" selection-start-line="367" selection-end-line="367" />
+                <state relative-caret-position="189">
+                  <caret line="385" column="23" selection-start-line="385" selection-start-column="23" selection-end-line="385" selection-end-column="23" />
                   <folding>
                     <element signature="e#327#1335#0" />
                     <element signature="e#522#777#0" />
@@ -149,8 +159,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="319" column="20" selection-start-line="319" selection-start-column="20" selection-end-line="319" selection-end-column="20" />
+                <state relative-caret-position="164">
+                  <caret line="127" column="37" selection-start-line="127" selection-start-column="37" selection-end-line="127" selection-end-column="37" />
                   <folding>
                     <element signature="e#0#33#0" expanded="true" />
                     <element signature="e#1127#1371#0" />
@@ -161,12 +171,12 @@
                     <element signature="e#3043#3373#0" />
                     <element signature="e#3551#3788#0" />
                     <element signature="e#3810#4079#0" />
-                    <element signature="e#4112#5063#0" />
                     <element signature="e#4147#5059#0" />
                     <element signature="e#5282#5720#0" />
                     <element signature="e#5752#5875#0" />
                     <element signature="e#5909#6020#0" />
                     <element signature="e#6119#6617#0" />
+                    <element signature="e#6327#7300#0" />
                   </folding>
                 </state>
               </provider>
@@ -187,7 +197,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>250</find>
       <find>Tawk_API</find>
       <find>slider-tex</find>
       <find>toggleVisibility</find>
@@ -207,7 +216,6 @@
       <find>height: init</find>
       <find>image-area _modalOpen</find>
       <find>splash</find>
-      <find>slick-fifa-gallery</find>
       <find>flickity</find>
       <find>270</find>
       <find>320</find>
@@ -215,8 +223,10 @@
       <find>gallery-slider</find>
       <find>dots</find>
       <find>col-md-2 gallery-image gallery-image--position</find>
-      <find>Dots</find>
       <find>fifa-card-gallery-item</find>
+      <find>slick-fifa-gallery</find>
+      <find>col-md-2 fifa-card-gallery-item</find>
+      <find>Dots</find>
     </findStrings>
     <replaceStrings>
       <replace>table-row--insider</replace>
@@ -278,8 +288,8 @@
         <option value="$PROJECT_DIR$/src/sass/components/_slider.scss" />
         <option value="$PROJECT_DIR$/src/sass/components/_footer.scss" />
         <option value="$PROJECT_DIR$/src/sass/components/_info_container.scss" />
-        <option value="$PROJECT_DIR$/src/js/app.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/js/app.js" />
         <option value="$PROJECT_DIR$/src/sass/components/_fifa_card.scss" />
       </list>
     </option>
@@ -438,7 +448,7 @@
       <workItem from="1569835366836" duration="93000" />
       <workItem from="1570024549878" duration="2084000" />
       <workItem from="1570050045271" duration="13159000" />
-      <workItem from="1570124879926" duration="3240000" />
+      <workItem from="1570124879926" duration="4183000" />
     </task>
     <task id="LOCAL-00001" summary="- add: comfort, auction, buy">
       <created>1569279902563</created>
@@ -713,32 +723,46 @@
       <option name="project" value="LOCAL" />
       <updated>1570126317000</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="- add: new slider type&#10;- fix: switching sliders">
+      <created>1570129022885</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1570129022885</updated>
+    </task>
+    <task id="LOCAL-00041" summary="- sm fix">
+      <created>1570129202199</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1570129202199</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115569000" />
+    <option name="totallyTimeSpent" value="116512000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47710487" visible="true" weight="0.17588204" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47697368" visible="true" weight="0.17588204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" sideWeight="0.5228951" side_tool="true" visible="true" weight="0.17588204" />
+      <window_info id="npm" order="2" sideWeight="0.5230263" side_tool="true" visible="true" weight="0.17588204" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49499735" visible="true" weight="0.25358325" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49499735" weight="0.25358325" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5050026" side_tool="true" visible="true" weight="0.25358325" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007899" side_tool="true" visible="true" weight="0.3296582" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4997367" weight="0.23788546" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.4997367" visible="true" weight="0.3296582" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.49921012" visible="true" weight="0.3296582" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -768,8 +792,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="- add: profile&#10;- add: settings&#10;- fix: sm changes" />
-    <MESSAGE value="- sm fix" />
     <MESSAGE value="- add: f.a.q" />
     <MESSAGE value="- add: device menu (in src/index.html)&#10;- fix: faq an small fixes on device" />
     <MESSAGE value="- fix: menu bg on device scroll" />
@@ -793,7 +815,9 @@
     <MESSAGE value="- add: disable arrow" />
     <MESSAGE value="- sm changes" />
     <MESSAGE value="- slider changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="- slider changes" />
+    <MESSAGE value="- add: new slider type&#10;- fix: switching sliders" />
+    <MESSAGE value="- sm fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="- sm fix" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/img/ngmgames-logo.svg">
@@ -1207,10 +1231,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="647" column="10" selection-start-line="647" selection-start-column="10" selection-end-line="647" selection-end-column="10" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#8;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#9;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#10;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#11;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#a#0;n#div#11;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#a#0;n#div#11;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#a#0;n#div#11;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <marker date="1570129229903" expanded="true" signature="53663:54086" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="319" column="20" selection-start-line="319" selection-start-column="20" selection-end-line="319" selection-end-column="20" />
+        <state relative-caret-position="164">
+          <caret line="127" column="37" selection-start-line="127" selection-start-column="37" selection-end-line="127" selection-end-column="37" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
             <element signature="e#1127#1371#0" />
@@ -1221,34 +1280,12 @@
             <element signature="e#3043#3373#0" />
             <element signature="e#3551#3788#0" />
             <element signature="e#3810#4079#0" />
-            <element signature="e#4112#5063#0" />
             <element signature="e#4147#5059#0" />
             <element signature="e#5282#5720#0" />
             <element signature="e#5752#5875#0" />
             <element signature="e#5909#6020#0" />
             <element signature="e#6119#6617#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="239" column="41" selection-start-line="239" selection-start-column="41" selection-end-line="239" selection-end-column="41" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#a#0;n#div#11;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#a#0;n#div#11;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#a#0;n#div#11;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-            <marker date="1570128822094" expanded="true" signature="53567:53990" ph="..." />
+            <element signature="e#6327#7300#0" />
           </folding>
         </state>
       </provider>
@@ -1262,8 +1299,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/components/_fifa_card.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="367" selection-start-line="367" selection-end-line="367" />
+        <state relative-caret-position="189">
+          <caret line="385" column="23" selection-start-line="385" selection-start-column="23" selection-end-line="385" selection-end-column="23" />
           <folding>
             <element signature="e#327#1335#0" />
             <element signature="e#522#777#0" />

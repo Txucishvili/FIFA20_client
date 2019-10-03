@@ -12649,8 +12649,8 @@ if (body.length) {
   });
 }
 
-var initSlick_sliderItem = function initSlick_sliderItem() {
-  console.log('Slick INIT');
+var initSlick_sliderItem = function initSlick_sliderItem(classEl) {
+  (0, _jquery2.default)('.slick-fifa-gallery').addClass('slick-fifa-gallery' + '--slick');
   (0, _jquery2.default)('.slick-fifa-gallery').slick({
     dots: false,
     infinite: false,
@@ -12689,6 +12689,7 @@ var initSlick_sliderItem = function initSlick_sliderItem() {
 
 var initFlickity_sliderItem = function initFlickity_sliderItem() {
   console.log('flkty INIT');
+  (0, _jquery2.default)('.slick-fifa-gallery').addClass('slick-fifa-gallery' + '--flick');
 
   var flkty = new _flickity2.default('.slick-fifa-gallery', {
     groupCells: 1,
@@ -12850,7 +12851,7 @@ var initSlick_slider = function initSlick_slider(classEl) {
         slidesToScroll: 3
       }
     }, {
-      breakpoint: 600,
+      breakpoint: 768,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
@@ -12865,9 +12866,12 @@ var initSlick_slider = function initSlick_slider(classEl) {
       }
     }]
   });
+  (0, _jquery2.default)(classEl).addClass(classEl + '--slick');
 };
 
 var initFlickity_slider = function initFlickity_slider(classEl) {
+  (0, _jquery2.default)(classEl).addClass(classEl + '--flick');
+  console.log(classEl + '--flick');
 
   var flkty = new _flickity2.default(classEl, {
     groupCells: true,

@@ -124,8 +124,8 @@ if (body.length) {
   });
 }
 
-const initSlick_sliderItem = () => {
-  console.log('Slick INIT');
+const initSlick_sliderItem = (classEl) => {
+  $('.slick-fifa-gallery').addClass('slick-fifa-gallery' + '--slick');
   $('.slick-fifa-gallery').slick({
     dots: false,
     infinite: false,
@@ -170,6 +170,7 @@ const initSlick_sliderItem = () => {
 
 const initFlickity_sliderItem = () => {
   console.log('flkty INIT');
+  $('.slick-fifa-gallery').addClass('slick-fifa-gallery' + '--flick');
 
   var flkty = new Flickity( '.slick-fifa-gallery', {
     groupCells: 1,
@@ -295,7 +296,7 @@ const initSlick_slider = (classEl) => {
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 768,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -312,9 +313,13 @@ const initSlick_slider = (classEl) => {
       }
     ]
   });
+  $(classEl).addClass(classEl + '--slick');
+
 };
 
 const initFlickity_slider = (classEl) => {
+  $(classEl).addClass(classEl + '--flick');
+  console.log(classEl + '--flick');
 
   var flkty = new Flickity( classEl, {
     groupCells: true,
