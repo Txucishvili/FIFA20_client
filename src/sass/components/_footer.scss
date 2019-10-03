@@ -93,7 +93,7 @@
   .social-area {
     .flex--right {
 
-      @include max-min(min toPx($device-tablet)) {
+      @include max-min(max toPx($device-tablet)) {
         margin-left: initial;
       }
 

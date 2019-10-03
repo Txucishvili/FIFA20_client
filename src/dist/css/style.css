@@ -5290,7 +5290,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .footer-container-wrap .social-area .flex--right {
     margin-left: initial;
   }
@@ -7319,6 +7319,7 @@ a {
   bottom: 0;
   width: 229px;
   height: 162px;
+  opacity: 0;
   -webkit-transition: all .185s ease-in-out;
   transition: all .185s ease-in-out;
 }
@@ -7330,6 +7331,7 @@ a {
   top: 0;
   width: 169px;
   height: 100%;
+  opacity: 0;
   -webkit-transition: all .185s ease-in-out;
   transition: all .185s ease-in-out;
 }
@@ -7491,11 +7493,11 @@ a {
 }
 
 .fifa-card-container .fifa-card--main:hover .fifa-card--bg .splash-yellow {
-  opacity: 0;
+  opacity: 1;
 }
 
 .fifa-card-container .fifa-card--main:hover .fifa-card--bg .splash-red {
-  opacity: 0;
+  opacity: 1;
 }
 
 .fifa-card-container .fifa-card--main:hover .fifa-card--image .image--main {

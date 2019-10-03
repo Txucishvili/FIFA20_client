@@ -187,7 +187,7 @@ $(document).ready(function () {
       dots: false,
       infinite: false,
       arrows: true,
-      slidesToShow: 6,
+      slidesToShow: 8,
       prevArrow:"<div class='customCardArrow customCardArrow--main customCardArrow--prev'></div>",
       nextArrow:"<div class='customCardArrow  customCardArrow--main customCardArrow--next'></div>",
       slidesToScroll: 1,

@@ -40,6 +40,7 @@
         bottom: 0;
         width: 229px;
         height: 162px;
+        opacity: 0;
         transition: all .185s ease-in-out;
       }
 
@@ -50,6 +51,7 @@
         top: 0;
         width: 169px;
         height: 100%;
+        opacity: 0;
         transition: all .185s ease-in-out;
       }
     }
@@ -207,11 +209,11 @@
           }
 
           .splash-yellow {
-            opacity: 0;
+            opacity: 1;
           }
 
           .splash-red {
-            opacity: 0;
+            opacity: 1;
           }
         }
 
