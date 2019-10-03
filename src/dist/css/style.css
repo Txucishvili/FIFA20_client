@@ -7516,7 +7516,6 @@ a {
   height: 405px;
   overflow: hidden;
   background-color: #212529;
-  overflow: hidden;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7526,6 +7525,7 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   cursor: pointer;
+  outline: none;
 }
 
 .fifa-card-container .fifa-card--main:hover .fifa-card--bg .splash-yellow {
@@ -7534,6 +7534,13 @@ a {
 
 .fifa-card-container .fifa-card--main:hover .fifa-card--bg .splash-red {
   opacity: 1;
+}
+
+.fifa-card-container .fifa-card--main:hover .btn-area .btn--simple {
+  color: #121215;
+  -webkit-box-shadow: inset 0 0 0 0 transparent;
+          box-shadow: inset 0 0 0 0 transparent;
+  background-color: #dddd05;
 }
 
 .fifa-card-container .fifa-card--main:hover .fifa-card--image .image--main {
