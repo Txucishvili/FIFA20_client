@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "flickity": "^2.2.1",
     "jquery": "^3.4.1"
   }
 }

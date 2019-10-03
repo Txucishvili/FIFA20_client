@@ -5589,11 +5589,14 @@ a {
 
 .gallery-slider {
   width: 100%;
+  padding-left: 15px;
+  outline: none;
 }
 
 .gallery-slider .row {
   margin-left: -5px;
   margin-right: -5px;
+  outline: none;
 }
 
 .gallery-slider .col-md-2 {
@@ -5614,6 +5617,7 @@ a {
   outline: none;
   padding: 5px;
   outline: none;
+  width: initial;
 }
 
 .gallery-slider .gallery-image a {
@@ -5637,15 +5641,15 @@ a {
 
 @media only screen and (max-width: 768px) {
   .gallery-slider .gallery-image--image {
-    width: 320px;
-    height: 320px;
+    width: 260px;
+    height: 260px;
   }
 }
 
 @media only screen and (max-width: 340px) {
   .gallery-slider .gallery-image--image {
-    width: 320px;
-    height: 320px;
+    width: 260px;
+    height: 260px;
   }
 }
 
@@ -7460,13 +7464,6 @@ a {
           transform: translateX(-20px) scale(1);
 }
 
-@media only screen and (max-width: 768px) {
-  .fifa-card-container .fifa-card--image .image--main {
-    -webkit-transform: translateX(-20px) scale(1.2);
-            transform: translateX(-20px) scale(1.2);
-  }
-}
-
 .fifa-card-container .fifa-card--image .image--bg {
   position: absolute;
   top: 0;
@@ -7524,7 +7521,8 @@ a {
 }
 
 .fifa-card-container .fifa-card--main {
-  width: 100%;
+  max-width: 232px;
+  width: 232px;
   height: 405px;
   overflow: hidden;
   background-color: #212529;
@@ -7564,13 +7562,6 @@ a {
 .fifa-card-container .fifa-card--main:hover .fifa-card--image .image--main {
   -webkit-transform: translateX(-20px) scale(1.03);
           transform: translateX(-20px) scale(1.03);
-}
-
-@media only screen and (max-width: 768px) {
-  .fifa-card-container .fifa-card--main:hover .fifa-card--image .image--main {
-    -webkit-transform: translateX(-20px) scale(1.22);
-            transform: translateX(-20px) scale(1.22);
-  }
 }
 
 .fifa-card-container .fifa-card--main:hover .fifa-card--image .image--bg {
@@ -7674,6 +7665,16 @@ a {
           align-items: center;
   outline: none;
   width: 232px;
+  padding-left: 15px;
+}
+
+.flickity-viewport {
+  outline: none;
+  width: 100%;
+}
+
+.slick-fifa-gallery {
+  outline: none;
 }
 
 .btn--simple {
