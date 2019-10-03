@@ -7665,7 +7665,6 @@ a {
           align-items: center;
   outline: none;
   width: 232px;
-  padding-left: 15px;
 }
 
 .flickity-viewport {
@@ -7675,6 +7674,15 @@ a {
 
 .slick-fifa-gallery {
   outline: none;
+  padding: 0 15px;
+}
+
+.slick-fifa-gallery .fifa-card-gallery-item {
+  margin-left: 15px;
+}
+
+.slick-fifa-gallery .fifa-card-gallery-item:first-child {
+  margin-left: 0;
 }
 
 .btn--simple {

@@ -362,7 +362,7 @@
     @include flex-all;
     outline: none;
     width: 232px;
-    padding-left: 15px;
+    //padding-left: 15px;
 
     > * {
     }
@@ -378,4 +378,14 @@
 
 .slick-fifa-gallery {
   outline: none;
+  padding: 0 15px;
+
+  .fifa-card-gallery-item {
+    margin-left: 15px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+  }
 }
