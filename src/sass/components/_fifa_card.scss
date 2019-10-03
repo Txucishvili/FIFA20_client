@@ -81,11 +81,14 @@
         @include flex-all;
         text-align: center;
         left: 50%;
-        width: 139px;
-        height: 30px;
         transform: translateX(-50%);
-        bottom: 43px;
+        bottom: 45px;
         z-index: 7;
+        width: 114px;
+        height: 30px;
+        background: url("../../img/image-title-c.png") no-repeat;
+        left: 0;
+        transform: translateX(31px);
 
         p, .text {
           position: relative;
@@ -94,19 +97,59 @@
         }
 
         &::before {
+          //content: '';
+          //display: block;
+          //position: absolute;
+          //top: 0;
+          //left: 0;
+          //width: 27px;
+          //height: 24px;
+          //background: url("../../img/image-title-l.png");
+        }
+        .center {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 113px;
+            height: 30px;
+            background: url("../../img/image-title-c.png") no-repeat;
+        }
+      }
+
+      .endings {
+          width: 141px;
+          height: 30px;
+          position: absolute;
+          bottom: 40px;
+          left: 16px;
+
+        &::before {
           content: '';
           display: block;
           position: absolute;
           top: 0;
-          left: 0;
-          width: 139px;
-          height: 30px;
-          background: url("../../img/image-title.png");
+          left: 2px;
+          width: 27px;
+          height: 24px;
+          background: url("../../img/image-title-l.png");
+        }
+        &::after {
+          content: '';
+          display: block;
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 27px;
+          height: 24px;
+          background: url("../../img/image-title-r.png");
         }
       }
 
       .image {
         img {
+          position: relative;
           height: 100%;
           display: block;
         }
@@ -151,7 +194,7 @@
 
       .details {
         &--padder {
-          padding: 22px 8px 22px 20px;
+          padding: 22px 22px 22px 22px;
         }
 
         &--platform {
@@ -187,7 +230,7 @@
     }
 
     &--main {
-      //width: 232px;
+      max-width: 232px;
       width: 100%;
       height: 405px;
       overflow: hidden;

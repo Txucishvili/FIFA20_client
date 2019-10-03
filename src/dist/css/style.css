@@ -7379,12 +7379,16 @@ a {
           align-items: center;
   text-align: center;
   left: 50%;
-  width: 139px;
-  height: 30px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  bottom: 43px;
+  bottom: 45px;
   z-index: 7;
+  width: 114px;
+  height: 30px;
+  background: url("../../img/image-title-c.png") no-repeat;
+  left: 0;
+  -webkit-transform: translateX(31px);
+          transform: translateX(31px);
 }
 
 .fifa-card-container .fifa-card--image--title p, .fifa-card-container .fifa-card--image--title .text {
@@ -7393,18 +7397,49 @@ a {
   margin-bottom: 4px;
 }
 
-.fifa-card-container .fifa-card--image--title::before {
+.fifa-card-container .fifa-card--image--title .center {
   content: '';
   display: block;
   position: absolute;
   top: 0;
   left: 0;
-  width: 139px;
+  width: 113px;
   height: 30px;
-  background: url("../../img/image-title.png");
+  background: url("../../img/image-title-c.png") no-repeat;
+}
+
+.fifa-card-container .fifa-card--image .endings {
+  width: 141px;
+  height: 30px;
+  position: absolute;
+  bottom: 40px;
+  left: 16px;
+}
+
+.fifa-card-container .fifa-card--image .endings::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 2px;
+  width: 27px;
+  height: 24px;
+  background: url("../../img/image-title-l.png");
+}
+
+.fifa-card-container .fifa-card--image .endings::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 27px;
+  height: 24px;
+  background: url("../../img/image-title-r.png");
 }
 
 .fifa-card-container .fifa-card--image .image img {
+  position: relative;
   height: 100%;
   display: block;
 }
@@ -7446,7 +7481,7 @@ a {
 }
 
 .fifa-card-container .fifa-card--details .details--padder {
-  padding: 22px 8px 22px 20px;
+  padding: 22px 22px 22px 22px;
 }
 
 .fifa-card-container .fifa-card--details .details--platform {
@@ -7476,6 +7511,7 @@ a {
 }
 
 .fifa-card-container .fifa-card--main {
+  max-width: 232px;
   width: 100%;
   height: 405px;
   overflow: hidden;

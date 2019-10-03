@@ -10868,7 +10868,7 @@ if (body.length) {
       dots: false,
       infinite: false,
       arrows: true,
-      slidesToShow: 8,
+      slidesToShow: 6,
       prevArrow: "<div class='customCardArrow customCardArrow--main customCardArrow--prev'></div>",
       nextArrow: "<div class='customCardArrow  customCardArrow--main customCardArrow--next'></div>",
       slidesToScroll: 1,
