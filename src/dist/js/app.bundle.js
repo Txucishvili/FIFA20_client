@@ -12611,19 +12611,27 @@ var slidertoggleBTN = (0, _jquery2.default)('.faq-title');
 
 var infoContentToggleTarget = (0, _jquery2.default)('.info-content-area .head-title');
 
-(0, _jquery2.default)(infoContentToggleTarget).click(function (e) {
-  console.log('hit');
-  var target = (0, _jquery2.default)(e.target).parents('.head-title') || (0, _jquery2.default)(e).prevObject[0];
+if (DEVICE_WIDTH <= 768) {
 
-  if (!target.length) {
-    target = target.prevObject;
-  }
+  (0, _jquery2.default)(infoContentToggleTarget).click(function (e) {
+    console.log('hit');
+    var target = (0, _jquery2.default)(e.target).parents('.head-title') || (0, _jquery2.default)(e).prevObject[0];
 
-  var body = (0, _jquery2.default)(target).parents('.info-content-area').children('.contaner-area');
+    if (!target.length) {
+      target = target.prevObject;
+    }
 
-  (0, _jquery2.default)(target).toggleClass('active');
-  (0, _jquery2.default)(body).stop().slideToggle("slow", function () {});
-});
+    var body = (0, _jquery2.default)(target).parents('.info-content-area').children('.contaner-area');
+
+    (0, _jquery2.default)(target).toggleClass('active');
+    (0, _jquery2.default)(body).stop().slideToggle("slow", function () {});
+  });
+
+  (0, _jquery2.default)('.tutorial-btn .btn').click(function (e) {
+    e.stopPropagation();
+    e.preventDefault();
+  });
+}
 
 var mainNavButton = (0, _jquery2.default)('._openMainNav');
 var mainNavTarget = (0, _jquery2.default)('.device-menu-layer');

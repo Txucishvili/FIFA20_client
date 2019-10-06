@@ -84,20 +84,29 @@ $(slidertoggleBTN).click((e) => {
 
 const infoContentToggleTarget = $('.info-content-area .head-title');
 
-$(infoContentToggleTarget).click((e) => {
-  console.log('hit');
-  let target = $(e.target).parents('.head-title') || $(e).prevObject[0];
+if (DEVICE_WIDTH <= 768) {
 
-  if (!target.length) {
-    target = target.prevObject;
-  }
+  $(infoContentToggleTarget).click((e) => {
+    console.log('hit');
+    let target = $(e.target).parents('.head-title') || $(e).prevObject[0];
 
-  const body = $(target).parents('.info-content-area').children('.contaner-area');
+    if (!target.length) {
+      target = target.prevObject;
+    }
 
-  $(target).toggleClass('active');
-  $(body).stop().slideToggle("slow", () => {
+    const body = $(target).parents('.info-content-area').children('.contaner-area');
+
+    $(target).toggleClass('active');
+    $(body).stop().slideToggle("slow", () => {
+    });
   });
-});
+
+
+  $('.tutorial-btn .btn').click((e) => {
+    e.stopPropagation();
+    e.preventDefault();
+  });
+}
 
 const mainNavButton = $('._openMainNav');
 const mainNavTarget = $('.device-menu-layer');
