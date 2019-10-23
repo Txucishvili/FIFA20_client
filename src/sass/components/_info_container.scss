@@ -95,7 +95,7 @@
 }
 
 .slider-container-wrap {
-  margin-top: 192px;
+  margin-top: 90px;
   @include max-min(max toPx($device-tablet)) {
     margin-top: 40px;
   }

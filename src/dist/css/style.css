@@ -4996,6 +4996,104 @@ a {
   color: #F3F3F3;
 }
 
+.secure-list-item--position {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+  height: 100%;
+  padding-right: 20px;
+}
+
+.secure-list-item--position--c {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.secure-list-item--position--c .secure-list-item--desc {
+  padding-top: 20px;
+}
+
+.secure-list-item--position--c--color--green .secure-list-item--title {
+  background-color: #51cf66;
+}
+
+.secure-list-item--position--c--color--green .secure-list-item--image {
+  background-color: #51cf66;
+}
+
+.secure-list-item--position--c--color--yellow .secure-list-item--title {
+  background-color: #fab005;
+}
+
+.secure-list-item--position--c--color--yellow .secure-list-item--image {
+  background-color: #fab005;
+}
+
+.secure-list-item--bg {
+  padding: 20px;
+  background-color: #212529;
+}
+
+.secure-list-item--title {
+  font-size: 24px;
+  font-family: "D-DINCondensed-Bold";
+  line-height: 28px;
+  margin-bottom: 7px;
+}
+
+.secure-list-item--text {
+  font-size: 20px;
+  font-family: "D-DINCondensed";
+  line-height: 28px;
+}
+
+.secure-list-item--text--p {
+  padding-top: 20px;
+}
+
+.secure-list-item--image {
+  margin-right: 20px;
+  width: 57px;
+  height: 57px;
+  padding: 8px;
+  background-color: #FF2153;
+}
+
+.secure-list-item--image--green {
+  background-color: #69db7c;
+}
+
+.secure-list-item--image img {
+  height: 100%;
+}
+
+.secure-list-item--titler {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.secure-list-item--titler .secure-list-item--title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: -20px;
+  height: 100%;
+  margin-bottom: 0;
+  color: #000000;
+  padding: 0 20px;
+  background-color: #FF2153;
+}
+
 .main-container {
   position: relative;
 }
@@ -5570,7 +5668,7 @@ a {
 }
 
 .slider-container-wrap {
-  margin-top: 192px;
+  margin-top: 90px;
 }
 
 @media only screen and (max-width: 768px) {

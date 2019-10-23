@@ -37,6 +37,7 @@
   &--column {
     @include flex-direction(column);
   }
+
   &--fill {
     flex: 1;
   }
@@ -81,6 +82,7 @@
   &--t20 {
     margin-top: 20px;
   }
+
   &--t30 {
     margin-top: 30px;
   }
@@ -93,6 +95,7 @@
   &--t90 {
     margin-top: 90px;
   }
+
   &--r15 {
     margin-right: 15px;
   }
@@ -121,6 +124,7 @@
   &--redrose {
     color: $color-pink;
   }
+
   &--yellow {
     color: $color-yellow;
   }
@@ -177,4 +181,105 @@ a {
   text-decoration: none;
   display: block;
   color: #F3F3F3;
+}
+
+.secure-list-item {
+  &--position {
+    @include flex;
+    font-size: 18px;
+    height: 100%;
+    padding-right: 20px;
+
+    &--c {
+      @include flex-direction(column);
+
+      .secure-list-item--desc {
+        padding-top: 20px;
+      }
+
+      &--color {
+        &--green {
+
+          .secure-list-item--title {
+            background-color: $oc-green-5;
+          }
+
+          .secure-list-item--image {
+            background-color: $oc-green-5;
+          }
+        }
+
+        &--yellow {
+
+          .secure-list-item--title {
+            background-color: $oc-yellow-6;
+          }
+
+          .secure-list-item--image {
+            background-color: $oc-yellow-6;
+          }
+        }
+      }
+
+    }
+  }
+
+
+  &--bg {
+    padding: 20px;
+    background-color: rgba($color-gray, 1);
+  }
+
+  &--title {
+    font-size: 24px;
+    font-family: $D-DINCondensed-Bold;
+    line-height: 28px;
+    margin-bottom: 7px;
+  }
+
+  &--text {
+    font-size: 20px;
+    font-family: $D-DINCondensed;
+    line-height: 28px;
+    &--p {
+      padding-top: 20px;
+
+    }
+  }
+
+  &--image {
+    margin-right: 20px;
+    @include size(57px);
+    padding: 8px;
+    background-color: $color-pink;
+
+    &--green {
+      background-color: $oc-green-4;
+    }
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &--titler {
+    @include flex;
+    @include align-items(center);
+
+    .secure-list-item--title {
+      @include flex;
+      @include align-items(center);
+      margin-left: -20px;
+      height: 100%;
+      margin-bottom: 0;
+      color: $oc-black;
+      padding: 0 20px;
+      background-color: $color-pink;
+    }
+
+    .secure-list-item--image {
+    }
+
+  }
+
 }
