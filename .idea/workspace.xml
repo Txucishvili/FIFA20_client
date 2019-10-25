@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="75f2dfac-e707-4ffb-8d69-96df04fdbb7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/js/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/js/sw.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -87,20 +87,20 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/manifest.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="72">
-                  <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+                <state relative-caret-position="90">
+                  <caret line="5" selection-start-line="5" selection-end-line="5" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/manifest.webmanifest">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-278">
-                  <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+                <state relative-caret-position="306">
+                  <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
                 </state>
               </provider>
             </entry>
@@ -142,8 +142,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/dist/js/sw.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="38" />
+                <state relative-caret-position="72">
+                  <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -206,7 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/img/ngmgames-logo.svg" />
         <option value="$PROJECT_DIR$/src/sass/libs/_slick.scss" />
         <option value="$PROJECT_DIR$/src/js/libs/slick.js" />
         <option value="$PROJECT_DIR$/src/sass/components/_outer-layer.scss" />
@@ -255,8 +254,9 @@
         <option value="$PROJECT_DIR$/src/js/a2hs.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/js/sw.js" />
-        <option value="$PROJECT_DIR$/src/dist/js/sw.js" />
         <option value="$PROJECT_DIR$/src/manifest.json" />
+        <option value="$PROJECT_DIR$/src/manifest.webmanifest" />
+        <option value="$PROJECT_DIR$/src/dist/js/sw.js" />
       </list>
     </option>
   </component>
@@ -392,21 +392,7 @@
       <workItem from="1570403831928" duration="155000" />
       <workItem from="1571840327337" duration="3057000" />
       <workItem from="1571847623605" duration="508000" />
-      <workItem from="1572015714714" duration="9467000" />
-    </task>
-    <task id="LOCAL-00022" summary="- fix: fonts&#10;- fix: device menu profile area bg">
-      <created>1569711205906</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1569711205906</updated>
-    </task>
-    <task id="LOCAL-00023" summary="- fix: bg&#10;- fix: footer&#10;- fix: slider area&#10;- sm changes">
-      <created>1569717555782</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1569717555782</updated>
+      <workItem from="1572015714714" duration="9637000" />
     </task>
     <task id="LOCAL-00024" summary="- fix: header, wrapper (z-index)">
       <created>1569781342450</created>
@@ -737,11 +723,25 @@
       <option name="project" value="LOCAL" />
       <updated>1572030303768</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="- add: manifest.webmanifest">
+      <created>1572030439880</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1572030439881</updated>
+    </task>
+    <task id="LOCAL-00072" summary="- add: manifest.webmanifest">
+      <created>1572030526566</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1572030526566</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131643000" />
+    <option name="totallyTimeSpent" value="131813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1000" extended-state="0" />
@@ -1242,13 +1242,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/manifest.webmanifest">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-278">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1298,17 +1291,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dist/js/sw.js">
+    <entry file="file://$PROJECT_DIR$/src/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="38" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/manifest.json">
+    <entry file="file://$PROJECT_DIR$/src/manifest.webmanifest">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dist/js/sw.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>
