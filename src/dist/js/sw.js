@@ -4,8 +4,8 @@ self.addEventListener('install', function(e) {
       return cache.addAll([
         '/FIFA20_client/src/',
         '/FIFA20_client/src/index.html',
-        '/FIFA20_client/src/js/dist/app.bundle.js',
-        '/FIFA20_client/src/js/dist/a2hs.bundle.js',
+        '/FIFA20_client/src/dist/js/app.bundle.js',
+        '/FIFA20_client/src/dist/js/a2hs.bundle.js',
       ]);
     })
   );
