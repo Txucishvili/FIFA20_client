@@ -3,7 +3,6 @@ self.addEventListener('install', function(e) {
     caches.open('video-store').then(function(cache) {
       return cache.addAll([
         '/FIFA20_client/src/',
-        '/FIFA20_client/index.html',
         '/FIFA20_client/src/index.html',
         '/FIFA20_client/src/dist/js/app.bundle.js',
         '/FIFA20_client/src/dist/js/a2hs.bundle.js',
