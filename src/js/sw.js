@@ -2,8 +2,8 @@ self.addEventListener('install', function(e) {
   e.waitUntil(
     caches.open('video-store').then(function(cache) {
       return cache.addAll([
-        '/dist/js/app.bundle.js',
-        '/dist/js/a2hs.bundle.js',
+        './app.bundle.js',
+        './a2hs.bundle.js',
       ]);
     })
   );

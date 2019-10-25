@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75f2dfac-e707-4ffb-8d69-96df04fdbb7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/manifest.webmanifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/js/a2hs.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/js/a2hs.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/js/a2hs.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/js/a2hs.bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/a2hs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/a2hs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/js/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/js/sw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/sw.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,11 +37,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+                <state relative-caret-position="306">
+                  <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -70,7 +68,7 @@
                     <element signature="n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-                    <marker date="1572027816538" expanded="true" signature="61346:61769" ph="..." />
+                    <marker date="1572029729211" expanded="true" signature="61353:61776" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -99,10 +97,10 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/manifest.webmanifest">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="72">
+                <state relative-caret-position="-278">
                   <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
                 </state>
               </provider>
@@ -178,10 +176,10 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/js/a2hs.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="353">
+                <state relative-caret-position="66">
                   <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
                 </state>
               </provider>
@@ -190,13 +188,13 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/dist/js/sw.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+                <state relative-caret-position="72">
+                  <caret line="4" selection-end-line="19" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/js/sw.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="342">
@@ -317,12 +315,12 @@
         <option value="$PROJECT_DIR$/webpack.mix.js" />
         <option value="$PROJECT_DIR$/src/sass/theme/_default_classes.scss" />
         <option value="$PROJECT_DIR$/src/js/app.js" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/js/libs/sw.js" />
         <option value="$PROJECT_DIR$/src/manifest.json" />
-        <option value="$PROJECT_DIR$/src/js/sw.js" />
-        <option value="$PROJECT_DIR$/src/dist/js/sw.js" />
         <option value="$PROJECT_DIR$/src/js/a2hs.js" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/dist/js/sw.js" />
+        <option value="$PROJECT_DIR$/src/js/sw.js" />
       </list>
     </option>
   </component>
@@ -458,21 +456,7 @@
       <workItem from="1570403831928" duration="155000" />
       <workItem from="1571840327337" duration="3057000" />
       <workItem from="1571847623605" duration="508000" />
-      <workItem from="1572015714714" duration="8723000" />
-    </task>
-    <task id="LOCAL-00016" summary="- tidy">
-      <created>1569498821766</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1569498821766</updated>
-    </task>
-    <task id="LOCAL-00017" summary="- add: .btn coming soon label&#10;- add: cart items&#10;- fix: bg control remove">
-      <created>1569527828395</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1569527828395</updated>
+      <workItem from="1572015714714" duration="8939000" />
     </task>
     <task id="LOCAL-00018" summary="- fix: f.a.q slide">
       <created>1569542676329</created>
@@ -803,11 +787,25 @@
       <option name="project" value="LOCAL" />
       <updated>1572029181121</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="- add: manifest.webmanifest">
+      <created>1572029659570</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1572029659570</updated>
+    </task>
+    <task id="LOCAL-00066" summary="- add: manifest.webmanifest">
+      <created>1572029739469</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1572029739470</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130899000" />
+    <option name="totallyTimeSpent" value="131115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1000" extended-state="0" />
@@ -859,7 +857,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="- fix: f.a.q slide" />
     <MESSAGE value="- add: photo popup&#10;- add: new alerts (warning, danger)&#10;- sm changes" />
     <MESSAGE value="- photo galley changes" />
     <MESSAGE value="- fix: fonts&#10;- fix: device menu profile area bg" />
@@ -884,7 +881,8 @@
     <MESSAGE value="- fix: info toggle" />
     <MESSAGE value="- add: service feedback types" />
     <MESSAGE value="- add: a2hs" />
-    <option name="LAST_COMMIT_MESSAGE" value="- add: a2hs" />
+    <MESSAGE value="- add: manifest.webmanifest" />
+    <option name="LAST_COMMIT_MESSAGE" value="- add: manifest.webmanifest" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/sass/components/_sign-box.scss">
@@ -1266,8 +1264,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/components/_info_container.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="96" column="24" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="24" />
+        <state relative-caret-position="2160">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
         </state>
       </provider>
     </entry>
@@ -1283,8 +1281,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/theme/_default_classes.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="295" column="20" selection-start-line="295" selection-start-column="20" selection-end-line="295" selection-end-column="20" />
+        <state relative-caret-position="212">
+          <caret line="231" selection-start-line="231" selection-end-line="231" />
         </state>
       </provider>
     </entry>
@@ -1298,20 +1296,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/sw.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dist/js/sw.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
@@ -1322,17 +1306,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/a2hs.js">
+    <entry file="file://$PROJECT_DIR$/src/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        <state relative-caret-position="384">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/manifest.webmanifest">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-278">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="306">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -1359,22 +1350,29 @@
             <element signature="n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-            <marker date="1572027816538" expanded="true" signature="61346:61769" ph="..." />
+            <marker date="1572029729211" expanded="true" signature="61353:61776" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/manifest.json">
+    <entry file="file://$PROJECT_DIR$/src/js/a2hs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        <state relative-caret-position="66">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/manifest.webmanifest">
+    <entry file="file://$PROJECT_DIR$/src/dist/js/sw.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <caret line="4" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/sw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
