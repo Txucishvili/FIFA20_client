@@ -90,8 +90,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/manifest.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="336">
-                  <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+                <state relative-caret-position="384">
+                  <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -187,8 +187,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/js/sw.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+                <state relative-caret-position="180">
+                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
                 </state>
               </provider>
             </entry>
@@ -208,7 +208,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>email</find>
       <find>slider-item</find>
       <find>social-are</find>
       <find>height: init</find>
@@ -238,6 +237,7 @@
       <find>ready</find>
       <find>console</find>
       <find>start</find>
+      <find>.//</find>
     </findStrings>
     <replaceStrings>
       <replace>table-row--insider</replace>
@@ -251,6 +251,7 @@
       <replace>secure-list-item--c--color--green</replace>
       <replace>secure-list-item--c--color--</replace>
       <replace>/</replace>
+      <replace>./</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -334,82 +335,6 @@
               <item name="Fifa20" type="b2602c69:ProjectViewProjectNode" />
               <item name="Fifa20" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fifa20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fifa20" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fifa20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fifa20" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fifa20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fifa20" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="a2hs.bundle.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="Fifa20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fifa20" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="app.bundle.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="Fifa20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fifa20" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fifa20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fifa20" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fifa20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fifa20" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fifa20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fifa20" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fifa20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fifa20" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fifa20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fifa20" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fifa20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fifa20" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="theme" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -501,21 +426,7 @@
       <workItem from="1570403831928" duration="155000" />
       <workItem from="1571840327337" duration="3057000" />
       <workItem from="1571847623605" duration="508000" />
-      <workItem from="1572015714714" duration="7519000" />
-    </task>
-    <task id="LOCAL-00007" summary="- sm fix">
-      <created>1569350347834</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1569350347834</updated>
-    </task>
-    <task id="LOCAL-00008" summary="- add: f.a.q">
-      <created>1569365761327</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1569365761327</updated>
+      <workItem from="1572015714714" duration="7644000" />
     </task>
     <task id="LOCAL-00009" summary="- fix">
       <created>1569367035951</created>
@@ -846,11 +757,25 @@
       <option name="project" value="LOCAL" />
       <updated>1572028243442</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="- add: a2hs">
+      <created>1572028349997</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1572028349998</updated>
+    </task>
+    <task id="LOCAL-00057" summary="- add: a2hs">
+      <created>1572028432490</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1572028432490</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129695000" />
+    <option name="totallyTimeSpent" value="129820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1000" extended-state="0" />
@@ -1409,15 +1334,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/sw.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="180">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        <state relative-caret-position="384">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
         </state>
       </provider>
     </entry>
