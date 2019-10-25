@@ -50,7 +50,6 @@ const ChangePassDroper = $('.changepass');
 const changePassContent = $('.change-password-areal');
 
 $(ChangePassDroper).click((e) => {
-  console.log('hit');
   $(ChangePassDroper).toggleClass('active');
   $(changePassContent).stop().slideToggle("slow", function () {
     // Animation complete.
@@ -79,7 +78,7 @@ $(slidertoggleBTN).click((e) => {
 
   }
 
-  console.log('body target', body);
+  // console.log('body target', body);
 });
 
 const infoContentToggleTarget = $('.info-content-area .head-title');
@@ -87,7 +86,7 @@ const infoContentToggleTarget = $('.info-content-area .head-title');
 if (DEVICE_WIDTH <= 768) {
 
   $(infoContentToggleTarget).click((e) => {
-    console.log('hit');
+    // console.log('hit');
     let target = $(e.target).parents('.head-title') || $(e).prevObject[0];
 
     if (!target.length) {
@@ -116,7 +115,7 @@ $(mainNavButton).click((e) => {
   $(mainNavTarget).toggleClass('isShow');
   $(mainNavTargetLayout).toggleClass('isShow');
   $(mainNavButton).parents('.device-menu-button').toggleClass('isOpen');
-  console.log('hit', $(mainNavButton).parents('.device-menu-button'));
+  // console.log('hit', $(mainNavButton).parents('.device-menu-button'));
 });
 
 
@@ -178,7 +177,7 @@ const initSlick_sliderItem = (classEl) => {
 };
 
 const initFlickity_sliderItem = () => {
-  console.log('flkty INIT');
+  // console.log('flkty INIT');
   $('.slick-fifa-gallery').addClass('slick-fifa-gallery' + '--flick');
 
   var flkty = new Flickity( '.slick-fifa-gallery', {
@@ -202,10 +201,10 @@ $(document).ready(function () {
 
 
   if ($('.slick-fifa-gallery').length) {
-    console.log('hit');
+    // console.log('hit');
 
     if (DEVICE_WIDTH <= 768 - 1) {
-      console.log('hit');
+      // console.log('hit');
       initFlickity_sliderItem();
     } else {
       initSlick_sliderItem();
@@ -226,7 +225,7 @@ const importScript = async () => {
     s0.parentNode.insertBefore(s1, s0);
 
     s1.onload = (e) => {
-      console.log('Script loaded');
+      // console.log('Script loaded');
       resolve(window.Tawk_API);
     };
   })
@@ -329,7 +328,7 @@ const initSlick_slider = (classEl) => {
 
 const initFlickity_slider = (classEl) => {
   $(classEl).addClass(classEl + '--flick');
-  console.log(classEl + '--flick');
+  // console.log(classEl + '--flick');
 
   var flkty = new Flickity( classEl, {
     groupCells: true,
@@ -389,7 +388,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
   // Update UI to notify the user they can add to home screen
   // addBtn.style.display = 'block';
 
-  $(addBtn).on('click', (e) => {
+  $(document).on('click', '.add-home-btn', (e) => {
     console.log('hitt this');
     console.log('deferredPrompt', deferredPrompt);
     // hide our user interface that shows our A2HS button
@@ -408,4 +407,6 @@ window.addEventListener('beforeinstallprompt', (e) => {
 
 });
 
-
+$(document).on('click', '.add-home-btn', (e) => {
+  console.log('hitXXX');
+});

@@ -12582,7 +12582,6 @@ var ChangePassDroper = (0, _jquery2.default)('.changepass');
 var changePassContent = (0, _jquery2.default)('.change-password-areal');
 
 (0, _jquery2.default)(ChangePassDroper).click(function (e) {
-  console.log('hit');
   (0, _jquery2.default)(ChangePassDroper).toggleClass('active');
   (0, _jquery2.default)(changePassContent).stop().slideToggle("slow", function () {
     // Animation complete.
@@ -12606,7 +12605,7 @@ var slidertoggleBTN = (0, _jquery2.default)('.faq-title');
     (0, _jquery2.default)(body).stop().slideToggle("slow", function () {});
   }
 
-  console.log('body target', body);
+  // console.log('body target', body);
 });
 
 var infoContentToggleTarget = (0, _jquery2.default)('.info-content-area .head-title');
@@ -12614,7 +12613,7 @@ var infoContentToggleTarget = (0, _jquery2.default)('.info-content-area .head-ti
 if (DEVICE_WIDTH <= 768) {
 
   (0, _jquery2.default)(infoContentToggleTarget).click(function (e) {
-    console.log('hit');
+    // console.log('hit');
     var target = (0, _jquery2.default)(e.target).parents('.head-title') || (0, _jquery2.default)(e).prevObject[0];
 
     if (!target.length) {
@@ -12641,7 +12640,7 @@ var mainNavTargetLayout = (0, _jquery2.default)('.device-menu-layout');
   (0, _jquery2.default)(mainNavTarget).toggleClass('isShow');
   (0, _jquery2.default)(mainNavTargetLayout).toggleClass('isShow');
   (0, _jquery2.default)(mainNavButton).parents('.device-menu-button').toggleClass('isOpen');
-  console.log('hit', (0, _jquery2.default)(mainNavButton).parents('.device-menu-button'));
+  // console.log('hit', $(mainNavButton).parents('.device-menu-button'));
 });
 
 if (body.length) {
@@ -12696,7 +12695,7 @@ var initSlick_sliderItem = function initSlick_sliderItem(classEl) {
 };
 
 var initFlickity_sliderItem = function initFlickity_sliderItem() {
-  console.log('flkty INIT');
+  // console.log('flkty INIT');
   (0, _jquery2.default)('.slick-fifa-gallery').addClass('slick-fifa-gallery' + '--flick');
 
   var flkty = new _flickity2.default('.slick-fifa-gallery', {
@@ -12717,10 +12716,10 @@ var initFlickity_sliderItem = function initFlickity_sliderItem() {
   }
 
   if ((0, _jquery2.default)('.slick-fifa-gallery').length) {
-    console.log('hit');
+    // console.log('hit');
 
     if (DEVICE_WIDTH <= 768 - 1) {
-      console.log('hit');
+      // console.log('hit');
       initFlickity_sliderItem();
     } else {
       initSlick_sliderItem();
@@ -12744,7 +12743,7 @@ var importScript = function () {
               s0.parentNode.insertBefore(s1, s0);
 
               s1.onload = function (e) {
-                console.log('Script loaded');
+                // console.log('Script loaded');
                 resolve(window.Tawk_API);
               };
             }));
@@ -12879,7 +12878,7 @@ var initSlick_slider = function initSlick_slider(classEl) {
 
 var initFlickity_slider = function initFlickity_slider(classEl) {
   (0, _jquery2.default)(classEl).addClass(classEl + '--flick');
-  console.log(classEl + '--flick');
+  // console.log(classEl + '--flick');
 
   var flkty = new _flickity2.default(classEl, {
     groupCells: true,
@@ -12929,7 +12928,7 @@ window.addEventListener('beforeinstallprompt', function (e) {
   // Update UI to notify the user they can add to home screen
   // addBtn.style.display = 'block';
 
-  (0, _jquery2.default)(addBtn).on('click', function (e) {
+  (0, _jquery2.default)(document).on('click', '.add-home-btn', function (e) {
     console.log('hitt this');
     console.log('deferredPrompt', deferredPrompt);
     // hide our user interface that shows our A2HS button
@@ -12945,6 +12944,10 @@ window.addEventListener('beforeinstallprompt', function (e) {
       deferredPrompt = null;
     });
   });
+});
+
+(0, _jquery2.default)(document).on('click', '.add-home-btn', function (e) {
+  console.log('hitXXX');
 });
 
 /***/ }),
