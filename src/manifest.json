@@ -2,13 +2,8 @@
   "short_name": "NGMGAMES",
   "name": "NGMgames",
   "description": "Buy and sell FIFA20 coins.",
-  "start_url": "/?utm_source=pwa_homescreen",
-  "scope": "/",
-  "orientation": "portrait",
   "prompt_message": "Add NGMgames to Home Screen",
   "display": "standalone",
-  "background_color": "#212529",
-  "theme_color": "#212529",
   "icons": [
     {
       "src": "src/img/icons/app/android-icon-36x36.png",
@@ -34,5 +29,7 @@
       "type": "image/png",
       "density": "2.0"
     }
-  ]
+  ],
+  "background_color": "#212529",
+  "theme_color": "#212529"
 }
