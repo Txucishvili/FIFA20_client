@@ -8,35 +8,29 @@ const AddToHomeScreenButton = `
 `;
 
 
-let deferredPrompt;
-// const addBtn = document.querySelector('.add-button');
-// addBtn.style.display = 'none';
-
-
 if (window.matchMedia('(display-mode: standalone)').matches) {
   console.log('display-mode is standalone');
 } else {
   console.log('AddToHomeScreenButton');
-  $('body').append(AddToHomeScreenButton);
+  // $('body').append(AddToHomeScreenButton);
 }
 
-const addBtn = $('.add-home-btn');
+let deferredPrompt;
+
+const addBtn = document.querySelector('.add-home-btn');
+
+addBtn.style.display = 'none';
 
 window.addEventListener('beforeinstallprompt', (e) => {
-  console.log('HITTTTTTT');
-  deferredPrompt.prompt();
-
   // Prevent Chrome 67 and earlier from automatically showing the prompt
+  e.preventDefault();
   // Stash the event so it can be triggered later.
   deferredPrompt = e;
-  console.log('HITTTTTTT');
   // Update UI to notify the user they can add to home screen
-  // addBtn.style.display = 'block';
-
-  $(document).on('click', '.add-home-btn', (e) => {
-    console.log('hitt this');
-    console.log('deferredPrompt', deferredPrompt);
+  addBtn.style.display = 'block';
+  addBtn.addEventListener('click', (e) => {
     // hide our user interface that shows our A2HS button
+    addBtn.style.display = 'none';
     // Show the prompt
     deferredPrompt.prompt();
     // Wait for the user to respond to the prompt
@@ -49,6 +43,4 @@ window.addEventListener('beforeinstallprompt', (e) => {
       deferredPrompt = null;
     });
   });
-
 });
-
