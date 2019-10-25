@@ -12902,54 +12902,6 @@ var initHomeGallery_Slidr = function initHomeGallery_Slidr() {
 
 initHomeGallery_Slidr();
 
-var AddToHomeScreenButton = '\n<div class="add_to_homescreen">\n<div class="text">For Best experience you can add page to Home Screen</div>\n<div class="add-home-btn">Add To Home</div>\n</div>\n';
-
-var deferredPrompt = void 0;
-// const addBtn = document.querySelector('.add-button');
-// addBtn.style.display = 'none';
-
-
-if (window.matchMedia('(display-mode: standalone)').matches) {
-  console.log('display-mode is standalone');
-} else {
-  console.log('AddToHomeScreenButton');
-  (0, _jquery2.default)('body').append(AddToHomeScreenButton);
-}
-
-var addBtn = (0, _jquery2.default)('.add-home-btn');
-
-window.addEventListener('beforeinstallprompt', function (e) {
-  console.log('HITTTTTTT');
-
-  // Prevent Chrome 67 and earlier from automatically showing the prompt
-  // Stash the event so it can be triggered later.
-  deferredPrompt = e;
-  console.log('HITTTTTTT');
-  // Update UI to notify the user they can add to home screen
-  // addBtn.style.display = 'block';
-
-  (0, _jquery2.default)(document).on('click', '.add-home-btn', function (e) {
-    console.log('hitt this');
-    console.log('deferredPrompt', deferredPrompt);
-    // hide our user interface that shows our A2HS button
-    // Show the prompt
-    deferredPrompt.prompt();
-    // Wait for the user to respond to the prompt
-    deferredPrompt.userChoice.then(function (choiceResult) {
-      if (choiceResult.outcome === 'accepted') {
-        console.log('User accepted the A2HS prompt');
-      } else {
-        console.log('User dismissed the A2HS prompt');
-      }
-      deferredPrompt = null;
-    });
-  });
-});
-
-(0, _jquery2.default)(document).on('click', '.add-home-btn', function (e) {
-  console.log('hitXXX');
-});
-
 /***/ }),
 /* 8 */
 /***/ (function(module, exports, __webpack_require__) {

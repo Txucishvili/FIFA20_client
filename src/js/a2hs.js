@@ -32,7 +32,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
   // Update UI to notify the user they can add to home screen
   // addBtn.style.display = 'block';
 
-  $(addBtn).on('click', (e) => {
+  $(document).on('click', '.add-home-btn', (e) => {
     console.log('hitt this');
     console.log('deferredPrompt', deferredPrompt);
     // hide our user interface that shows our A2HS button
