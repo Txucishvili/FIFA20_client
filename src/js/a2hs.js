@@ -8,6 +8,14 @@ const AddToHomeScreenButton = `
 `;
 
 
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register('./sw.js')
+    .then(function() {
+      console.log('Service Worker Registered');
+    });
+}
+
 if (window.matchMedia('(display-mode: standalone)').matches) {
   console.log('display-mode is standalone');
 } else {

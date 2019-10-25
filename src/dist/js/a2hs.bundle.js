@@ -10693,6 +10693,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var AddToHomeScreenButton = '\n<div class="add_to_homescreen">\n<div class="text">For best experience you can add page to Home Screen</div>\n<div class="add-home-btn">Add To Home</div>\n</div>\n';
 
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./sw.js').then(function () {
+    console.log('Service Worker Registered');
+  });
+}
+
 if (window.matchMedia('(display-mode: standalone)').matches) {
   console.log('display-mode is standalone');
 } else {
