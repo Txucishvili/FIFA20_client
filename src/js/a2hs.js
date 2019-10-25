@@ -2,7 +2,7 @@ import $ from 'jquery';
 
 const AddToHomeScreenButton = `
 <div class="add_to_homescreen">
-<div class="text">For Best experience you can add page to Home Screen</div>
+<div class="text">For best experience you can add page to Home Screen</div>
 <div class="add-home-btn">Add To Home</div>
 </div>
 `;
@@ -24,6 +24,7 @@ const addBtn = $('.add-home-btn');
 
 window.addEventListener('beforeinstallprompt', (e) => {
   console.log('HITTTTTTT');
+  deferredPrompt.prompt();
 
   // Prevent Chrome 67 and earlier from automatically showing the prompt
   // Stash the event so it can be triggered later.

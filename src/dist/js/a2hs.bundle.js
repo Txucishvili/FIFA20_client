@@ -10691,7 +10691,7 @@ var _jquery2 = _interopRequireDefault(_jquery);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var AddToHomeScreenButton = '\n<div class="add_to_homescreen">\n<div class="text">For Best experience you can add page to Home Screen</div>\n<div class="add-home-btn">Add To Home</div>\n</div>\n';
+var AddToHomeScreenButton = '\n<div class="add_to_homescreen">\n<div class="text">For best experience you can add page to Home Screen</div>\n<div class="add-home-btn">Add To Home</div>\n</div>\n';
 
 var deferredPrompt = void 0;
 // const addBtn = document.querySelector('.add-button');
@@ -10709,6 +10709,7 @@ var addBtn = (0, _jquery2.default)('.add-home-btn');
 
 window.addEventListener('beforeinstallprompt', function (e) {
   console.log('HITTTTTTT');
+  deferredPrompt.prompt();
 
   // Prevent Chrome 67 and earlier from automatically showing the prompt
   // Stash the event so it can be triggered later.
