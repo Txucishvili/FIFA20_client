@@ -27,7 +27,9 @@ let deferredPrompt;
 
 const addBtn = document.querySelector('.add-home-btn');
 
-addBtn.style.display = 'none';
+if(addBtn) {
+  addBtn.style.display = 'none';
+}
 
 window.addEventListener('beforeinstallprompt', (e) => {
   // Prevent Chrome 67 and earlier from automatically showing the prompt
