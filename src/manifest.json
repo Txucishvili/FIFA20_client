@@ -2,6 +2,9 @@
   "short_name": "NGMGAMES",
   "name": "NGMgames",
   "description": "Buy and sell FIFA20 coins.",
+  "start_url": "/",
+  "scope": "/",
+  "orientation": "portrait",
   "prompt_message": "Add NGMgames to Home Screen",
   "display": "standalone",
   "icons": [
