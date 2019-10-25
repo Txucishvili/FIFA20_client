@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="75f2dfac-e707-4ffb-8d69-96df04fdbb7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/js/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/js/sw.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -177,8 +178,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/dist/js/sw.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="342">
-                  <caret line="19" selection-start-line="19" selection-end-line="19" />
+                <state relative-caret-position="72">
+                  <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -445,21 +446,7 @@
       <workItem from="1570403831928" duration="155000" />
       <workItem from="1571840327337" duration="3057000" />
       <workItem from="1571847623605" duration="508000" />
-      <workItem from="1572015714714" duration="8163000" />
-    </task>
-    <task id="LOCAL-00013" summary="- fix">
-      <created>1569443439987</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1569443439987</updated>
-    </task>
-    <task id="LOCAL-00014" summary="- fix: menu bg on device scroll">
-      <created>1569443800707</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1569443800707</updated>
+      <workItem from="1572015714714" duration="8305000" />
     </task>
     <task id="LOCAL-00015" summary="- tidy">
       <created>1569498625253</created>
@@ -790,11 +777,25 @@
       <option name="project" value="LOCAL" />
       <updated>1572028923006</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="- add: a2hs">
+      <created>1572029030957</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1572029030957</updated>
+    </task>
+    <task id="LOCAL-00063" summary="- add: a2hs">
+      <created>1572029089785</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1572029089785</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130339000" />
+    <option name="totallyTimeSpent" value="130481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1000" extended-state="0" />
@@ -1360,8 +1361,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dist/js/sw.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="72">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
