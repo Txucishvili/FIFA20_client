@@ -2,6 +2,7 @@ let mix = require('webpack-mix').mix;
 const path = require('path');
 
 mix.js('src/js/app.js', 'src/dist/js').sourceMaps()
+  .js('src/js/a2hs.js', 'src/dist/js').sourceMaps()
   .sass('src/sass/style.scss', 'src/dist/css').sourceMaps()
   .options({
     processCssUrls: false,

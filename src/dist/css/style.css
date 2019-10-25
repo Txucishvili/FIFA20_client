@@ -5094,6 +5094,46 @@ a {
   background-color: #FF2153;
 }
 
+.add_to_homescreen {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #212529;
+  color: #ffffff;
+  padding: 20px;
+  z-index: 55555;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.add_to_homescreen .add-home-btn {
+  outline: none;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: "D-DIN-Bold";
+  padding: 16px 45px;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+  position: relative;
+  margin-top: 12px;
+  color: #FF2153;
+  background-color: #121215;
+}
+
 .main-container {
   position: relative;
 }

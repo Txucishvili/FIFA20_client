@@ -191,6 +191,7 @@ const initFlickity_sliderItem = () => {
 
 };
 
+
 $(document).ready(function () {
   if ($('.slick_gallery').length) {
     $('.slick_gallery').magnificPopup({
