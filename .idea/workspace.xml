@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75f2dfac-e707-4ffb-8d69-96df04fdbb7c" name="Default Changelist" comment="- add: manifest.webmanifest">
+    <list default="true" id="75f2dfac-e707-4ffb-8d69-96df04fdbb7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dist/js/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/js/sw.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/manifest.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/src/manifest.webmanifest" afterDir="false" />
@@ -101,7 +101,7 @@
             <entry file="file://$PROJECT_DIR$/src/manifest.webmanifest">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="72">
-                  <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+                  <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
                 </state>
               </provider>
             </entry>
@@ -143,8 +143,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/dist/js/sw.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+                <state relative-caret-position="90">
+                  <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="38" />
                 </state>
               </provider>
             </entry>
@@ -393,21 +393,7 @@
       <workItem from="1570403831928" duration="155000" />
       <workItem from="1571840327337" duration="3057000" />
       <workItem from="1571847623605" duration="508000" />
-      <workItem from="1572015714714" duration="10019000" />
-    </task>
-    <task id="LOCAL-00028" summary="- fix">
-      <created>1569797006038</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1569797006038</updated>
-    </task>
-    <task id="LOCAL-00029" summary="- fix: badge class add for badge-change-modal">
-      <created>1569797933975</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1569797933975</updated>
+      <workItem from="1572015714714" duration="10278000" />
     </task>
     <task id="LOCAL-00030" summary="- add: mail contact (page)&#10;- fix: photo modal positioning (!layout modification)">
       <created>1570026118025</created>
@@ -738,11 +724,25 @@
       <option name="project" value="LOCAL" />
       <updated>1572030905115</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="- add: manifest.webmanifest">
+      <created>1572031016352</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1572031016352</updated>
+    </task>
+    <task id="LOCAL-00078" summary="- add: manifest.webmanifest">
+      <created>1572031025812</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1572031025812</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132195000" />
+    <option name="totallyTimeSpent" value="132454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1000" extended-state="0" />
@@ -1301,15 +1301,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dist/js/sw.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        <state relative-caret-position="90">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/manifest.webmanifest">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
         </state>
       </provider>
     </entry>
