@@ -10,7 +10,7 @@ const AddToHomeScreenButton = `
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
-    .register('./sw.js')
+    .register('./dist/js/sw.js')
     .then(function() {
       console.log('Service Worker Registered');
     });
