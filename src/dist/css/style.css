@@ -5793,7 +5793,7 @@ a {
 
 .gallery-slider .gallery-image--image img {
   display: block;
-  height: 100%;
+  width: 100%;
 }
 
 .alert-area--divider {
