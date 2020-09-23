@@ -8,7 +8,8 @@ html {
 .theme {
   &--default {
     color: #FFF;
-    background-color: #0B1218;
+    //background-color: #0B1218;
+    background-color: #292929;
     overflow-x: hidden;
     position: relative;
     min-height: inherit;
@@ -16,12 +17,14 @@ html {
     font-family: $D-DINCondensed;
     line-height: 18px;
     overflow-y: scroll;
+    background-image: url("../../img/v2/bg.png");
+    background-size: contain;
 
     @include flex;
     @include flex-direction(column);
 
     &:before {
-      content: '';
+      //content: '';
       position: absolute;
       top: 0;
       left: 0;
@@ -34,7 +37,7 @@ html {
     }
 
     &:after {
-      content: '';
+      //content: '';
       position: absolute;
       bottom: 0;
       left: 0;
@@ -64,10 +67,12 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #60676D;
+  background-color: transparent;
+  //background-color: #60676D;
   z-index: 0;
   overflow: hidden;
   @include select(none);
+  display: none;
 
   &:before {
     //content: '';

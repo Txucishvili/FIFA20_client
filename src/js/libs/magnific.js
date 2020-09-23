@@ -512,24 +512,6 @@
     };
   a.magnificPopup.registerModule(P, {
     options: {
-      markup: '<div class="mfp-iframe-scaler"><div class="mfp-close"></div><iframe class="mfp-iframe" src="//about:blank" frameborder="0" allowfullscreen></iframe></div>',
-      srcAction: "iframe_src",
-      patterns: {
-        youtube: {
-          index: "youtube.com",
-          id: "v=",
-          src: "//www.youtube.com/embed/%id%?autoplay=1"
-        },
-        vimeo: {
-          index: "vimeo.com/",
-          id: "/",
-          src: "//player.vimeo.com/video/%id%?autoplay=1"
-        },
-        gmaps: {
-          index: "//maps.google.",
-          src: "%id%&output=embed"
-        }
-      }
     },
     proto: {
       initIframe: function() {

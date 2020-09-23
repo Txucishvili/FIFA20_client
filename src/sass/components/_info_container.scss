@@ -1,7 +1,29 @@
 .info-container-wrap {
-  margin-top: 220px;
+  margin-top: 50px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #201E21;
+  position: relative;
   @include max-min(max toPx($device-tablet)) {
     margin-top: 40px;
+  }
+
+  .container {
+    @include max-min(max toPx(1440)) {
+      padding-left: 50px;
+    }
+  }
+
+
+  &:after {
+    content: '';
+    display: block;
+    background-image: url("../../img/v2/slide-c-l.svg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 38px;
+    height: 100%;
   }
 
   .logo-area {
@@ -37,6 +59,7 @@
       &:hover {
         box-shadow: 0 0 0 9px rgba($color-pink, .55);
       }
+
       &:focus-within {
         box-shadow: 0 0 0 9px rgba($color-pink, .55);
       }
@@ -94,10 +117,39 @@
   }
 }
 
+@mixin sliderBg-Gradinets {
+  //background: -webkit-linear-gradient(322deg, rgb(255, 39, 68) 0%, rgb(255, 31, 89) 100%);
+  //background: -o-linear-gradient(322deg, rgb(255, 39, 68) 0%, rgb(255, 31, 89) 100%);
+  //background: -ms-linear-gradient(322deg, rgb(255, 39, 68) 0%, rgb(255, 31, 89) 100%);
+  //background: -moz-linear-gradient(322deg, rgb(255, 39, 68) 0%, rgb(255, 31, 89) 100%);
+  //background: linear-gradient(128deg, rgb(255, 39, 68) 0%, rgb(255, 31, 89) 100%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(130deg, #7556F1 0%, #BA23FA 100%);
+}
+
+
 .slider-container-wrap {
   margin-top: 90px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  @include sliderBg-Gradinets;
   @include max-min(max toPx($device-tablet)) {
     margin-top: 40px;
+
+    .dot-pattern {
+      &:nth-child(1) {
+        right: -550px !important;
+        top: 80px !important;
+      }
+
+      &:nth-child(2) {
+        left: -340px !important;
+        bottom: -14px !important;
+        height: 40px !important;
+        width: 500px !important;
+      }
+
+    }
   }
 }
 
@@ -111,7 +163,7 @@
 
 .gallery-slider {
   width: 100%;
-  padding-left: 15px;
+  //padding-left: 15px;
   outline: none;
 
   .row {
@@ -131,11 +183,17 @@
       outline: none;
       padding: 5px;
       outline: none;
-      width: initial;
+      width: 240px;
+      max-width: 240px;
     }
+
     a {
       outline: none;
+      @include flex-all;
+      width: 100%;
+      width: 240px;
     }
+
     &--image {
       @include size(232px);
       overflow: hidden;

@@ -1,13 +1,14 @@
 import slick from './libs/slick';
-import jquery from 'jquery';
 import $ from 'jquery';
-import magnificPopup from './libs/magnific';
+import "magnific-popup";
 import Flickity from 'flickity';
 
 const DEVICE_WIDTH = window.innerWidth;
 
+
 const modalOpenBTN = $('._modalOpen');
 const modalCloseBTN = $('.modal-close');
+const modalContent = $('.modal-content');
 const body = $('body');
 const outerLayer = $('.outer-layer');
 
@@ -20,6 +21,7 @@ const doResetOnModal = (parent) => {
 };
 
 $(modalOpenBTN).click((e) => {
+  e.stopPropagation();
   const target = $(e.target).parents('._modalOpen').attr('data-modal') || $(e.target).attr('data-modal');
 
   if (target && target.length) {
@@ -30,6 +32,15 @@ $(modalOpenBTN).click((e) => {
     console.log('No Target found');
   }
 
+});
+
+$(modalContent).on('click', (e) => {
+  $(body).removeClass('modalOpen');
+  $(outerLayer).removeClass('modalOpen');
+  $(parent).removeClass('open');
+  if ($(e.target).find('.modal-wrap.open')) {
+    doResetOnModal($(e.target).find('.modal-wrap.open'));
+  }
 });
 
 $(modalCloseBTN).on('click', (e) => {
@@ -184,12 +195,10 @@ const initFlickity_sliderItem = () => {
     groupCells: 1,
     freeScroll: true,
     contain: true,
-    prevNextButtons: false,
     pageDots: false,
   });
 
 };
-
 
 $(document).ready(function () {
   if ($('.slick_gallery').length) {
@@ -199,20 +208,20 @@ $(document).ready(function () {
     });
   }
 
-
   if ($('.slick-fifa-gallery').length) {
-    // console.log('hit');
+    initFlickity_sliderItem();
+    // initSlick_sliderItem();
 
-    if (DEVICE_WIDTH <= 768 - 1) {
+    // console.log('hit');
+    //
+    // if (DEVICE_WIDTH <= 768 - 1) {
       // console.log('hit');
-      initFlickity_sliderItem();
-    } else {
-      initSlick_sliderItem();
-    }
+      // initFlickity_sliderItem();
+    // } else {
+      // initSlick_sliderItem();
+    // }
 
   }
-
-
 });
 
 const importScript = async () => {
@@ -224,8 +233,11 @@ const importScript = async () => {
     s1.setAttribute('crossorigin', '*');
     s0.parentNode.insertBefore(s1, s0);
 
+    console.log('----------', window.Tawk_API);
+    console.log('----------', s1);
+
     s1.onload = (e) => {
-      // console.log('Script loaded');
+      console.log('----------', window.Tawk_API);
       resolve(window.Tawk_API);
     };
   })
@@ -233,20 +245,20 @@ const importScript = async () => {
 
 const initTawk = async () => {
   let TawkAPI;
-
   TawkAPI = await importScript();
-
   return new Promise(resolve => {
-    resolve(window.Tawk_API);
+    resolve(TawkAPI);
   })
 };
 
+let Tawk;
+
 $(document).ready(async () => {
-  // if (Tawk_API) {
-  //   Tawk_API.onLoad = function() {
-  //     Tawk_API.hideWidget();
-  //   };
-  // }
+  if (!window.Tawk_API) {
+    const tawk = await importScript();
+    window.Tawk_API = tawk;
+    Tawk = tawk;
+  }
 });
 
 const modalChecboxSelector = $('.modal-gallery--item');
@@ -355,3 +367,12 @@ const initHomeGallery_Slidr = () => {
 };
 
 initHomeGallery_Slidr();
+
+const dottedPattern = $('.dot-pattern');
+
+if (dottedPattern.length) {
+  for (let el of dottedPattern) {
+    console.log('aa', $(el).data());
+    $(el).css($(el).data());
+  }
+}

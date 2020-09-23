@@ -27,6 +27,8 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "flickity": "^2.2.1",
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "magnific-popup": "^1.1.0",
+    "webpack-cli": "^3.3.11"
   }
 }

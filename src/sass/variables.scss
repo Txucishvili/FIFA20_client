@@ -12,14 +12,20 @@ $D-DINExp-Bold: 'D-DINExp-Bold';
 $D-DINExp-Italic: 'D-DINExp-Italic';
 $DINPro-Black: 'DINPro-Black';
 
+// v2
+$color-orange: #FF5114;
+
 //colors
 $color-dark: #0B1218;
 $color-dark-2: #121215;
-$color-sky: #55FFFA;
-$color-yellow: #FAFA20;
+$color-sky: #FF5114;
+//$color-sky: #55FFFA;
+$color-yellow: #9B34F7;
+$color-yellow2: #FAFA20;
 $color-light-1: #F3F3F3;
 $color-light-2: #FEFEFE;
-$color-pink: #FF2153;
+$color-pink: $color-orange;
+//$color-pink: #FF2153;
 $color-gray: #212529;
 
 

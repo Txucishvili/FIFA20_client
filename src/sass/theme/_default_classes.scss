@@ -227,7 +227,7 @@ a {
 
   &--bg {
     padding: 20px;
-    background-color: rgba($color-gray, 1);
+    //background-color: rgba($color-gray, 1);
   }
 
   &--title {
@@ -272,7 +272,7 @@ a {
       margin-left: -20px;
       height: 100%;
       margin-bottom: 0;
-      color: $oc-black;
+      color: $oc-white;
       padding: 0 20px;
       background-color: $color-pink;
     }
@@ -293,7 +293,7 @@ a {
   color: $oc-white;
   padding: 20px;
   z-index: 55555;
-  user-select: none;
+  user-select: none;display: none;
 
   .add-home-btn {
     outline: none;

@@ -59,6 +59,7 @@
 
   &--yellow {
     background-color: $color-yellow;
+    color: $oc-white;
 
     &:hover {
       background-color: darken($color-yellow, 11%);
@@ -69,6 +70,14 @@
     background-color: $color-pink;
     color: $color-light-1;
     &:hover {
+      background-color: darken($color-pink, 11%);
+    }
+  }
+  &--white {
+    background-color: $oc-white;
+    color: #0B1218;
+    &:hover {
+      color: $oc-white;
       background-color: darken($color-pink, 11%);
     }
   }
@@ -88,6 +97,35 @@
       &:hover {
         box-shadow: inset 0 0 0 0 transparent;
         background-color: darken($color-yellow, 11%);
+      }
+    }
+
+    &-scale {
+      background-color: transparent;
+      color: $oc-white;
+      position: relative;
+
+      &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        box-shadow: inset 0 0 0 2px $oc-white;
+        transition: all .12s;
+        border-radius: 3px;
+      }
+
+      &:hover {
+        &:after {
+          transform: scale(1.05);
+          //bottom: -3px;
+          //left: -3px;
+          //right: -3px;
+          //top: -3px;
+        }
       }
     }
   }

@@ -1,10 +1,13 @@
 @mixin sliderBg-Gradinets {
-  background: -webkit-linear-gradient(322deg, rgb(255, 39, 68) 0%, rgb(255, 31, 89) 100%);
-  background: -o-linear-gradient(322deg, rgb(255, 39, 68) 0%, rgb(255, 31, 89) 100%);
-  background: -ms-linear-gradient(322deg, rgb(255, 39, 68) 0%, rgb(255, 31, 89) 100%);
-  background: -moz-linear-gradient(322deg, rgb(255, 39, 68) 0%, rgb(255, 31, 89) 100%);
-  background: linear-gradient(128deg, rgb(255, 39, 68) 0%, rgb(255, 31, 89) 100%);
+  //background: -webkit-linear-gradient(322deg, rgb(255, 39, 68) 0%, rgb(255, 31, 89) 100%);
+  //background: -o-linear-gradient(322deg, rgb(255, 39, 68) 0%, rgb(255, 31, 89) 100%);
+  //background: -ms-linear-gradient(322deg, rgb(255, 39, 68) 0%, rgb(255, 31, 89) 100%);
+  //background: -moz-linear-gradient(322deg, rgb(255, 39, 68) 0%, rgb(255, 31, 89) 100%);
+  //background: linear-gradient(128deg, rgb(255, 39, 68) 0%, rgb(255, 31, 89) 100%);
+  background: rgb(2,0,36);
+  background: linear-gradient(130deg, #7556F1 0%, #BA23FA 100%);
 }
+
 
 
 .faq-container {
@@ -22,6 +25,13 @@
       position: absolute;
       top: 0;
       left: 0;
+    }
+
+    .right-bg {
+      img {
+        transform: scale3d(-1, 1, 1);
+        display: block;
+      }
     }
   }
 
@@ -70,7 +80,7 @@
       padding: 45px;
       @include flex-all;
       margin-top: 120px;
-      color: $color-dark-2;
+      color: $oc-white;
 
       @include max-min(max toPx($device-tablet)) {
         margin-top: 80px;
@@ -131,6 +141,7 @@
     .icon-side {
       @include size(30px);
       position: relative;
+      @include flex-all;
 
       .icon-view {
         //position: absolute;

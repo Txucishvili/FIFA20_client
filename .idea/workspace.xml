@@ -1,339 +1,209 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="75f2dfac-e707-4ffb-8d69-96df04fdbb7c" name="Default Changelist" comment="- add: manifest.webmanifest">
+      <change afterPath="$PROJECT_DIR$/src/index_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/dist/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/dist/js/a2hs.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/dist/js/a2hs.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/dist/js/app.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/Untitled-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/back-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/blue-splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/bottom-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/bottom-splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/10_pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/12_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/18_bronze.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/18_gold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/18_silver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/21_otw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/24_sbc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/25_sbc_premium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/28_award_winner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/3_bronze.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/3_gold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/3_silver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/42_potm_bundesliga.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/43_potm_epl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/4_purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/51_sbc_flashback.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/6_rb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/91_os.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/CL SBS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/CL rare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/gold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/close-button.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/coinimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/faq-player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/fifa-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/fifa-20-logo-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/fifa-20-logo-black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/fifa-20-volta-football-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/fifa-21-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/fifa-card-splash-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/fifa-card-splash-pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/fifa-card-splash-yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/fifa20-hero-large-standardedition-16x9-xl.png.adapt.crop16x9.1920w.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/footer-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/gallery/Sancho_Gameplay_Hero_Hires_WM_1x1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/gallery/Volta_Amsterdam_1x1_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/gallery/Volta_Gameplay_Amsterdam_1x1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/gallery/Volta_Gameplay_Tokyo_1x1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/gallery/Volta_London_1x1_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/gallery/Volta_Tokyo_1x1_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/head-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/android-icon-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/android-icon-36x36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/android-icon-48x48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/android-icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/android-icon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/apple-icon-114x114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/apple-icon-120x120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/apple-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/apple-icon-152x152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/apple-icon-180x180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/apple-icon-57x57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/apple-icon-60x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/apple-icon-72x72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/apple-icon-76x76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/apple-icon-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/apple-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/favicon-96x96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/ms-icon-144x144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/ms-icon-150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/ms-icon-310x310.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/ms-icon-70x70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/fast-delivery.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/headphones.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/security.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/image-title-c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/image-title-l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/image-title-r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/image-title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/main-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/my-icons-collection.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/my-icons-collection/backup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/my-icons-collection/license/license.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/my-icons-collection/svg/001-fast-delivery.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/my-icons-collection/svg/002-headphones.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/my-icons-collection/svg/003-security.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/ngmgames-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/play-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/player-buy-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/player-buy-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/player-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/player-splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/player.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/ps4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/red-splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/slider_players.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/v2/Ellipse 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/v2/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/v2/bg2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/v2/dot-pattern.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/v2/fifa21-eaplay-s-m.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/v2/logo-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/v2/slide-c-l.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/v2/slide-r.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/v2/slider-bg-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/v2/slider-card-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/video-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/warning-sign.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/img/yellow-splash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/js/a2hs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/js/libs/magnific.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/js/libs/slick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/public/js/sw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/resources/views/new/pages/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manifest.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/src/manifest.webmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/upload/public/dist/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/js/a2hs.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/js/a2hs.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/js/app.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/upload/public/dist/js/app.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/js/app.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/js/sw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/fifa-20-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/icons/fast-delivery.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/fast-delivery.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/icons/headphones.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/headphones.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/icons/security.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/security.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/a2hs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/a2hs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/libs/magnific.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/magnific.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/sw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manifest.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/components/_faq-container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_faq-container.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/components/_fifa_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_fifa_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/components/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/components/_info_container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_info_container.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/components/_slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/theme/_default_classes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/theme/_default_classes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/theme/_theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/theme/_theme.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/variables.scss" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sass/theme/_default_classes.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="295" column="20" selection-start-line="295" selection-start-column="20" selection-end-line="295" selection-end-column="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sass/components/_info_container.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="492">
-                  <caret line="96" column="24" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-                  <folding>
-                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#a#0;n#div#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#2;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#3;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#4;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#5;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#6;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#7;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#8;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#9;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#10;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#11;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#a#0;n#div#11;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#2;n#a#0;n#div#11;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#3;n#a#0;n#div#11;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-                    <marker date="1572029729211" expanded="true" signature="61353:61776" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mix-manifest.json">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/webpack.mix.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/manifest.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="5" selection-start-line="5" selection-end-line="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/manifest.webmanifest">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/dist/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="478">
-                  <caret line="4915" column="1" selection-start-line="4915" selection-start-column="1" selection-end-line="4915" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/js/app.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="406">
-                  <caret line="357" selection-start-line="357" selection-end-line="357" />
-                  <folding>
-                    <element signature="e#0#33#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/js/a2hs.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="66">
-                  <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/dist/js/sw.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="5" column="38" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="38" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>slider-item</find>
-      <find>social-are</find>
-      <find>height: init</find>
-      <find>image-area _modalOpen</find>
-      <find>splash</find>
-      <find>flickity</find>
-      <find>270</find>
-      <find>320</find>
-      <find>slick_gallery</find>
-      <find>gallery-slider</find>
-      <find>dots</find>
-      <find>col-md-2 gallery-image gallery-image--position</find>
-      <find>fifa-card-gallery-item</find>
-      <find>slick-fifa-gallery</find>
-      <find>col-md-2 fifa-card-gallery-item</find>
-      <find>Dots</find>
-      <find>info</find>
-      <find>head-t</find>
-      <find>tutoria</find>
-      <find>_modal</find>
-      <find>buy f</find>
-      <find>secure-list-item--position--color</find>
-      <find>secure-list-item--color--green</find>
-      <find>secure-list-item--color--</find>
-      <find>slider-container-wrap</find>
-      <find>\/</find>
-      <find>ready</find>
-      <find>console</find>
-      <find>start</find>
-      <find>.//</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>table-row--insider</replace>
-      <replace>&lt;a href=&quot;./player-auction-3.html&quot; class=&quot;btn btn--simple btn--outline btn--outline--yh&quot;&gt;&lt;b&gt;SELECT&lt;/b&gt;&lt;/a&gt;</replace>
-      <replace>$device-tablet + 1</replace>
-      <replace>../../assets/fonts/</replace>
-      <replace>col-sm-6 col-md-3  col-lg-3 modal-gallery--item</replace>
-      <replace>col-md-2</replace>
-      <replace>fifa-card-gallery-item</replace>
-      <replace>secure-list-item--color</replace>
-      <replace>secure-list-item--c--color--green</replace>
-      <replace>secure-list-item--c--color--</replace>
-      <replace>/</replace>
-      <replace>./</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/sass/libs/_slick.scss" />
-        <option value="$PROJECT_DIR$/src/js/libs/slick.js" />
-        <option value="$PROJECT_DIR$/src/sass/components/_outer-layer.scss" />
-        <option value="$PROJECT_DIR$/src/sass/components/_sign-box.scss" />
-        <option value="$PROJECT_DIR$/src/sass/variables.scss" />
-        <option value="$PROJECT_DIR$/src/sass/components/_search-areal.scss" />
-        <option value="$PROJECT_DIR$/src/sass/components/_content.scss" />
-        <option value="$PROJECT_DIR$/src/pages/sign-up.html" />
-        <option value="$PROJECT_DIR$/src/pages/sign-in.html" />
-        <option value="$PROJECT_DIR$/src/pages/reset-pass.html" />
-        <option value="$PROJECT_DIR$/src/pages/player-auction-3.html" />
-        <option value="$PROJECT_DIR$/src/pages/player-auction-2.html" />
-        <option value="$PROJECT_DIR$/src/pages/index.html" />
-        <option value="$PROJECT_DIR$/src/pages/comfort-trade.html" />
-        <option value="$PROJECT_DIR$/src/pages/buy-2.html" />
-        <option value="$PROJECT_DIR$/src/sass/components/_buttons.scss" />
-        <option value="$PROJECT_DIR$/src/sass/components/_table-component.scss" />
-        <option value="$PROJECT_DIR$/src/sass/components/_alert-components.scss" />
-        <option value="$PROJECT_DIR$/src/sass/components/_faq-container.scss" />
-        <option value="$PROJECT_DIR$/src/js/libs/magnific.js" />
-        <option value="$PROJECT_DIR$/src/sass/libs/_magnific-popup.scss" />
-        <option value="$PROJECT_DIR$/src/sass/theme/_fonts.scss" />
-        <option value="$PROJECT_DIR$/src/sass/components/_device_menu.scss" />
-        <option value="$PROJECT_DIR$/src/pages/buy.html" />
-        <option value="$PROJECT_DIR$/src/pages/faq.html" />
-        <option value="$PROJECT_DIR$/src/pages/profile.html" />
-        <option value="$PROJECT_DIR$/src/sass/theme/_wrapper.scss" />
-        <option value="$PROJECT_DIR$/src/sass/components/_outer-layer_modals.scss" />
-        <option value="$PROJECT_DIR$/src/pages/settings.html" />
-        <option value="$PROJECT_DIR$/src/sass/components/_user-profile.scss" />
-        <option value="$PROJECT_DIR$/src/sass/theme/_theme.scss" />
-        <option value="$PROJECT_DIR$/src/sass/components/_inputs.scss" />
-        <option value="$PROJECT_DIR$/src/pages/contact.html" />
-        <option value="$PROJECT_DIR$/src/sass/components/_contact.scss" />
-        <option value="$PROJECT_DIR$/src/sass/style.scss" />
-        <option value="$PROJECT_DIR$/src/sass/components/_header.scss" />
-        <option value="$PROJECT_DIR$/src/sass/components/_slider.scss" />
-        <option value="$PROJECT_DIR$/src/sass/components/_footer.scss" />
-        <option value="$PROJECT_DIR$/src/sass/components/_fifa_card.scss" />
-        <option value="$PROJECT_DIR$/src/pages/player-auction.html" />
-        <option value="$PROJECT_DIR$/src/sass/components/_info_container.scss" />
-        <option value="$PROJECT_DIR$/webpack.mix.js" />
-        <option value="$PROJECT_DIR$/src/sass/theme/_default_classes.scss" />
-        <option value="$PROJECT_DIR$/src/js/app.js" />
-        <option value="$PROJECT_DIR$/src/js/libs/sw.js" />
-        <option value="$PROJECT_DIR$/src/js/a2hs.js" />
-        <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/js/sw.js" />
-        <option value="$PROJECT_DIR$/src/manifest.json" />
-        <option value="$PROJECT_DIR$/src/dist/js/sw.js" />
-        <option value="$PROJECT_DIR$/src/manifest.webmanifest" />
-      </list>
-    </option>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1000" />
-  </component>
+  <component name="ProjectId" id="1ZnloYP92XrHzog8hNBxNMCn2Ww" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Fifa20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fifa20" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fifa20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fifa20" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fifa20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fifa20" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fifa20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fifa20" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fifa20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fifa20" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fifa20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fifa20" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fifa20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fifa20" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Fifa20" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Fifa20" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/upload/public" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -342,26 +212,44 @@
       <recent name="$PROJECT_DIR$/src/sass" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/upload/public" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/dist/js" />
       <recent name="$PROJECT_DIR$/src/js" />
       <recent name="$PROJECT_DIR$/src/sass/components" />
-      <recent name="$PROJECT_DIR$/src/pages" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.watch">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="hot" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="hot" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="production" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="production" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -375,6 +263,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.watch" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.production" />
+        <item itemvalue="npm.hot" />
       </list>
     </recent_temporary>
   </component>
@@ -409,42 +300,15 @@
       <workItem from="1570403831928" duration="155000" />
       <workItem from="1571840327337" duration="3057000" />
       <workItem from="1571847623605" duration="508000" />
-      <workItem from="1572015714714" duration="10526000" />
-    </task>
-    <task id="LOCAL-00032" summary="- fix: tablet fifa card size">
-      <created>1570058693092</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1570058693092</updated>
-    </task>
-    <task id="LOCAL-00033" summary="- add: disable arrow">
-      <created>1570059077214</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1570059077214</updated>
-    </task>
-    <task id="LOCAL-00034" summary="- sm changes">
-      <created>1570059176982</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1570059176982</updated>
-    </task>
-    <task id="LOCAL-00035" summary="- sm changes">
-      <created>1570096256111</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1570096256111</updated>
-    </task>
-    <task id="LOCAL-00036" summary="- sm changes">
-      <created>1570100232516</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1570100232516</updated>
+      <workItem from="1572015714714" duration="11710000" />
+      <workItem from="1572091182441" duration="597000" />
+      <workItem from="1572346414904" duration="1182000" />
+      <workItem from="1585482915299" duration="22000" />
+      <workItem from="1585495195333" duration="1456000" />
+      <workItem from="1600598402344" duration="9951000" />
+      <workItem from="1600763301227" duration="4728000" />
+      <workItem from="1600771583788" duration="190000" />
+      <workItem from="1600848008192" duration="13259000" />
     </task>
     <task id="LOCAL-00037" summary="- sm changes">
       <created>1570100244267</created>
@@ -754,59 +618,58 @@
       <option name="project" value="LOCAL" />
       <updated>1572031293917</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="- add: manifest.webmanifest">
+      <created>1572031560249</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1572031560249</updated>
+    </task>
+    <task id="LOCAL-00082" summary="- add: manifest.webmanifest">
+      <created>1572031719607</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1572031719607</updated>
+    </task>
+    <task id="LOCAL-00083" summary="- add: manifest.webmanifest">
+      <created>1585495283408</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1585495283409</updated>
+    </task>
+    <task id="LOCAL-00084" summary="- add: manifest.webmanifest">
+      <created>1585495584882</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1585495584882</updated>
+    </task>
+    <task id="LOCAL-00085" summary="- add: manifest.webmanifest">
+      <created>1585495809542</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1585495809543</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132702000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1000" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.46885812" visible="true" weight="0.17588204" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" sideWeight="0.5311419" side_tool="true" visible="true" weight="0.17588204" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4934176" visible="true" weight="0.36343613" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50658244" side_tool="true" visible="true" weight="0.36343613" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4997367" weight="0.23788546" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.49921012" visible="true" weight="0.32929516" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49400797" visible="true" weight="0.13954712" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" sideWeight="0.505992" side_tool="true" weight="0.13954712" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1719956" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.23814774" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -837,489 +700,71 @@
     <MESSAGE value="- add: manifest.webmanifest" />
     <option name="LAST_COMMIT_MESSAGE" value="- add: manifest.webmanifest" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sass/components/_search-areal.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/sign-in.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="287" column="18" selection-start-line="287" selection-start-column="18" selection-end-line="287" selection-end-column="18" />
-          <folding>
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/reset-pass.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4356">
-          <caret line="283" column="18" selection-start-line="283" selection-start-column="18" selection-end-line="283" selection-end-column="18" />
-          <folding>
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/player-auction-3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4464">
-          <caret line="394" column="18" selection-start-line="394" selection-start-column="18" selection-end-line="394" selection-end-column="18" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4734">
-          <caret line="337" column="18" selection-start-line="337" selection-start-column="18" selection-end-line="337" selection-end-column="18" />
-          <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/comfort-trade.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5184">
-          <caret line="475" column="18" selection-start-line="475" selection-start-column="18" selection-end-line="475" selection-end-column="18" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#svg#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#svg#0;n#span#0;n#a#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#span#0;n#a#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#2;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/buy-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4626">
-          <caret line="340" column="18" selection-start-line="340" selection-start-column="18" selection-end-line="340" selection-end-column="18" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/sign-up.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/libs/magnific.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11826">
-          <caret line="659" column="3" selection-start-line="659" selection-start-column="3" selection-end-line="659" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/libs/_magnific-popup.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6912">
-          <caret line="384" column="1" selection-start-line="384" selection-start-column="1" selection-end-line="384" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/components/_faq-container.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2232">
-          <caret line="124" column="23" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/components/_table-component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="149" selection-start-line="149" selection-end-line="149" />
-          <folding>
-            <element signature="e#33#39#0" />
-            <element signature="e#51#238#0" />
-            <element signature="e#249#2454#0" />
-            <element signature="e#2473#2882#0" />
-            <element signature="e#2899#3515#0" />
-            <element signature="e#3525#3578#0" />
-            <element signature="e#3597#3846#0" />
-            <element signature="e#3897#3976#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/components/_alert-components.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1098">
-          <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
-          <folding>
-            <element signature="e#604#635#0" />
-            <element signature="e#685#732#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/theme/_fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/components/_device_menu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="115" column="24" lean-forward="true" selection-start-line="115" selection-start-column="24" selection-end-line="115" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/components/_outer-layer_modals.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/settings.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1962">
-          <caret line="109" selection-start-line="109" selection-end-line="131" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/components/_user-profile.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5166">
-          <caret line="287" column="14" selection-start-line="287" selection-start-column="14" selection-end-line="287" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/components/_inputs.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/components/_content.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="123" column="36" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/buy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/faq.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="1" selection-start-line="11" selection-end-line="24" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/components/_contact.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/components/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="82" selection-start-line="82" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/player-auction-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="305" column="12" selection-start-line="305" selection-start-column="12" selection-end-line="305" selection-end-column="12" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/player-auction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="84" column="38" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/theme/_theme.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/components/_fifa_card.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6066">
-          <caret line="385" column="23" selection-start-line="385" selection-start-column="23" selection-end-line="385" selection-end-column="23" />
-          <folding>
-            <element signature="e#327#1335#0" />
-            <element signature="e#522#777#0" />
-            <element signature="e#800#1058#0" />
-            <element signature="e#1078#1329#0" />
-            <element signature="e#1350#1518#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/components/_slider.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/components/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/theme/_wrapper.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/components/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="95" column="26" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dist/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="4915" column="1" selection-start-line="4915" selection-start-column="1" selection-end-line="4915" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/components/_info_container.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="96" column="24" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mix-manifest.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/theme/_default_classes.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="295" column="20" selection-start-line="295" selection-start-column="20" selection-end-line="295" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dist/js/a2hs.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="357" selection-start-line="357" selection-end-line="357" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#0;n#div#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#6;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#7;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#8;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#9;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#10;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#11;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#a#0;n#div#11;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#a#0;n#div#11;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#a#0;n#div#11;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-            <marker date="1572029729211" expanded="true" signature="61353:61776" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/a2hs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/sw.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/icons/app/apple-icon-144x144.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dist/js/sw.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/manifest.webmanifest">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="713" y="165" key="#Deployment" timestamp="1600852651559">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="713" y="165" key="#Deployment/0.23.1680.973@0.23.1680.973" timestamp="1600852651559" />
+    <state x="100" y="123" width="1480" height="773" key="DiffContextDialog" timestamp="1600855082558">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="100" y="123" width="1480" height="773" key="DiffContextDialog/0.23.1680.973@0.23.1680.973" timestamp="1600855082558" />
+    <state width="1659" height="235" key="GridCell.Tab.0.bottom" timestamp="1600763456228">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="700" height="173" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1600598667632" />
+    <state width="1659" height="235" key="GridCell.Tab.0.bottom/0.23.1680.973@0.23.1680.973" timestamp="1600763456228" />
+    <state width="1659" height="235" key="GridCell.Tab.0.center" timestamp="1600763456226">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="700" height="173" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1600598667631" />
+    <state width="1659" height="235" key="GridCell.Tab.0.center/0.23.1680.973@0.23.1680.973" timestamp="1600763456226" />
+    <state width="1659" height="235" key="GridCell.Tab.0.left" timestamp="1600763456225">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="700" height="173" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1600598667630" />
+    <state width="1659" height="235" key="GridCell.Tab.0.left/0.23.1680.973@0.23.1680.973" timestamp="1600763456225" />
+    <state width="1659" height="235" key="GridCell.Tab.0.right" timestamp="1600763456227">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="700" height="173" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1600598667632" />
+    <state width="1659" height="235" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1600763456227" />
+    <state x="341" y="148" key="SettingsEditor" timestamp="1600852731233">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="341" y="148" key="SettingsEditor/0.23.1680.973@0.23.1680.973" timestamp="1600852731233" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1600599418295">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1680.973@0.23.1680.973" timestamp="1600599418295" />
+    <state x="100" y="123" width="1480" height="773" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1600855428176">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="100" y="123" width="1480" height="773" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.23.1680.973@0.23.1680.973" timestamp="1600855428176" />
+    <state x="463" y="127" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600606836444">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="463" y="127" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1680.973@0.23.1680.973" timestamp="1600606836444" />
+    <state x="157" y="23" width="1398" height="968" maximized="true" key="dock-window-1" timestamp="1600849352014">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="157" y="23" width="1398" height="968" maximized="true" key="dock-window-1/0.23.1680.973@0.23.1680.973" timestamp="1600849352014" />
+    <state x="814" y="23" width="598" height="954" key="dock-window-2" timestamp="1600849352015">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="814" y="23" width="598" height="954" key="dock-window-2/0.23.1680.973@0.23.1680.973" timestamp="1600849352015" />
+    <state x="491" y="75" width="698" height="869" key="find.popup" timestamp="1600855705898">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="421" y="67" width="598" height="735" key="find.popup/0.23.1440.823@0.23.1440.823" timestamp="1600598978571" />
+    <state x="491" y="75" width="698" height="869" key="find.popup/0.23.1680.973@0.23.1680.973" timestamp="1600855705898" />
+    <state x="482" y="200" width="305" height="525" key="ftp.server.browser" timestamp="1600851870309">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="482" y="200" width="305" height="525" key="ftp.server.browser/0.23.1680.973@0.23.1680.973" timestamp="1600851870309" />
+    <state x="505" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1600849367120">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="505" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.973@0.23.1680.973" timestamp="1600849367120" />
   </component>
 </project>
