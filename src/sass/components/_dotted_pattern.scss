@@ -1,0 +1,13 @@
+
+.dot-pattern {
+    background-image: url("../../img/v2/dot-pattern.svg");
+    background-repeat: repeat;
+    &--wrap {
+      position: relative;
+    }
+    &.ab {
+      position: absolute;
+    }
+
+
+  }
