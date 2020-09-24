@@ -16,171 +16,34 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75f2dfac-e707-4ffb-8d69-96df04fdbb7c" name="Default Changelist" comment="- add: manifest.webmanifest">
-      <change afterPath="$PROJECT_DIR$/src/index_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/dist/css/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/dist/js/a2hs.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/dist/js/a2hs.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/dist/js/app.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/Untitled-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/back-arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/blue-splash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/bottom-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/bottom-splash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/10_pro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/12_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/18_bronze.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/18_gold.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/18_silver.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/21_otw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/24_sbc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/25_sbc_premium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/28_award_winner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/3_bronze.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/3_gold.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/3_silver.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/42_potm_bundesliga.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/43_potm_epl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/4_purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/51_sbc_flashback.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/6_rb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/91_os.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/CL SBS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/CL rare.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/gold.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/cards/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/close-button.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/coinimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/faq-player.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/fifa-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/fifa-20-logo-black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/fifa-20-logo-black.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/fifa-20-volta-football-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/fifa-21-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/fifa-card-splash-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/fifa-card-splash-pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/fifa-card-splash-yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/fifa20-hero-large-standardedition-16x9-xl.png.adapt.crop16x9.1920w.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/footer-blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/gallery/Sancho_Gameplay_Hero_Hires_WM_1x1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/gallery/Volta_Amsterdam_1x1_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/gallery/Volta_Gameplay_Amsterdam_1x1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/gallery/Volta_Gameplay_Tokyo_1x1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/gallery/Volta_London_1x1_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/gallery/Volta_Tokyo_1x1_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/head-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/android-icon-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/android-icon-36x36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/android-icon-48x48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/android-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/android-icon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/apple-icon-114x114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/apple-icon-120x120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/apple-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/apple-icon-152x152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/apple-icon-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/apple-icon-57x57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/apple-icon-60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/apple-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/apple-icon-76x76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/apple-icon-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/favicon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/ms-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/ms-icon-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/ms-icon-310x310.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/app/ms-icon-70x70.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/fast-delivery.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/headphones.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/icons/security.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/image-title-c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/image-title-l.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/image-title-r.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/image-title.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/main-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/my-icons-collection.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/my-icons-collection/backup.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/my-icons-collection/license/license.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/my-icons-collection/svg/001-fast-delivery.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/my-icons-collection/svg/002-headphones.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/my-icons-collection/svg/003-security.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/ngmgames-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/play-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/player-buy-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/player-buy-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/player-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/player-splash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/player.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/ps4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/red-splash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/slider_players.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/v2/Ellipse 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/v2/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/v2/bg2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/v2/dot-pattern.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/v2/fifa21-eaplay-s-m.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/v2/logo-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/v2/slide-c-l.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/v2/slide-r.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/v2/slider-bg-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/v2/slider-card-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/video-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/warning-sign.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/img/yellow-splash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/js/a2hs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/js/libs/magnific.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/js/libs/slick.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/public/js/sw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/resources/views/new/pages/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/upload/public/dist/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/css/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/js/a2hs.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/js/a2hs.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/js/app.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/upload/public/dist/js/app.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/js/app.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dist/js/sw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/fifa-20-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icons/fast-delivery.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/fast-delivery.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icons/headphones.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/headphones.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/icons/security.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icons/security.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/a2hs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/a2hs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/js/a2hs.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/js/a2hs.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/js/app.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/js/app.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dist/js/app.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/dist/js/app.bundle.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/libs/magnific.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/magnific.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/sw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manifest.webmanifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/_faq-container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_faq-container.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/_fifa_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_fifa_card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/_info_container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_info_container.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/components/_slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/_slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/theme/_default_classes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/theme/_default_classes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/theme/_theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/theme/_theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="ONTO" value="refs/heads/master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -308,35 +171,7 @@
       <workItem from="1600598402344" duration="9951000" />
       <workItem from="1600763301227" duration="4728000" />
       <workItem from="1600771583788" duration="190000" />
-      <workItem from="1600848008192" duration="13259000" />
-    </task>
-    <task id="LOCAL-00037" summary="- sm changes">
-      <created>1570100244267</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1570100244267</updated>
-    </task>
-    <task id="LOCAL-00038" summary="- sm changes">
-      <created>1570104115296</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1570104115296</updated>
-    </task>
-    <task id="LOCAL-00039" summary="- slider changes">
-      <created>1570126317000</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1570126317000</updated>
-    </task>
-    <task id="LOCAL-00040" summary="- add: new slider type&#10;- fix: switching sliders">
-      <created>1570129022885</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1570129022885</updated>
+      <workItem from="1600848008192" duration="19640000" />
     </task>
     <task id="LOCAL-00041" summary="- sm fix">
       <created>1570129202199</created>
@@ -653,7 +488,35 @@
       <option name="project" value="LOCAL" />
       <updated>1585495809543</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="- gitignore">
+      <created>1600861837461</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1600861837462</updated>
+    </task>
+    <task id="LOCAL-00087" summary="- fifa 21 update">
+      <created>1600861899788</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1600861899788</updated>
+    </task>
+    <task id="LOCAL-00088" summary="- fifa 21 update">
+      <created>1600861953995</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1600861953995</updated>
+    </task>
+    <task id="LOCAL-00089" summary="- gitignore">
+      <created>1600862137379</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1600862137380</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -664,7 +527,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -673,8 +548,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="- add: photo popup&#10;- add: new alerts (warning, danger)&#10;- sm changes" />
-    <MESSAGE value="- photo galley changes" />
     <MESSAGE value="- fix: fonts&#10;- fix: device menu profile area bg" />
     <MESSAGE value="- fix: bg&#10;- fix: footer&#10;- fix: slider area&#10;- sm changes" />
     <MESSAGE value="- fix: header, wrapper (z-index)" />
@@ -698,17 +571,19 @@
     <MESSAGE value="- add: service feedback types" />
     <MESSAGE value="- add: a2hs" />
     <MESSAGE value="- add: manifest.webmanifest" />
-    <option name="LAST_COMMIT_MESSAGE" value="- add: manifest.webmanifest" />
+    <MESSAGE value="- fifa 21 update" />
+    <MESSAGE value="- gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="- gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="713" y="165" key="#Deployment" timestamp="1600852651559">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state x="713" y="165" key="#Deployment/0.23.1680.973@0.23.1680.973" timestamp="1600852651559" />
-    <state x="100" y="123" width="1480" height="773" key="DiffContextDialog" timestamp="1600855082558">
+    <state x="100" y="123" width="1480" height="773" key="DiffContextDialog" timestamp="1600931444747">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
-    <state x="100" y="123" width="1480" height="773" key="DiffContextDialog/0.23.1680.973@0.23.1680.973" timestamp="1600855082558" />
+    <state x="100" y="123" width="1480" height="773" key="DiffContextDialog/0.23.1680.973@0.23.1680.973" timestamp="1600931444747" />
     <state width="1659" height="235" key="GridCell.Tab.0.bottom" timestamp="1600763456228">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
@@ -729,6 +604,10 @@
     </state>
     <state width="700" height="173" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1600598667632" />
     <state width="1659" height="235" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1600763456227" />
+    <state x="630" y="237" key="RollbackChangesDialog" timestamp="1600862244843">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="630" y="237" key="RollbackChangesDialog/0.23.1680.973@0.23.1680.973" timestamp="1600862244843" />
     <state x="341" y="148" key="SettingsEditor" timestamp="1600852731233">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
@@ -737,6 +616,14 @@
       <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.23.1680.973@0.23.1680.973" timestamp="1600599418295" />
+    <state x="527" y="221" key="VCS.ChangeListViewerDialog" timestamp="1600862187569">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="527" y="221" key="VCS.ChangeListViewerDialog/0.23.1680.973@0.23.1680.973" timestamp="1600862187569" />
+    <state x="440" y="249" key="Vcs.Push.Dialog.v2" timestamp="1600862452234">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="440" y="249" key="Vcs.Push.Dialog.v2/0.23.1680.973@0.23.1680.973" timestamp="1600862452234" />
     <state x="100" y="123" width="1480" height="773" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1600855428176">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
@@ -745,6 +632,10 @@
       <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state x="463" y="127" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1680.973@0.23.1680.973" timestamp="1600606836444" />
+    <state x="628" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600862744069">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="628" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.973@0.23.1680.973" timestamp="1600862744069" />
     <state x="157" y="23" width="1398" height="968" maximized="true" key="dock-window-1" timestamp="1600849352014">
       <screen x="0" y="23" width="1680" height="973" />
     </state>
@@ -762,6 +653,22 @@
       <screen x="0" y="23" width="1680" height="973" />
     </state>
     <state x="482" y="200" width="305" height="525" key="ftp.server.browser/0.23.1680.973@0.23.1680.973" timestamp="1600851870309" />
+    <state x="617" y="305" key="git4idea.merge.GitMergeDialog" timestamp="1600871995608">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="617" y="305" key="git4idea.merge.GitMergeDialog/0.23.1680.973@0.23.1680.973" timestamp="1600871995608" />
+    <state x="632" y="378" key="git4idea.rebase.GitRebaseDialog" timestamp="1600862188141">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="632" y="378" key="git4idea.rebase.GitRebaseDialog/0.23.1680.973@0.23.1680.973" timestamp="1600862188141" />
+    <state x="629" y="411" key="git4idea.ui.GitResetDialog" timestamp="1600862067253">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="629" y="411" key="git4idea.ui.GitResetDialog/0.23.1680.973@0.23.1680.973" timestamp="1600862067253" />
+    <state x="629" y="415" key="git4idea.ui.GitStashDialog" timestamp="1600862239322">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="629" y="415" key="git4idea.ui.GitStashDialog/0.23.1680.973@0.23.1680.973" timestamp="1600862239322" />
     <state x="505" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1600849367120">
       <screen x="0" y="23" width="1680" height="973" />
     </state>

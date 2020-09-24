@@ -27,6 +27,7 @@
     @include max-min(max toPx($device-tablet)) {
       max-height: initial;
       margin-top: 55px;
+
     }
 
 
@@ -43,6 +44,15 @@
       //min-height: 517px;
     }
 
+
+    .dot-pattern {
+      @include max-min(max toPx($device-tablet + 1)) {
+        left: 5px;
+        top: 25% !important;
+        height: 204px;
+        width: 440px;
+        transform: translateY(-50%);      }
+    }
   }
 
   .slider-bg {
@@ -64,6 +74,11 @@
       @include size(100%);
       @include sliderBg-Gradinets;
       max-height: 504px;
+
+
+      @include max-min(max toPx($device-tablet + 1)) {
+        height: 394px;
+      }
     }
   }
 
@@ -87,11 +102,14 @@
     .image-area {
       //position: absolute;
       height: 590px;
-      bottom: 0;
-      left: 0;
+      width: inherit;
+      //bottom: 0;
+      //left: 0;
+      transform: translateX(220px);
 
-      @include max-min(max toPx($device-tablet)) {
-        transform: translateX(-190px);
+      @include max-min(max toPx($device-tablet + 1)) {
+        transform: translateX(0);
+        height: 480px;
       }
 
       img {
@@ -100,6 +118,10 @@
         position: absolute;
         bottom: 86px;
         @include select(none);
+        @include max-min(max toPx($device-tablet)) {
+          transform: translateX(-50%);
+          left: 50%;
+        }
       }
     }
     .image-side {
@@ -201,6 +223,10 @@
 
       &--v2 {
         padding-top: 128px;
+
+        @include max-min(max toPx($device-tablet + 1)) {
+          padding-top: 30px;
+        }
       }
 
       &--new {

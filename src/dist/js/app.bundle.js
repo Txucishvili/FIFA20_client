@@ -12724,17 +12724,17 @@ var initFlickity_sliderItem = function initFlickity_sliderItem() {
   }
 
   if ((0, _jquery2.default)('.slick-fifa-gallery').length) {
-    initFlickity_sliderItem();
+    // initFlickity_sliderItem();
     // initSlick_sliderItem();
 
     // console.log('hit');
     //
-    // if (DEVICE_WIDTH <= 768 - 1) {
-    // console.log('hit');
-    // initFlickity_sliderItem();
-    // } else {
-    // initSlick_sliderItem();
-    // }
+    if (DEVICE_WIDTH <= 768 - 1) {
+      console.log('hit');
+      initFlickity_sliderItem();
+    } else {
+      initSlick_sliderItem();
+    }
   }
 });
 
@@ -12753,11 +12753,7 @@ var importScript = function () {
               s1.setAttribute('crossorigin', '*');
               s0.parentNode.insertBefore(s1, s0);
 
-              console.log('----------', window.Tawk_API);
-              console.log('----------', s1);
-
               s1.onload = function (e) {
-                console.log('----------', window.Tawk_API);
                 resolve(window.Tawk_API);
               };
             }));
@@ -12904,7 +12900,6 @@ var initSlick_slider = function initSlick_slider(classEl) {
 
 var initFlickity_slider = function initFlickity_slider(classEl) {
   (0, _jquery2.default)(classEl).addClass(classEl + '--flick');
-  // console.log(classEl + '--flick');
 
   var flkty = new _flickity2.default(classEl, {
     groupCells: true,
@@ -12916,7 +12911,6 @@ var initFlickity_slider = function initFlickity_slider(classEl) {
 };
 
 var initHomeGallery_Slidr = function initHomeGallery_Slidr() {
-
   if ((0, _jquery2.default)('.slick_gallery').length) {
     if (DEVICE_WIDTH <= 768 - 1) {
       initFlickity_slider('.slick_gallery');
